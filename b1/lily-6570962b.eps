@@ -1,0 +1,666 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Creator: LilyPond 2.16.2
+%%BoundingBox: -10 -243 457 0
+%%Orientation: Portrait
+%%DocumentSuppliedResources: font CenturySchL-Bold
+%%DocumentSuppliedResources: font CenturySchL-BoldItal
+%%DocumentSuppliedResources: font CenturySchL-Roma
+%%DocumentSuppliedResources: font Emmentaler-20
+%%EndComments
+%%BeginProlog
+/lilypond-datadir where {pop} {userdict /lilypond-datadir (C:/Program Files (x86)/LilyPond/usr/share/lilypond/current) put } ifelse
+%%BeginFont: CenturySchL-Bold
+lilypond-datadir (/fonts/otf/CenturySchL-Bold.otf) concatstrings (r) file .loadfont
+%%EndFont
+
+%%BeginFont: CenturySchL-BoldItal
+lilypond-datadir (/fonts/otf/CenturySchL-BoldItal.otf) concatstrings (r) file .loadfont
+%%EndFont
+
+%%BeginFont: CenturySchL-Roma
+lilypond-datadir (/fonts/otf/CenturySchL-Roma.otf) concatstrings (r) file .loadfont
+%%EndFont
+
+%%BeginFont: Emmentaler-20
+lilypond-datadir (/fonts/otf/emmentaler-20.otf) concatstrings (r) file .loadfont
+%%EndFont
+
+%%BeginFont: Emmentaler-20
+lilypond-datadir (/fonts/otf/emmentaler-20.otf) concatstrings (r) file .loadfont
+%%EndFont
+
+/magfontemmentaler-20mXVo { /Emmentaler-20 7.0292 output-scale div selectfont } bind def
+/lily-output-units 2.83464566929134 def %% millimeter
+/staff-line-thickness 0.1 def
+/line-width 91.723779527559 def
+/paper-size (a4) def
+/staff-height 4.0 def
+/output-scale 1.75729901757299 def
+/page-height 169.00937007874 def
+/page-width 119.50157480315 def
+%%BeginResource: procset (music-drawing-routines.ps) 1 0
+%!PS-Adobe-1.0: music-drawing-routines.ps
+%
+% Functions for direct and embedded PostScript
+
+% Careful with double % as comment prefix.
+% Any %%X comment is interpreted as DSC comments.
+
+% TODO: use dicts or prefixes to prevent namespace pollution.
+
+/pdfmark where
+{pop} {userdict /pdfmark /cleartomark load put} ifelse
+
+
+% llx lly urx ury URI
+/mark_URI
+{
+    /uri exch def
+    /ury exch def
+    /urx exch def
+    /lly exch def
+    /llx exch def
+    [
+	/Rect [ llx lly urx ury ]
+	
+	/Border [ 0 0 0 ]
+
+        /Action
+	    <<
+		/Subtype /URI
+		/URI uri
+	    >>
+        /Subtype /Link
+    /ANN
+    pdfmark
+}
+bind def
+
+% llx lly urx ury page
+/mark_page_link
+{
+    /page exch def
+    /ury exch def
+    /urx exch def
+    /lly exch def
+    /llx exch def
+    [
+        /Rect [ llx lly urx ury ]
+        /Border [ 0 0 0 ]
+        /Page page
+        /Subtype /Link
+    /ANN
+    pdfmark
+}
+bind def
+
+% from adobe tech note 5002.
+/BeginEPSF { %def
+    /b4_Inc_state save def % Save state for cleanup
+    /dict_count countdictstack def % Count objects on dict stack
+    /op_count count 1 sub def % Count objects on operand stack
+    userdict begin % Push userdict on dict stack
+    /showpage { } def % Redefine showpage, { } = null proc
+    0 setgray 0 setlinecap % Prepare graphics state
+    1 setlinewidth 0 setlinejoin
+    10 setmiterlimit [ ] 0 setdash newpath
+    /languagelevel where % If level not equal to 1 then
+    {pop languagelevel % set strokeadjust and
+    1 ne % overprint to their defaults.
+      {false setstrokeadjust false setoverprint
+      } if
+    } if
+} bind def
+
+/EndEPSF { %def
+  count op_count sub {pop} repeat % Clean up stacks
+  countdictstack dict_count sub {end} repeat
+  b4_Inc_state restore
+} bind def
+
+/stroke_and_fill {
+	gsave
+		stroke
+	grestore
+	fill
+} bind def
+
+/vector_add { % x1 y1 x2 y2 vector_add x1+x2 y1+y2
+	exch
+	4 1 roll
+	add
+	3 1 roll
+	add
+	exch
+} bind def
+
+/draw_round_box % width height x y blot
+{
+        dup
+	0.0 gt {
+		setlinewidth % w h x y
+		rmoveto % w h
+		2 copy 0 ne exch 0 ne and
+		{
+		    0 setlinecap
+		    1 setlinejoin
+		    currentpoint % w h x1 y1
+		    4 2 roll % x1 y1 w h
+		    4 copy
+		    rectfill
+		    rectstroke
+		} {
+		    1 setlinecap
+		    rlineto stroke
+		} ifelse
+	} {
+		pop % w h x y
+		rmoveto % w h
+		currentpoint % w h x1 y1
+		4 2 roll % x1 y1 w h
+		rectfill
+	} ifelse
+} bind def
+
+/draw_polygon % fill? x(n) y(n) x(n-1) y(n-1) ... x(0) y(0) n blot
+{
+	setlinewidth %set to blot
+
+	0 setlinecap
+	1 setlinejoin
+
+	3 1 roll
+	/polygon_x
+	currentpoint
+	/polygon_y exch def
+	def
+	rmoveto % x(0) y(0)
+	{ polygon_x polygon_y vector_add lineto } repeat % n times
+	closepath
+	{ %fill?
+		stroke_and_fill
+	}{
+		stroke
+	} ifelse
+} bind def
+
+/draw_circle % filled? radius thickness draw_circle
+{
+	setlinewidth	% f? r
+	currentpoint	% f? r x0 y0
+	3 2 roll	% f? x0 y0 r
+	dup 0 rmoveto
+	0 360 arc closepath
+		{ stroke_and_fill }
+		{ stroke }
+	ifelse
+} bind def
+
+/draw_ellipse % filled? x-radius y-radius thickness draw_ellipse
+{
+  setlinewidth % f? x-r y-r
+  /savematrix matrix currentmatrix def
+  scale % f?
+  currentpoint
+  1 0 rmoveto
+  1 0 360  arc closepath
+  savematrix setmatrix
+             { stroke_and_fill}
+             { stroke }
+  ifelse
+} bind def
+
+/draw_partial_ellipse % filled connect x-radius y-radius startangle endangle thickness draw_partial_ellipse
+% Note that filled is not boolean to permit for different graylevels (ie for trill keys)
+{
+  gsave
+  currentpoint translate
+  /thickness exch def
+  /endangle exch def
+  /startangle exch def
+  /y_radius exch def
+  /x_radius exch def
+  /endrad x_radius y_radius mul
+    x_radius x_radius mul
+    endangle cos endangle cos mul mul
+    y_radius y_radius mul
+    endangle sin endangle sin mul mul add sqrt div def
+  /endangle endangle sin endrad mul y_radius div
+    endangle cos endrad mul x_radius div atan def
+  /startrad x_radius y_radius mul
+    x_radius x_radius mul
+      startangle cos startangle cos mul mul
+    y_radius y_radius mul
+      startangle sin startangle sin mul mul add sqrt div def
+  /startangle startangle sin startrad mul y_radius div
+    startangle cos startrad mul x_radius div atan def
+  /connect exch def
+  /filled exch def
+  /savematrix matrix currentmatrix def
+  thickness setlinewidth
+  x_radius y_radius scale
+  startangle cos startangle sin moveto
+  0 0 1 startangle
+    startangle endangle eq { endangle 360 add } { endangle } ifelse
+    arc
+  connect {
+    startangle cos startangle sin moveto endangle cos endangle sin lineto }
+    if
+  savematrix setmatrix filled { stroke_and_fill } { stroke } ifelse
+  grestore
+} bind def
+
+/draw_line % dx dy x1 y1 thickness draw_line
+{
+	setlinewidth % dx dy x1 y1
+	1 setlinecap
+	1 setlinejoin
+	rmoveto % dx dy
+	rlineto
+	stroke
+} bind def
+
+/draw_dashed_line % dx dy thickness dashpattern offset draw_dashed_line
+{
+	1 setlinecap
+	1 setlinejoin
+	setdash % dx dy thickness
+	setlinewidth %dx dy
+	rlineto
+	stroke
+	[] 0 setdash % reset dash pattern
+} bind def
+
+/print_glyphs % w dx dy glyph print_glyphs
+{
+	{
+		currentpoint %w dx dy glyph x0 y0
+		5 2 roll %w x0 y0 dx dy glyph
+		3 1 roll %w x0 y0 glyph dx dy
+		rmoveto %w x0 y0 glyph
+		glyphshow %w x0 y0
+		moveto %w
+		0 rmoveto
+	}repeat
+}bind def
+%end music-drawing-routines.ps
+
+%%EndResource
+%%BeginResource: procset (lilyponddefs.ps) 1 0
+%!PS-Adobe-2.0: lilyponddefs.ps
+%
+% Functions for direct PostScript output
+
+% /setgray { 1 add } bind def
+
+/set-ps-scale-to-lily-scale {
+	lily-output-units output-scale mul dup scale
+} bind def
+
+
+/init-paper {
+	gsave
+	clippath pathbbox newpath
+	/paper-height exch def
+	/paper-width exch def pop pop pop
+	% FIXME
+	/top-margin 2 def
+	paper-width line-width sub 2 div /left-margin exch def
+	grestore
+} bind def
+
+/init-lilypond-parameters {
+	staff-line-thickness setlinewidth
+	staff-height init-paper
+} bind def
+
+
+% end lilyponddefs.ps
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+init-lilypond-parameters
+%%EndSetup
+
+gsave set-ps-scale-to-lily-scale
+62.4684 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+34.2008 -44.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+34.2008 -45.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+34.9508 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+35.4408 -45.1026 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+80.2495 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+0.0000 -47.1026 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -46.1026 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -45.1026 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -44.1026 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -43.1026 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+48.9854 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+90.6338 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+91.1238 -45.1026 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+23.9199 -45.1026 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+38.4165 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+38.9315 -45.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+63.9150 -44.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+63.9800 -45.1026 moveto 0.0500 3.2322 -0.0250 -2.9600 0.0800 draw_round_box
+37.1653 -45.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+56.2659 -46.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+58.0320 -46.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+57.5171 -45.1026 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+35.8478 -41.6026 moveto 2.8209 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+35.8478 -38.9842 moveto 2.8209 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+35.4958 -41.2506 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+38.2166 -41.2506 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+35.8478 -41.2506 moveto /CenturySchL-Bold 4.86914062 output-scale div selectfont
+2.1169 0.0000 0.0000 /E
+1 print_glyphs
+43.1490 -45.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+44.9152 -44.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+43.2140 -45.1026 moveto 0.0500 3.0655 -0.0250 -3.2933 0.0800 draw_round_box
+50.3000 -46.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+52.0661 -45.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+51.5512 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+12.6337 -46.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+13.8849 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+13.9499 -42.6426 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+15.8847 -45.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+17.1358 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+17.2008 -42.1426 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+19.1356 -45.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+19.2006 -45.1026 moveto 0.0500 3.0655 -0.0250 -3.2933 0.0800 draw_round_box
+26.3623 -44.6026 moveto magfontemmentaler-20mXVo /noteheads.s1 glyphshow 
+28.2023 -44.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+26.4273 -45.1026 moveto 0.0500 3.1586 -0.0250 -2.9600 0.0800 draw_round_box
+7.7200 -46.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+8.9712 -45.1026 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+68.9587 -48.4376 moveto magfontemmentaler-20mXVo /flags.d3 glyphshow 
+-1.9120 -42.0185 moveto /CenturySchL-Roma 3.06738281 output-scale div selectfont
+0.9560 0.0000 0.0000 /three
+0.9560 0.0000 0.0000 /one
+2 print_glyphs
+0.8000 -46.1026 moveto magfontemmentaler-20mXVo /clefs.G glyphshow 
+4.4200 -45.1026 moveto magfontemmentaler-20mXVo /accidentals.flat glyphshow 
+82.5640 -46.6026 moveto magfontemmentaler-20mXVo /noteheads.s1 glyphshow 
+84.4040 -46.6026 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+83.8890 -45.1026 moveto 0.0500 3.1586 -0.0250 -1.1986 0.0800 draw_round_box
+73.1948 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+73.2598 -42.1426 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+75.1349 -46.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+76.3861 -45.1026 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+68.8937 -45.1026 moveto 0.0500 3.1072 -0.0250 -3.3350 0.0800 draw_round_box
+68.8287 -45.1026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+71.9436 -45.6026 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+91.5338 -33.3342 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+48.9298 -33.3342 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+76.0885 -33.3342 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+32.9148 -32.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+32.9148 -33.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+32.4248 -33.3342 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+31.5248 -33.3342 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+60.4595 -32.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+60.4595 -33.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+59.5595 -33.3342 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+57.9095 -32.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+57.9095 -33.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+58.6595 -33.3342 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+0.0000 -35.3342 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -34.3342 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -33.3342 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -32.3342 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -31.3342 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -36.3342 moveto 1.8850 0.0000 24.3224 0.0000 0.2000 draw_round_box
+0.0000 -36.3342 moveto 1.7743 0.0000 88.3501 0.0000 0.2000 draw_round_box
+22.3665 -33.3342 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+35.6294 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+52.4582 -33.3342 moveto 0.0500 3.1586 -0.0250 -0.1986 0.0800 draw_round_box
+66.3740 -36.6692 moveto magfontemmentaler-20mXVo /flags.d3 glyphshow 
+89.8953 -32.8742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+59.7615 -30.4842 moveto 3.0257 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+59.7615 -27.8658 moveto 3.0257 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+59.4095 -30.1322 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+62.3352 -30.1322 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+59.7615 -30.1322 moveto /CenturySchL-Bold 4.86914062 output-scale div selectfont
+2.3217 0.0000 0.0000 /D
+1 print_glyphs
+34.3782 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+32.4217 -30.4842 moveto 2.8550 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+32.4217 -27.7975 moveto 2.8550 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+32.0698 -30.0981 moveto 0.1000 2.5867 0.0000 -0.2861 0.0000 draw_round_box
+34.8248 -30.0981 moveto 0.1000 2.5867 0.0000 -0.2861 0.0000 draw_round_box
+32.4217 -30.0981 moveto /CenturySchL-Bold 4.86914062 output-scale div selectfont
+2.1510 0.0000 0.0000 /C
+1 print_glyphs
+52.9732 -33.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+0.8000 -34.3342 moveto magfontemmentaler-20mXVo /clefs.G glyphshow 
+4.4200 -33.3342 moveto magfontemmentaler-20mXVo /accidentals.flat glyphshow 
+-0.9560 -30.2500 moveto /CenturySchL-Roma 3.06738281 output-scale div selectfont
+0.9560 0.0000 0.0000 /seven
+1 print_glyphs
+12.0411 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+41.6540 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+42.9051 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+45.9751 -34.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+47.2263 -33.3342 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+47.2913 -30.8742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+51.1332 -33.8342 moveto magfontemmentaler-20mXVo /noteheads.s1 glyphshow 
+17.8310 -35.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+19.0822 -33.3342 moveto 0.0500 3.2322 -0.0250 -2.2722 0.0800 draw_round_box
+24.5699 -36.3342 moveto magfontemmentaler-20mXVo /noteheads.s1 glyphshow 
+26.4099 -35.8342 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+25.8949 -33.3342 moveto 0.0500 3.1586 -0.0250 -2.6986 0.0800 draw_round_box
+88.5791 -36.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+39.9505 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+16.1873 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.7722 0.0800 draw_round_box
+16.2523 -31.8742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+14.9361 -35.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+8.9712 -33.3342 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+7.7200 -34.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+13.2923 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+13.3573 -31.3742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+78.5431 -33.3342 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+81.6130 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+82.8642 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+82.9292 -31.3742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+84.5080 -35.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+89.8303 -33.3342 moveto 0.0500 3.2322 -0.0250 -2.7722 0.0800 draw_round_box
+85.7592 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.7722 0.0800 draw_round_box
+38.6993 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+40.0155 -31.3742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+66.2440 -33.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+66.3090 -33.3342 moveto 0.0500 3.1072 -0.0250 -3.3350 0.0800 draw_round_box
+61.9229 -32.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+61.9879 -33.3342 moveto 0.0500 3.2322 -0.0250 -2.9600 0.0800 draw_round_box
+69.0627 -33.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+74.4500 -31.3742 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+70.3139 -33.3342 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+73.1338 -34.8342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+74.3850 -33.3342 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+77.2919 -34.3342 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+91.5338 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+26.8434 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+0.0000 -25.1475 moveto 1.7743 0.0000 1.7710 0.0000 0.2000 draw_round_box
+0.0000 -24.1475 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -23.1475 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -22.1475 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -21.1475 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+0.0000 -20.1475 moveto 91.6238 0.0000 0.0500 0.0000 0.1000 draw_line
+42.3510 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+66.8783 -21.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+66.8783 -22.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+67.6283 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+68.1183 -22.1475 moveto 0.6000 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+79.8569 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+58.0151 -22.1475 moveto 0.1900 4.0000 0.0000 -2.0000 0.0000 draw_round_box
+9.3862 -24.1619 moveto /Emmentaler-20 7.02929688 output-scale div selectfont
+1.4682 0.0000 0.0000 /eight
+1 print_glyphs
+9.4374 -22.1475 moveto /Emmentaler-20 7.02929688 output-scale div selectfont
+1.3657 0.0000 0.0000 /six
+1 print_glyphs
+2.6581 -22.1475 moveto 0.1200 1.6200 -0.0600 -2.0600 0.0800 draw_round_box
+2.0000 -25.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+2.0000 -21.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+5.4507 -17.8475 moveto 2.8209 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+5.4507 -15.1949 moveto 2.8209 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+5.0987 -17.4955 moveto 0.1000 2.5526 0.0000 -0.2520 0.0000 draw_round_box
+7.8195 -17.4955 moveto 0.1000 2.5526 0.0000 -0.2520 0.0000 draw_round_box
+5.4507 -17.4955 moveto /CenturySchL-Bold 4.86914062 output-scale div selectfont
+2.1169 0.0000 0.0000 /A
+1 print_glyphs
+53.5163 -23.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+33.6142 -19.1875 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+62.0475 -22.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+60.2075 -23.1475 moveto magfontemmentaler-20mXVo /noteheads.s1 glyphshow 
+12.9194 -22.1475 moveto 0.0500 3.2322 -0.0250 -2.9600 0.0800 draw_round_box
+12.8544 -21.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+12.8544 -18.6133 moveto /CenturySchL-Roma 3.86523438 output-scale div selectfont
+0.6146 0.0000 0.0000 /colon
+1.0926 0.0000 0.0000 /e
+1.3316 0.0000 0.0000 /n
+1.0926 0.0000 0.0000 /o
+0.9902 0.0000 0.0000 /r
+1.7072 0.0000 0.0000 /D
+6 print_glyphs
+20.2830 -18.6133 moveto /CenturySchL-Roma 3.86523438 output-scale div selectfont
+1.6047 0.0000 0.0000 /C
+0.6146 0.0000 0.0000 /slash
+1.4682 0.0000 0.0000 /F
+3 print_glyphs
+61.5325 -22.1475 moveto 0.0500 3.1586 -0.0250 -0.6986 0.0800 draw_round_box
+54.7674 -22.1475 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+17.2466 -25.4825 moveto magfontemmentaler-20mXVo /flags.d3 glyphshow 
+23.9181 -23.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+25.1693 -22.1475 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+25.2343 -20.1875 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+29.2869 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+28.0357 -23.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+32.2980 -22.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+33.5492 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+17.1816 -22.1475 moveto 0.0500 3.1072 -0.0250 -3.3350 0.0800 draw_round_box
+74.8624 -22.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+76.6286 -21.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+74.9274 -22.1475 moveto 0.0500 3.0655 -0.0250 -3.2933 0.0800 draw_round_box
+81.0493 -23.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+82.8155 -22.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+82.3005 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+86.1733 -23.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+87.9394 -23.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+87.4244 -22.1475 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+3.8162 -23.1475 moveto magfontemmentaler-20mXVo /clefs.G glyphshow 
+7.4362 -22.1475 moveto magfontemmentaler-20mXVo /accidentals.flat glyphshow 
+71.4869 -22.6475 moveto magfontemmentaler-20mXVo /dots.dot glyphshow 
+70.9719 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+69.7207 -22.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+68.5253 -18.6475 moveto 2.8550 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+68.5253 -16.0290 moveto 2.8550 0.1000 -0.3520 0.0000 0.0000 draw_round_box
+68.1733 -18.2955 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+70.9283 -18.2955 moveto 0.1000 2.5184 0.0000 -0.2520 0.0000 draw_round_box
+68.5253 -18.2955 moveto /CenturySchL-Bold 4.86914062 output-scale div selectfont
+2.1510 0.0000 0.0000 /B
+1 print_glyphs
+43.6756 -21.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+47.9378 -22.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+50.7270 -22.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+51.9782 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+52.0432 -19.1875 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+48.0678 -25.4825 moveto magfontemmentaler-20mXVo /flags.d3 glyphshow 
+21.1570 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.2722 0.0800 draw_round_box
+17.1166 -22.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+19.9058 -22.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+35.1635 -23.1475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+36.4147 -22.1475 moveto 0.0500 3.2322 -0.0250 -0.7722 0.0800 draw_round_box
+48.0028 -22.1475 moveto 0.0500 3.1072 -0.0250 -3.3350 0.0800 draw_round_box
+39.4258 -23.6475 moveto magfontemmentaler-20mXVo /noteheads.s2 glyphshow 
+40.6770 -22.1475 moveto 0.0500 3.2322 -0.0250 -1.2722 0.0800 draw_round_box
+40.7420 -20.1875 moveto magfontemmentaler-20mXVo /flags.u3 glyphshow 
+43.7406 -22.1475 moveto 0.0500 3.2322 -0.0250 -2.9600 0.0800 draw_round_box
+32.1192 -2.5607 moveto /CenturySchL-Bold 6.13574219 output-scale div selectfont
+1.8096 0.0000 0.0000 /r
+2.0145 0.0000 0.0000 /e
+2.1169 0.0000 0.0000 /g
+2.3900 0.0000 0.0000 /n
+2.1169 0.0000 0.0000 /y
+2.9022 0.0000 0.0000 /G
+0.9902 0.0000 0.0000 /space
+2.0145 0.0000 0.0000 /e
+2.3900 0.0000 0.0000 /n
+2.0145 0.0000 0.0000 /e
+2.0145 0.0000 0.0000 /e
+1.8096 0.0000 0.0000 /r
+2.9022 0.0000 0.0000 /G
+13 print_glyphs
+41.0306 -6.0607 moveto /CenturySchL-BoldItal 4.33691406 output-scale div selectfont
+1.4340 0.0000 0.0000 /o
+2.0486 0.0000 0.0000 /w
+1.7755 0.0000 0.0000 /T
+0.7170 0.0000 0.0000 /space
+1.2974 0.0000 0.0000 /r
+1.4340 0.0000 0.0000 /o
+0.9560 0.0000 0.0000 /f
+7 print_glyphs
+71.8182 -9.5607 moveto /CenturySchL-Roma 3.86523438 output-scale div selectfont
+0.9902 0.0000 0.0000 /r
+1.0926 0.0000 0.0000 /e
+1.0584 0.0000 0.0000 /z
+0.8536 0.0000 0.0000 /t
+0.6829 0.0000 0.0000 /i
+1.0926 0.0000 0.0000 /e
+1.7072 0.0000 0.0000 /w
+1.3316 0.0000 0.0000 /h
+0.9902 0.0000 0.0000 /c
+1.3999 0.0000 0.0000 /S
+0.6146 0.0000 0.0000 /space
+1.2633 0.0000 0.0000 /d
+0.9902 0.0000 0.0000 /r
+1.2292 0.0000 0.0000 /a
+1.3316 0.0000 0.0000 /h
+0.9902 0.0000 0.0000 /c
+0.6829 0.0000 0.0000 /i
+1.6047 0.0000 0.0000 /R
+18 print_glyphs
+0.0000 -9.5607 moveto /CenturySchL-Roma 3.86523438 output-scale div selectfont
+1.2292 0.0000 0.0000 /zero
+1.2292 0.0000 0.0000 /zero
+1.2292 0.0000 0.0000 /five
+1.2292 0.0000 0.0000 /one
+0.6146 0.0000 0.0000 /space
+0.6146 0.0000 0.0000 /period
+0.9902 0.0000 0.0000 /c
+0.6146 0.0000 0.0000 /space
+0.6146 0.0000 0.0000 /comma
+0.8536 0.0000 0.0000 /t
+1.2633 0.0000 0.0000 /p
+0.6829 0.0000 0.0000 /i
+0.9902 0.0000 0.0000 /r
+0.9902 0.0000 0.0000 /c
+1.0243 0.0000 0.0000 /s
+1.3316 0.0000 0.0000 /u
+1.3316 0.0000 0.0000 /n
+1.2292 0.0000 0.0000 /a
+2.0827 0.0000 0.0000 /M
+0.6146 0.0000 0.0000 /space
+1.1950 0.0000 0.0000 /y
+1.0926 0.0000 0.0000 /e
+0.6829 0.0000 0.0000 /l
+1.0243 0.0000 0.0000 /s
+1.0926 0.0000 0.0000 /e
+0.9902 0.0000 0.0000 /r
+1.7072 0.0000 0.0000 /G
+27 print_glyphs
+0.0000 -13.0607 moveto /CenturySchL-Roma 3.86523438 output-scale div selectfont
+1.6047 0.0000 0.0000 /E
+0.6146 0.0000 0.0000 /space
+1.7072 0.0000 0.0000 /D
+1.7072 0.0000 0.0000 /D
+0.6146 0.0000 0.0000 /space
+1.6047 0.0000 0.0000 /C
+1.6047 0.0000 0.0000 /C
+0.6146 0.0000 0.0000 /space
+1.6047 0.0000 0.0000 /B
+0.6146 0.0000 0.0000 /space
+1.6047 0.0000 0.0000 /A
+1.6047 0.0000 0.0000 /A
+12 print_glyphs
+stroke grestore
+%%Trailer
+%%EOF

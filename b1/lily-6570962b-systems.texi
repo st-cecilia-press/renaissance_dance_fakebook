@@ -1,0 +1,5 @@
+@image{b1/lily-6570962b-1}
+@image{b1/lily-6570962b-2}
+@image{b1/lily-6570962b-3}
+@image{b1/lily-6570962b-4}
+@c eof
