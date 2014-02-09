@@ -43,6 +43,12 @@
 \noindent
 \begin{minipage}{\columnwidth}
 %\index{}
+\lilypondfile{music/gresley/princitore.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
 \lilypondfile{music/gresley/rawty.ly}
 \end{minipage}
 

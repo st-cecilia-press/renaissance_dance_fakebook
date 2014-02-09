@@ -1,0 +1,4 @@
+@image{28/lily-c2061a0d-1}
+@image{28/lily-c2061a0d-2}
+@image{28/lily-c2061a0d-3}
+@c eof
