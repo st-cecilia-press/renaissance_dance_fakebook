@@ -1,3 +1,9 @@
+*
+!music/
+!readme/
+!fakebook.lytex
+
+
 #################
 ## Eclipse
 #################
@@ -217,7 +223,4 @@ pip-log.txt
 
 
 
-*
-!music
-!readme
-!fakebook.lytex
+
