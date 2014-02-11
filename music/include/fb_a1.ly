@@ -21,5 +21,5 @@
 
   >>
 
-  \include "music/include/fb_layout.ly"
+  \include "../music/include/fb_layout.ly"
 }
