@@ -37,6 +37,12 @@
 \noindent
 \begin{minipage}{\columnwidth}
 %\index{}
+\lilypondfile{music/gresley/newcastell.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
 \lilypondfile{music/gresley/new_yer.ly}
 \end{minipage}
 
