@@ -59,6 +59,21 @@
 \end{minipage}
 
 
+\section*{Il Papa}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/il_papa/lucretia.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/il_papa/la_vita.ly}
+\end{minipage}
+
+
 \section*{Playford 1651}
 
     \noindent
