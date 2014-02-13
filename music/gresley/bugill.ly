@@ -1,4 +1,4 @@
-\include "../music/include/fb_functions.ly"
+\include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)
 
@@ -53,6 +53,6 @@ ppMusicOne = \relative c' {
 }
 
 
-\include "../music/include/fb_a1.ly"
+\include "music/include/fb_a1.ly"
 
 \version "2.10.10"  % necessary for upgrading to future LilyPond versions.
