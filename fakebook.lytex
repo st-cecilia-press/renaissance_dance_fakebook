@@ -64,6 +64,12 @@
 \noindent
 \begin{minipage}{\columnwidth}
 %\index{}
+\lilypondfile{music/il_papa/lo_dimostra.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
 \lilypondfile{music/il_papa/lucretia.ly}
 \end{minipage}
 
