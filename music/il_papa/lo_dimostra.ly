@@ -5,7 +5,7 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Lo Dimostra"
-  subtitle = \markup \italic "For Three?"
+  subtitle = \markup \italic "For Three"
   poet = "Il Papa Manuscript, Giovannino"
   composer = "Nathan Kronenfeld"
   meter = "AAA BB C"
@@ -41,7 +41,7 @@ ppMusicOne = \relative c' {
   g4. a8 b4 d4. c8 b4
   b4. a8 g4 a4. b8 a4
   g4. f8 e4 e4. f8 g4
-  g4. a8 b4 c2.
+  g4. a8 b4 c2. \mark "(3)"
     }
       
     \ppMark
