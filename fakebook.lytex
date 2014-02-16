@@ -25,7 +25,37 @@
 \noindent
 \begin{minipage}{\columnwidth}
 %\index{}
+\lilypondfile{music/gresley/damesyn.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/eglamour.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/egle.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/esperans.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
 \lilypondfile{music/gresley/grene_gynger.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/mowbray.ly}
 \end{minipage}
 
 \noindent
@@ -49,6 +79,24 @@
 \noindent
 \begin{minipage}{\columnwidth}
 %\index{}
+\lilypondfile{music/gresley/northumberland.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/oringe.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/petagay.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
 \lilypondfile{music/gresley/princitore.ly}
 \end{minipage}
 
@@ -58,6 +106,23 @@
 \lilypondfile{music/gresley/rawty.ly}
 \end{minipage}
 
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/roye.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/sofferance.ly}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\columnwidth}
+%\index{}
+\lilypondfile{music/gresley/temperans.ly}
+\end{minipage}
 
 \section*{Il Papa}
 
