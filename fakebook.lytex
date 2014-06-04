@@ -1,5 +1,7 @@
 \documentclass{book}
 \usepackage[margin=1in]{geometry}
+\usepackage{multind}
+\makeindex{name}
 \begin{document}
 
 \chapter{15th Century Italian}
@@ -8,19 +10,20 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Cleves, Danse de}
+	\index{name}{Danse de Cleves}
 	\lilypondfile{music/basse/cleves.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Cupido}
 	\lilypondfile{music/basse/cupido.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Lauro}
 	\lilypondfile{music/basse/lauro.ly}
 	\end{minipage}
 
@@ -30,109 +33,109 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Amoroso}
 	\lilypondfile{music/15italian/amoroso.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Anello}
 	\lilypondfile{music/15italian/anello.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Belfiore}
 	\lilypondfile{music/15italian/belfiore.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Colonesse}
 	\lilypondfile{music/15italian/colonesse.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Figlia Guielmina}
 	\lilypondfile{music/15italian/figlia_guielmina.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Gelosia}
 	\lilypondfile{music/15italian/gelosia.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Gratioso}
 	\lilypondfile{music/15italian/gratioso.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Leoncello}
 	\lilypondfile{music/15italian/leoncello.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Marchesana}
 	\lilypondfile{music/15italian/marchesana.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Mercantia}
 	\lilypondfile{music/15italian/mercantia.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Petit Riens}
 	\lilypondfile{music/15italian/petit_riens.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Pizocara}
 	\lilypondfile{music/15italian/pizocara.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Rostiboli Gioioso}
 	\lilypondfile{music/15italian/rostiboli.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Spero}
 	\lilypondfile{music/15italian/spero.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Tesara}
 	\lilypondfile{music/15italian/tesara.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Vercepe}
 	\lilypondfile{music/15italian/vercepe.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Vita di Cholino}
 	\lilypondfile{music/15italian/vita_di_cholino.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Voltate in ca Rosina}
 	\lilypondfile{music/15italian/voltate.ly}
 	\end{minipage}
 	
@@ -142,145 +145,145 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Aras}
 	\lilypondfile{music/gresley/aras.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Armyn}
 	\lilypondfile{music/gresley/armyn.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Bugill}
 	\lilypondfile{music/gresley/bugill.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Damesyn}
 	\lilypondfile{music/gresley/damesyn.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Eglamour}
 	\lilypondfile{music/gresley/eglamour.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Egle}
 	\lilypondfile{music/gresley/egle.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Esperans}
 	\lilypondfile{music/gresley/esperans.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Grene Gynger}
 	\lilypondfile{music/gresley/grene_gynger.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Grene Gynger}
 	\lilypondfile{music/gresley/grene_gynger2.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Mowbray}
 	\lilypondfile{music/gresley/mowbray.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Ly Bens Distonys}
 	\lilypondfile{music/gresley/ly_bens.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Ly Bens Distonys}
 	\lilypondfile{music/gresley/ly_bens2.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Newcastell}
 	\lilypondfile{music/gresley/newcastell.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{New Yer}
 	\lilypondfile{music/gresley/new_yer.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{New Yer}
 	\lilypondfile{music/gresley/new_yer2.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Northumberland}
 	\lilypondfile{music/gresley/northumberland.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Oringe}
 	\lilypondfile{music/gresley/oringe.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Petagay}
 	\lilypondfile{music/gresley/petagay.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Princitore}
 	\lilypondfile{music/gresley/princitore.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Rawty}
 	\lilypondfile{music/gresley/rawty.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Roye}
 	\lilypondfile{music/gresley/roye.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Sofferance}
 	\lilypondfile{music/gresley/sofferance.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Talbott}
 	\lilypondfile{music/gresley/talbott.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Temperans}
 	\lilypondfile{music/gresley/temperans.ly}
 	\end{minipage}
 
@@ -290,19 +293,21 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Dimostra, Lo}
+	\index{name}{Lo Dimostra}
 	\lilypondfile{music/il_papa/lo_dimostra.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Lucretia}
 	\lilypondfile{music/il_papa/lucretia.ly}
 	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Vita, La}
+	\index{name}{La Vita}
 	\lilypondfile{music/il_papa/la_vita.ly}
 	\end{minipage}
 	
@@ -312,61 +317,61 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Quadran Pavane}
 	\lilypondfile{music/inns/inns_1_quadran.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Turkelone}
 	\lilypondfile{music/inns/inns_2_turkelone.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Earl of Essex Measure}
 	\lilypondfile{music/inns/inns_3_essex.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Tinternell}
 	\lilypondfile{music/inns/inns_4_tinternell.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Old Alman}
 	\lilypondfile{music/inns/inns_5_old_alman.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Queens Alman}
 	\lilypondfile{music/inns/inns_6_queens.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Madame Sosilia Alman}
 	\lilypondfile{music/inns/inns_7_sosilia.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Black Alman}
 	\lilypondfile{music/inns/inns_8_black.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Lorayne Alman}
 	\lilypondfile{music/inns/inns_9_lorayne.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{New Alman}
 	\lilypondfile{music/inns/new_alman.ly}
 	\end{minipage}
 
@@ -376,191 +381,196 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Allegrezza d'Amore}
 	\lilypondfile{music/16italian/allegrezza_damore.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Alta Regina}
 	\lilypondfile{music/16italian/alta_regina.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Bella Gioiosa}
 	\lilypondfile{music/16italian/bella_gioiosa.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Bizzaria d'Amore}
 	\lilypondfile{music/16italian/bizzarria.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Candida Luna}
 	\lilypondfile{music/16italian/candida_luna.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Castellana, La}
+	\index{name}{La Castellana}
 	\lilypondfile{music/16italian/castellana.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Chiara Stella}
 	\lilypondfile{music/16italian/chiara_stella.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Contentezza d'Amore}
 	\lilypondfile{music/16italian/contentezza.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Conto dell'Orco, Il}
+	\index{name}{Il Conto dell'Orco}
 	\lilypondfile{music/16italian/conto.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Contrapasso}
 	\lilypondfile{music/16italian/contrapasso.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Fedelta}
 	\lilypondfile{music/16italian/fedelta.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Fiamma d'Amore}
 	\lilypondfile{music/16italian/fiamma_damore.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Fiore, Ballo del}
+	\index{name}{Ballo del Fiore}
 	\lilypondfile{music/16italian/fiore.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Fulgente Stella}
 	\lilypondfile{music/16italian/fulgente_stella.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Furioso}
 	\lilypondfile{music/16italian/furioso.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Gracca Amorosa}
 	\lilypondfile{music/16italian/gracca_amorosa.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Maraviglia d'Amore}
 	\lilypondfile{music/16italian/maraviglia.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Ombrosa Valle}
 	\lilypondfile{music/16italian/ombrosa_valle.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Passo e Mezzo}
 	\lilypondfile{music/16italian/passo_e_mezzo.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Pensand' al Partire, Se}
+	\index{name}{Se Pensand' al Partire}
 	\lilypondfile{music/16italian/pensand_al_partire.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Rose e Viole}
 	\lilypondfile{music/16italian/rose_e_viole.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Spagnoletta}
 	\lilypondfile{music/16italian/spagnoletta.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Spagnoletto, Lo}
+	\index{name}{Lo Spagnoletto}
 	\lilypondfile{music/16italian/spagnoletto.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Torneo Amoroso}
 	\lilypondfile{music/16italian/torneo_amoroso.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Villanella}
 	\lilypondfile{music/16italian/villanella.ly}
 	\end{minipage}
 	
-\chapter{Playford}
+\chapter{Arbeau}
 text
 \newpage
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Haye Bransle}
 	\lilypondfile{music/arbeau/haye_bransle.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Horses Bransle}
 	\lilypondfile{music/arbeau/horses_hendricks.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Jouyssance}
 	\lilypondfile{music/arbeau/jouyssance.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Montarde Bransle}
 	\lilypondfile{music/arbeau/montarde.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Official Bransle}
 	\lilypondfile{music/arbeau/official_bransle.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Washerwoman's Bransle}
 	\lilypondfile{music/arbeau/washerwomans_bransle.ly}
 	\end{minipage}
 	
@@ -570,115 +580,117 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{A Lieta Vita}
 	\lilypondfile{music/improvised/a_lieta_vita.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Can She Excuse}
 	\lilypondfile{music/improvised/can_she_excuse.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Canarie}
 	\lilypondfile{music/improvised/canarie.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Cantiga 119}
 	\lilypondfile{music/improvised/cantiga_119.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Courante CLXXXIII}
+	\index{name}{Entree Courante}
 	\lilypondfile{music/improvised/courante_clxxxiii.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Courante CXLII}
+	\index{name}{So Ben Courante}
 	\lilypondfile{music/improvised/courante_cxlii.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Dona}
 	\lilypondfile{music/improvised/dona_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Dona}
 	\lilypondfile{music/improvised/dona_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Earl of Salisbury}
 	\lilypondfile{music/improvised/earl_salisbury.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Earl of Salisbury}
 	\lilypondfile{music/improvised/earl_salisbury_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Earl of Salisbury}
 	\lilypondfile{music/improvised/earl_salisbury_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Frog Galliard}
 	\lilypondfile{music/improvised/frog_galliard.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Mille Ducas}
 	\lilypondfile{music/improvised/mille_ducas_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Mille Ducas}
 	\lilypondfile{music/improvised/mille_ducas_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{New Yeere's Gift}
 	\lilypondfile{music/improvised/new_yeeres_gift.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Quadro}
 	\lilypondfile{music/improvised/quadro_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Quadro}
 	\lilypondfile{music/improvised/quadro_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Volte}
 	\lilypondfile{music/improvised/volte_byrd.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Volte}
 	\lilypondfile{music/improvised/volte_praetorius.ly}
 	\end{minipage}
 
@@ -688,661 +700,664 @@ text
 
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Adson's Saraband}
     \lilypondfile{music/playford/adsons_saraband.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Adson's Sarabande}
     \lilypondfile{music/playford/adsons_saraband_terlouw.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{A la Mode de France}
+	\index{name}{Mode de France, A la}
     \lilypondfile{music/playford/ala_mode_de_france.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{All in a Garden Green}
     \lilypondfile{music/playford/all_in_a_garden_green.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Argeers}
     \lilypondfile{music/playford/argeers_octavio.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Ay Me}
     \lilypondfile{music/playford/aye_me.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Bath}
     \lilypondfile{music/playford/bath.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Beggar Boy}
     \lilypondfile{music/playford/beggar_boy.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Black Nag}
     \lilypondfile{music/playford/blacknag.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Blue Cap}
+	\index{name}{Blew Cap}
     \lilypondfile{music/playford/blue_cap.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Boatman}
     \lilypondfile{music/playford/boatman.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Bobbing Joe}
     \lilypondfile{music/playford/bobbing_joe.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Broome}
     \lilypondfile{music/playford/broome.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Cast a Bell}
     \lilypondfile{music/playford/cast_a_bell.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Cheerily and Merrily}
     \lilypondfile{music/playford/cheerily_and_merrily.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Chestnut}
     \lilypondfile{music/playford/chestnut_arslan.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Chestnut}
     \lilypondfile{music/playford/chestnut_hendricks.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Chirping of the Lark}
     \lilypondfile{music/playford/chirping_of_the_lark.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Chirping of the Nightingale}
     \lilypondfile{music/playford/chirping_of_the_nightingale.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Confesse}
     \lilypondfile{music/playford/confess.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Country Coll}
     \lilypondfile{music/playford/country_coll.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Cuckolds all a Row}
     \lilypondfile{music/playford/cuckolds.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Daphne}
+	\index{name}{Hit or Miss|see {Daphne}}
     \lilypondfile{music/playford/daphne.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Dargason}
     \lilypondfile{music/playford/dargason.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Dissembling Love}
     \lilypondfile{music/playford/dissembling_love.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Drive the Cold Winter Away}
     \lilypondfile{music/playford/drive_the_cold_winter_away.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Dull Sir John}
     \lilypondfile{music/playford/dull_sir_john.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Faine I Would}
     \lilypondfile{music/playford/faine_i_would.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Fine Companion}
     \lilypondfile{music/playford/fine_companion.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Friar and the Nun}
     \lilypondfile{music/playford/friar_and_the_nun.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Gathering Peascods}
     \lilypondfile{music/playford/gathering_peascods.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Glory of the West}
     \lilypondfile{music/playford/glory_of_the_west.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Goddesses}
     \lilypondfile{music/playford/goddesses.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Gray's Inn Mask}
     \lilypondfile{music/playford/grays_inn_mask.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Greenwood}
     \lilypondfile{music/playford/greenwood.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Grimstock}
     \lilypondfile{music/playford/grimstock.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Gun}
     \lilypondfile{music/playford/gun.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Half Hannikin}
     \lilypondfile{music/playford/half_hannikin.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Have at thy Coat}
     \lilypondfile{music/playford/have_at_thy_coat.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Health to Betty}
     \lilypondfile{music/playford/health_to_betty.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Healths}
     \lilypondfile{music/playford/healths.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Heart's Ease}
     \lilypondfile{music/playford/heartsease.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Hemp Dresser}
     \lilypondfile{music/playford/hemp_dresser.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Hit or Miss}
     \lilypondfile{music/playford/hit_or_miss.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Hockley in the Hole}
     \lilypondfile{music/playford/hockley_in_the_hole.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Hyde Park}
     \lilypondfile{music/playford/hyde_park.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{If All the World Were Paper}
     \lilypondfile{music/playford/if_paper.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Irish Lady}
     \lilypondfile{music/playford/irish_lady.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Irish Trot}
     \lilypondfile{music/playford/irish_trot.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Jack a Lent}
     \lilypondfile{music/playford/jack_a_lent.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Jack Pudding}
     \lilypondfile{music/playford/jack_pudding.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Jenny Pluck Pears}
     \lilypondfile{music/playford/jenny_pluck_pears.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Jog On}
     \lilypondfile{music/playford/jog_on.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Kemp's Jig}
     \lilypondfile{music/playford/kemps_jig.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Kettledrum}
     \lilypondfile{music/playford/kettledrum.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Lady Lie Near Me}
     \lilypondfile{music/playford/lady_lie_near_me.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Lady Spellor}
     \lilypondfile{music/playford/lady_spellor.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Lavena}
     \lilypondfile{music/playford/lavena.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Lord of Carnarvan's Jegg}
     \lilypondfile{music/playford/lord_of_carnarvan.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Lull Me Beyond Thee}
     \lilypondfile{music/playford/lullme.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Mage on a Cree}
     \lilypondfile{music/playford/mage_on_a_cree.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Maid Peeped out the Window}
     \lilypondfile{music/playford/maid_peeped.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Maiden Fair}
     \lilypondfile{music/playford/maiden_fair.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Maiden Lane}
     \lilypondfile{music/playford/maiden_lane.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Merry Merry Milkmaids}
     \lilypondfile{music/playford/merry_merry_milkmaids.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Milkmaids Bob}
     \lilypondfile{music/playford/milkmaids_bob.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Millfield}
     \lilypondfile{music/playford/millfield.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Millison's Jigg}
     \lilypondfile{music/playford/millison.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Mundesse}
     \lilypondfile{music/playford/mundesse.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{My Lady Cullen}
     \lilypondfile{music/playford/my_lady_cullen.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{New Boe Peep}
     \lilypondfile{music/playford/new_bo_peep.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{New Exchange}
     \lilypondfile{music/playford/new_exchange.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{New New Nothing}
     \lilypondfile{music/playford/new_new_nothing.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Newcastle}
     \lilypondfile{music/playford/newcastle.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Night Peace}
     \lilypondfile{music/playford/night_peace.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Nonesuch}
     \lilypondfile{music/playford/nonesuch.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Old Man is a Bed Full of Bones, An}
     \lilypondfile{music/playford/old_man.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Old Mole}
     \lilypondfile{music/playford/old_mole.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Parson's Farewell}
     \lilypondfile{music/playford/parsons_farewell.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Paul's Wharf}
     \lilypondfile{music/playford/pauls_wharf.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Pepper's Black}
     \lilypondfile{music/playford/peppers_black.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Petticoat Wag}
     \lilypondfile{music/playford/petticoat_wag.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Picking of Sticks}
     \lilypondfile{music/playford/picking_of_sticks.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Prince Rupert's March}
     \lilypondfile{music/playford/prince_ruperts_march.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Punk's Delight}
     \lilypondfile{music/playford/punks_delight.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Rose is White and Rose is Red}
     \lilypondfile{music/playford/rose_is_white.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Row Well Ye Mariners}
     \lilypondfile{music/playford/row_well.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Rufty Tufty}
     \lilypondfile{music/playford/rufty_tufty.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Saint Martin's}
     \lilypondfile{music/playford/saint_martins.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Saint Martin's}
     \lilypondfile{music/playford/saint_martins_alaric.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Saraband}
     \lilypondfile{music/playford/saraband.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Saturday Night and Sunday Morn}
     \lilypondfile{music/playford/saturday_night.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Scotch Cap}
     \lilypondfile{music/playford/scotch_cap.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Sellinger's Round}
     \lilypondfile{music/playford/sellingers_alaric.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Shepherd's Holiday}
     \lilypondfile{music/playford/shepherds_holiday.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Skellamefago}
     \lilypondfile{music/playford/skellamefago.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Slip}
     \lilypondfile{music/playford/slip.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Soldier's Life}
     \lilypondfile{music/playford/soldiers_life.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Spaniard}
     \lilypondfile{music/playford/spaniard.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Spanish Gipsy}
     \lilypondfile{music/playford/spanish_gipsy.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{St. Paul's Steeple}
     \lilypondfile{music/playford/st_pauls_steeple.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Staine's Morris}
     \lilypondfile{music/playford/staines_morris.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Step Stately}
     \lilypondfile{music/playford/step_stately.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Stingo}
     \lilypondfile{music/playford/stingo.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Tom Tinker}
     \lilypondfile{music/playford/tom_tinker.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Trenchmore}
     \lilypondfile{music/playford/trenchmore.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Up Tails All}
     \lilypondfile{music/playford/up_tails_all.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Upon a Summer's Day}
     \lilypondfile{music/playford/upon_summers_day.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Whirligig}
     \lilypondfile{music/playford/whirligig.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-    %\index{}
+	\index{name}{Wish}
     \lilypondfile{music/playford/wish.ly}
     \end{minipage}
 
@@ -1354,28 +1369,28 @@ text
 
     \noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Crossed Purposes}
 	\lilypondfile{music/abominations/crossed_purposes.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Jamaica}
 	\lilypondfile{music/abominations/jamaica.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Karobushka}
 	\lilypondfile{music/abominations/karobushka.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	%\index{}
+	\index{name}{Lightly Love}
 	\lilypondfile{music/abominations/lightly_love.ly}
 	\end{minipage}
 
 
-
+\printindex{name}{Dances by Name}
 \end{document}
