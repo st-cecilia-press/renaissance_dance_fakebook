@@ -258,14 +258,6 @@ text
 	\addcontentsline{toc}{section}{Grene Gynger}
 	\lilypondfile{music/gresley/grene_gynger.ly}
 	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Grene Gynger}
-	\index{dancers}{2@Two People!Grene Gynger}
-	\addcontentsline{toc}{section}{Grene Gynger}
-	\lilypondfile{music/gresley/grene_gynger2.ly}
-	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
@@ -305,14 +297,6 @@ text
 	\index{dancers}{3@Three People!New Yer}
 	\addcontentsline{toc}{section}{New Yer}
 	\lilypondfile{music/gresley/new_yer.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{New Yer}
-	\index{dancers}{3@Three People!New Yer}
-	\addcontentsline{toc}{section}{New Yer}
-	\lilypondfile{music/gresley/new_yer2.ly}
 	\end{minipage}
 
 	\noindent

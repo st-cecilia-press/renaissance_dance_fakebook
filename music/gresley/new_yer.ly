@@ -1,19 +1,19 @@
 \include "music/include/fb_functions.ly"
-%#(set-default-paper-size "letter")
+#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)
 
 
 \header{
   title = "New Yer"
   subtitle = \markup \italic "for Three"
-  poet = "Gresley Manuscript, c. 1500"
-  composer = "Richard Schweitzer"
-  meter = "AA BBB CCC DDD E x 4"
+%  poet = "Gresley Manuscript, c. 1500"
+  poet = "Richard Schweitzer"
+  meter = "One dance: AA BBB CCC DDD E"
   tagline = "Permission granted to copy within the SCA."
 }
 
 global= {
-  \key f \major
+  \key g \major
   \time 6/8
 }
 
@@ -21,10 +21,10 @@ ppChordLine = \chordmode {
 
 }
 
-ppMusicOne = \relative c' {
+ppMusicOne = \transpose f g \relative c' {
 
   \repeat volta 2 {
-    c'4.^\ppMarkA^\markup{Drone F/C} a4 g8 |
+    c'4.^\ppMarkA^\markup{Drone G/D} a4 g8 |
     f4 e8 f4. |
     d4 f8 e g4 |
     f2. |
@@ -44,11 +44,10 @@ ppMusicOne = \relative c' {
 
   \repeat volta 3 {
     g^\ppMarkD f8 e d4 |
-    c2. |
-    \mark "(3)"
+    c2.^\markup{\translate #(cons 7 0) \huge "(3)"} |
   }
 
-  d4 f8^\ppMarkE e g4 |
+  d4^\ppMarkE f8 e g4 |
   f2. \bar "|."
 
 
