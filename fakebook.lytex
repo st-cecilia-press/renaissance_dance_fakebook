@@ -73,7 +73,7 @@ text
 	\index{name}{Chirintana}
 	\index{dancers}{21@As Many as Will!Chirintana}
 	\addcontentsline{toc}{section}{Chirintana}
-	\lilypondfile{music/15italian/colonesse.ly}
+	\lilypondfile{music/15italian/chirintana.ly}
 	\end{minipage}
 	
 	\noindent
@@ -534,7 +534,7 @@ text
 	\index{name}{Caccia d'Amore@La Caccia d'Amore}
 	\index{dancers}{21@As Many as Will!Caccia d'Amore@La Caccia d'Amore}
 	\addcontentsline{toc}{section}{La Caccia d'Amore}
-	\lilypondfile{music/16italian/candida_luna.ly}
+	\lilypondfile{music/16italian/caccia_damore.ly}
 	\end{minipage}
 	
 	\noindent
