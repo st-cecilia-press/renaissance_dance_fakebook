@@ -11,7 +11,7 @@
 \end{multicols}
 
 
-\chapter{15th Century Italian}
+\chapter{Basse Dance}
 text
 \newpage
 
@@ -66,6 +66,14 @@ text
 	\index{dancers}{3@Three People!Belfiore}
 	\addcontentsline{toc}{section}{Belfiore}
 	\lilypondfile{music/15italian/belfiore.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Chirintana}
+	\index{dancers}{21@As Many as Will!Chirintana}
+	\addcontentsline{toc}{section}{Chirintana}
+	\lilypondfile{music/15italian/colonesse.ly}
 	\end{minipage}
 	
 	\noindent
@@ -523,6 +531,14 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Caccia d'Amore@La Caccia d'Amore}
+	\index{dancers}{21@As Many as Will!Caccia d'Amore@La Caccia d'Amore}
+	\addcontentsline{toc}{section}{La Caccia d'Amore}
+	\lilypondfile{music/16italian/candida_luna.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Candida Luna}
 	\index{dancers}{2@Two People!Candida Luna}
 	\addcontentsline{toc}{section}{Candida Luna}
@@ -531,9 +547,8 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Castellana, La}
-	\index{name}{La Castellana}
-	\index{dancers}{2@Two People!La Castellana}
+	\index{name}{Castellana@La Castellana}
+	\index{dancers}{2@Two People!Castellana@La Castellana}
 	\addcontentsline{toc}{section}{La Castellana}
 	\lilypondfile{music/16italian/castellana.ly}
 	\end{minipage}

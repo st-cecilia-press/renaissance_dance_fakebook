@@ -1,38 +1,38 @@
 \include "music/include/fb_functions.ly"
 \include "english.ly"
+#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Bransle de la Montarde"
   subtitle = \markup \italic "for sets of 4 (or more)"
-  poet = \arbeauSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+  poet = "Pierre Phalese, 1571"
+  tagline = \emmaTagline
 }
 
 global= {
-  \key c \major
-  \time 4/4
+  \key f \major
+  \time 2/2
 }
 
 ppMusicOne =    \relative c'' {  
 
   \ppMark
-  d4 e f d |
-  g e f d |
-  d d d d |
-  c bf a g 
-  
-  d' e f d |
-  g e f d |
-  c d8 c bf4 a8 g |
-  g4 a8 f g2
+    d4 e f d |
+    g e f d |
+    d8 c d4 bf8 c d4 |
+    c4 bf a a |
+    
+    d4 e f d |
+    g e f d |
+    d8 c d4 bf8 c d4 |
+    c8 bf a4 bf g 
 
   \ppMark
-  \repeat volta 4 {
-    g'4^\markup{Repeat once for each dancer in the set} a8 g f4 e |
-    f d c2
+  \repeat volta 2 {
+    d' d bf8 c d4 |
+    c8 bf a4 bf g |
+%    g fs g g
   }
 
 
@@ -41,80 +41,84 @@ ppMusicOne =    \relative c'' {
 ppMusicTwo = \relative c' {
   \clef "G_8"
 
-  f4 g a f | 
-  g2 d2 |
-  d d |
-  e4 g f d |
-  f g a f |
-  g2 d |
-  e4 d8 e d4 c8 b |
-  d4 f e2
+    g4 e c g' |
+    e8 f g4 f g |
+    g g d8 e f4 |
+    f d d d |
+    
+    g4 e c g' |
+    e8 f g4 f g |
+    g g d8 e f4 |
+    f f d d |
 
-  \repeat volta 4 {
-    g4 f8 e d4 c |
-    a4 b c2
-  }
-
+    f f g f |
+    f f d d |
+%    ef d bf bf
 }
 
 ppMusicThree = \relative c' {
   \clef "G_8"
 
-  a4 c a2 |
-  e2 f2 |
-  g b |
-  c4 e d2 |
-  a4 c a2 |
-  e f |
-  g g |
-  b4 a g2
+    bf4 g a bf |
+    c c a bf |
+    bf8 c bf4 bf bf |
+    a g fs fs |
+    
+    bf4 g a bf |
+    c c a bf |
+    bf8 c bf4 bf bf |
+    a8 bf c4 bf bf |
 
-  \repeat volta 4 {
-    g4 a f g |
-    f g g2
+  \repeat volta 2 {
+    bf bf g bf |
+    a8 bf c4 bf bf |
+%    c a g g
   }
 
 }
 
 ppMusicFour = \relative g {
-  \clef bass
-
-  d4 c d2 |
-  c d |
-  g, g |
-  c d |
-  d4 c d2 |
-  c d |
-  c g |
-  g4 a c2
-
+  \clef "F"
   \repeat volta 2 {
-    c2 d4 c |
-    d g, c2
+    g4 c, f g |
+    c, c d g, |
+    g' g g d |
+    f g d d |
+    
+    g4 c, f g |
+    c, c d g, |
+    g' g g d |
+    f f g g |
+  }
+  \repeat volta 2 {
+    bf, bf ef bf |
+    f' f g g |
+%    c, d g, g
   }
 
 }
 
 ppChordLine = \chordmode {
+    g4:m c f g:m
+    c2 d4:m g:m
+    g2.:m bf4
+    f g:m d2
 
-  d1:m |
-  c2 d2:m |
-  g1 |
-  c2 d2:m |
+    g4:m c f g:m
+    c2 d4:m g:m
+    g2.:m bf4
+    f2 g:m
 
-  d4:m c d2:m
-  c2 d2:m
-  c2 g2:m
-  g4 f4 c2
-
-  \repeat volta 2 {
-    c2 d1:m
-    c2
-  }
-
+    bf2 ef4 bf
+    f2 g:m
 }
 
 \include "music/include/fb_a1.ly"
+
+\markuplist { \wordwrap-lines { Music is based on Phalese's "Almande Courante", but the meter
+has been changed and the last measure has been removed to fit the dance. Additionally, measure 8 is an editorial change
+to better reflect the structure of Arbeau's version of the melody.
+  }  }
 
 \version "2.12.0"  % necessary for upgrading to future LilyPond versions.
 
