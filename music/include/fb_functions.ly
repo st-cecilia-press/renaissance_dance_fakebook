@@ -40,6 +40,7 @@ pndSource = \markup { Domenico da Piacenza, c. 1425 (PnD) }
 pngSource = \markup { Guglielmo Ebreo da Pesaro, 1463 (PnG) }
 brusselsSource = \markup { Brussels MS 9085, 15th C. }
 praetoriusSource = \markup { Michael Praetorius, \italic Terpsichore, 1612 }
+ravenscroftSource = \markup { Thomas Ravenscroft, \italic Deuteromelia, 1609 }
 susatoSource = \markup { Tylman Susato, \italic Danserye, 1551 }
 gresleySource = \markup { Gresley Manuscript, c. 1500 }
 byrdSource = \markup { William Byrd (c. 1540 - 1623) }
@@ -101,3 +102,6 @@ arthTagline = "Permission granted to copy within the SCA."
 
 gaitaCopyright = "© Gaïta / Chris Elmes"
 gaitaTagline = "Permission granted for not-for-profit use in the SCA."
+
+emmaCopyright = "© Emma Badowski, SCA Margaret Raynsford"
+emmaTagline = "Permission granted for non-commercial use with attribution (CC BY-NC-SA 3.0)"

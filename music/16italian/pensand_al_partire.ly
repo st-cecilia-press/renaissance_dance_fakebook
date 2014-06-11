@@ -124,7 +124,7 @@ ppMusicFour = \relative c {
 
 \include "music/include/fb_a1.ly"
 
-\markuplines { \wordwrap-lines {*: These notes were added from the original printed music
+\markuplist { \wordwrap-lines {*: These notes were added from the original printed music
 to better fit the choreography for Fra. Guillaume di San Marino's reconstruction.}  }
 
 \version "2.10.10"  % necessary for upgrading to future LilyPond versions.
