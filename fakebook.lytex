@@ -1848,6 +1848,7 @@ text
 	\lilypondfile{music/abominations/lightly_love.ly}
 	\end{minipage}
 
+\addcontentsline{toc}{chapter}{Index}
 
 \printindex{name}{Dances by Name}
 \printindex{dancers}{Dances by Number of Dancers}
