@@ -4,7 +4,7 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Trenchmore"
-  subsubtitle = "Tomorrow the fox will come to towne"
+  subsubtitle = \markup \italic "Tomorrow the fox will come to towne"
   subtitle = \markup \italic "longways for as many as will"
   poet = \ravenscroftSource
   tagline = ""

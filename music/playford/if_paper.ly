@@ -5,7 +5,7 @@ ppTempo = #(ly:make-moment 150 2)
 
   poet = \playfordSource
   title = "If all the World were Paper"
-  subsubtitle = \markup \italic "square for four couples"
+  subtitle = \markup \italic "square for four couples"
 %  composer = "arr. Monica Cellio"
   meter = "AA BB x 3"
 %  tagline = \monicaTagline

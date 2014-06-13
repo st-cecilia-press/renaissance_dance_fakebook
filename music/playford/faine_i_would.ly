@@ -4,7 +4,7 @@
 
   poet = \playfordSource
   title = "Faine I Would"
-  subsubtitle = \markup \italic "square for four couples"
+  subtitle = \markup \italic "square for four couples"
 %  composer = "arr. Kathy Van Stone"
   meter = "AA BB x 3"
 %  tagline = \vanstoneTagline

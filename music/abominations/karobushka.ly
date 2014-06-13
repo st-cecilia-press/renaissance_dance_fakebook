@@ -4,7 +4,7 @@ ppTempo = #(ly:make-moment 120 2)
 
 \header {
   title = "Karobushka"
-  subtitle = "for couples"
+  subtitle = \markup \italic "for couples"
   meter = "AA BB x 3"
   poet = "Ukranian Traditional"
 %  copyright = \butlerCopyright

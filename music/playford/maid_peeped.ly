@@ -1,6 +1,6 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Maid Peeped Out at the Window, or The Friar in the Well"
+	title = \markup \center-column { "Maid Peeped Out at the Window," "or The Friar in the Well" }
   subtitle = \markup \italic "longways for as many as will"
   meter = ""
   poet = \playfordSource

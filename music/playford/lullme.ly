@@ -5,7 +5,7 @@
 
   poet = \playfordSource
   title = "Lull Me Beyond Thee"
-  subsubtitle = \markup \italic "longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
 %  composer = "arr. Steven Hendricks"
   meter = "A BB x 3"
 %  tagline = \hendricksTagline
