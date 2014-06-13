@@ -599,8 +599,11 @@ text
 	\begin{minipage}{\columnwidth}
 	\index{name}{Fiore, Ballo del}
 	\index{name}{Ballo del Fiore}
+	\index{name}{Candlestick Bransle|see {Ballo del Fiore}}
+	\index{name}{Torch Bransle|see {Ballo del Fiore}}
 	\index{dancers}{2@Two People!Ballo del Fiore}
 	\index{dancers}{3@Three People!Ballo del Fiore}
+	\index{dancers}{2@Two or More People!Candlestick Bransle|see {Ballo del Fiore}}
 	\addcontentsline{toc}{section}{Ballo del Fiore}
 	\lilypondfile{music/16italian/fiore.ly}
 	\end{minipage}
@@ -670,7 +673,7 @@ text
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Rose e Viole}
-	\index{dancers}{13@I'm not completely sure!Rose e Viole}
+	\index{dancers}{2@Two People!Rose e Viole}
 	\addcontentsline{toc}{section}{Rose e Viole}
 	\lilypondfile{music/16italian/rose_e_viole.ly}
 	\end{minipage}
@@ -1854,7 +1857,7 @@ text
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Lightly Love}
-	\index{dancers}{13@I'm not completely sure!Lightly Love}
+	\index{dancers}{21@As Many as Will!Lightly Love}
 	\addcontentsline{toc}{section}{Lightly Love}
 	\lilypondfile{music/abominations/lightly_love.ly}
 	\end{minipage}

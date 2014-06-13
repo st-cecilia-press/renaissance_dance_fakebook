@@ -1,7 +1,7 @@
 \include "music/include/fb_functions.ly"
 \header{
   title = "Crossed Purposes"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for six couples"
   poet = "Johann Sebastien Bach for dance by Master Sean Andreas O Wynedd"
   tagline = ""
 }
