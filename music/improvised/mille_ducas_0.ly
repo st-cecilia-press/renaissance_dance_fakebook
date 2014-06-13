@@ -4,8 +4,8 @@ ppTempo = #(ly:make-moment 60 2)
 
 
 \header{
-  title = "Pavane"
-  subtitle = \markup \italic "Mille ducas"
+  title = "Pavane: Mille Ducas"
+  subtitle = \markup \italic "for couples"
   poet = \susatoSource
   tagline = ""
 }

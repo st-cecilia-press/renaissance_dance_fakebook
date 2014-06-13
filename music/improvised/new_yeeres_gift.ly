@@ -3,10 +3,10 @@
 ppTempo = #(ly:make-moment 180 4)
 
 \header{
-  title = "Galliard"
-  subtitle = \markup \italic "The New-Yeere's Gift"
+  title = "Galliard: The New-Yeere's Gift"
+  subtitle = \markup \italic "for couples"
   poet = "Anthony Holborne, 1599"
-  tagline = "CC-NC-BY-SA - Originally transcribed by Ulrich Alpers"
+%  tagline = "CC-NC-BY-SA - Originally transcribed by Ulrich Alpers"
 }
 
 global= {

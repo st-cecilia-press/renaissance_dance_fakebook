@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Jack A Lent"
+  subtitle = \markup \italic "longways for three couples"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

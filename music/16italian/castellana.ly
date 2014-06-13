@@ -4,7 +4,7 @@ ppTempo = #(ly:make-moment 330 4)
 
 \header{
   title = "La Castellana"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for couples"
   meter = "AABBCC x 3"
   poet = \carosoSourceBalarino
   composer = "arr. Aaron Elkiss"

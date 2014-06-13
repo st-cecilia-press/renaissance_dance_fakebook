@@ -6,10 +6,10 @@ ppTempo = #(ly:make-moment 60 2)
   title = "Belfiore"
   subtitle = \markup \italic "for three"
   poet = \pndSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = "One dance: AAA BBB CCC DDD EEE F. Play: 3 dances."
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
   piece = "Drone: G/D"
 }
 

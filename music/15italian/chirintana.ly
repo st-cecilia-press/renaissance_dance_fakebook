@@ -2,14 +2,15 @@
 \include "english.ly"
 \header{
   title = "Chirintana"
-  subtitle = "T'Andernaken / Laet Ons Mit Hartzen"
+  subtitle = \markup \italic "for couples"
+  subsubtitle = \markup \italic "T'Andernaken / Laet Ons Mit Hartzen"
   poet = "Emma Badowski, based on anonymous 15th C. Dutch melodies"
   meter = "AABB; repeat C until done"
   piece = "Drone: D/A"
-  tagline = \emmaTagline
-  copyright = \emmaCopyright
+%  tagline = \emmaTagline
+%  copyright = \emmaCopyright
 }
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 150 4)
 
 global= {

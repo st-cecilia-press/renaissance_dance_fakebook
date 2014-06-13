@@ -4,11 +4,11 @@
 
   poet = \playfordSource
   title = "Faine I Would"
-  subsubtitle = \markup \italic "Square for four couples"
-  composer = "arr. Kathy Van Stone"
+  subsubtitle = \markup \italic "square for four couples"
+%  composer = "arr. Kathy Van Stone"
   meter = "AA BB x 3"
-  tagline = \vanstoneTagline
-  copyright = \vanstoneCopyright
+%  tagline = \vanstoneTagline
+%  copyright = \vanstoneCopyright
 }
 \include "english.ly"
 ppTempo = #(ly:make-moment 150 2)

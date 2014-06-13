@@ -4,7 +4,7 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Volte (CCX)"
-%  subtitle = \markup \italic "Couples"
+  subtitle = \markup \italic "for couples"
   poet = \praetoriusSource
   composer = ""
   tagline = ""

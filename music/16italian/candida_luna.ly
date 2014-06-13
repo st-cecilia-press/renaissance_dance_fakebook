@@ -3,11 +3,11 @@
 \header{
   title = "Candida Luna"
   poet = \carosoSourceBalarino
-  subtitle = \markup \italic "Cascarda"
-  composer = "arr. Aaron Elkiss"
+  subtitle = \markup \italic "for couples"
+%  composer = "arr. Aaron Elkiss"
   meter = "AA BB CC x 3"
-  tagline = \aaronTagline
-  copyright = \aaronCopyright
+%  tagline = \aaronTagline
+%  copyright = \aaronCopyright
 }
 ppTempo = #(ly:make-moment 300 4)
 

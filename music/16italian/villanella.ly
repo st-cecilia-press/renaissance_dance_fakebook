@@ -11,12 +11,12 @@ global= {
 
 \header{
   title = "Villanella"
-  subtitle = \markup \italic "Balletto"
+  subtitle = \markup \italic "for couples"
   meter = "AABB x 6 (fast) or AABB x 3 (slow)"
   poet = \carosoSourceBalarino
-  composer = "arr. Kathy Van Stone"
-  copyright = \vanstoneCopyright
-  tagline = \vanstoneTagline
+%  composer = "arr. Kathy Van Stone"
+%  copyright = \vanstoneCopyright
+%  tagline = \vanstoneTagline
 }
 
 

@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Lightly Love (to Light of Love, or Earl of Bedford)"
-  subtitle = \markup \italic "Longways for as many as will"
+  subtitle = \markup \italic "longways for as many as will"
   meter = "One round: AA BBB BBB; end with AA BB"
   poet = "16th. C English"
-  composer = "arr. Paul Butler"
-  tagline = \butlerTagline
-  copyright = \butlerCopyright
+%  composer = "arr. Paul Butler"
+%  tagline = \butlerTagline
+%  copyright = \butlerCopyright
 }
 
 global = {

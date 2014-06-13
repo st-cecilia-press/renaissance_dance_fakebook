@@ -6,11 +6,11 @@ ppTempo = #(ly:make-moment 100 2)
 
   poet = \markup { "John Playford," \italic "The Dancing Master," "1670" }
   title = "Black Nag"
-  subsubtitle = \markup \italic "Longways for three couples"
-  composer = "arr. Jay Ter Louw"
+  subtitle = \markup \italic "longways for three couples"
+%  composer = "arr. Jay Ter Louw"
   meter = "AA BB x 3"
-  copyright = \octavioCopyright
-  tagline = \octavioTagline
+%  copyright = \octavioCopyright
+%  tagline = \octavioTagline
 }
 
 ppChordLine = \chordmode {

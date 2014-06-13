@@ -1,30 +1,29 @@
 \include "music/include/fb_functions.ly"
-%#(set-default-paper-size "letter")
-ppTempo = #(ly:make-moment 80 2)
-
 
 \header{
   title = "Ly Bens Distonys"
-  subtitle = \markup \italic "for Two"
-  poet = "Gresley Manuscript, c. 1500"
-  composer = ""
+  poet = \gresleySource
+  subtitle = \markup \italic "for two"
+%  composer = "arr. Kathy Van Stone"
   meter = "ABBC or ABC"
-  tagline = ""
+%  tagline = \vanstoneTagline
+%  copyright = \vanstoneCopyright
 }
 
-global= {
-  \key g \major
+ppTempo = #(ly:make-moment 200 4)
+\include "english.ly"
+
+global = {
   \time 6/8
-}
-
-ppChordLine = \chordmode {
+  \key g \major
 
 }
 
-ppMusicOne = \relative c' {
+ppMusicOne = \relative c'' {
+  \clef treble
 
   \ppMark
-  b'4.^\markup{Drone: G/D} a4 b8 |
+  b4. a4 b8 |
   c4 b8 a4 g8 |
   b4. a4 b8 |
   c4 a8 g4. | 
@@ -46,12 +45,67 @@ ppMusicOne = \relative c' {
   b4 b8 a4 b8 | 
   c4 b8 a4 g8 |
   b4 b8 a4 b8 |
-  c4 a8 g4. \bar "|."
-
+  c4 a8 g4.
 
 }
 
 
+ppMusicTwo = \relative c' {
+  \clef treble
+
+  d4 e8 fs4 g8 |
+  g4 g8 fs4 e8 |
+  d4 e8 fs4 g8 |
+  g8 d4 d4. 
+
+    d4 e8 fs4 a8 |
+    g4. fs |
+    g4 c8 b4 a8 |
+    g4 e8 fs4. |
+    g4 e8 fs4 a8 |
+    g4. fs4 fs8 |
+    g4 g8 g d4 |
+    d2.
+
+  d4 e8 fs4 g8 | 
+  g4 g8 fs4 e8 |
+  d4 e8 fs4 g8 |
+  g8 d4 d4.
+}
+
+ppMusicThree = \relative c' {
+  \clef "G_8"
+  g4. a4 g8 |
+  e4. fs |
+  g a4 g8 |
+  e4 fs8 g4.
+
+    g4. d' c d |
+    b4 c8 d4.
+    c d |
+    g, d' |
+    c d |
+    e e,4 fs8 |
+    g2.
+
+  g4. a4 g8 |
+  e4. fs |
+  g a4 g8 |
+  e4 fs8 g4. \bar "|."
+
+}
+
+
+ppChordLine = \chordmode {
+
+  g4. d c d g d c g
+  g d c d g d c d
+  g d c d c2. g
+  g4. d c d g d c g
+
+}
+
 \include "music/include/fb_a1.ly"
 
-\version "2.10.10"  % necessary for upgrading to future LilyPond versions.
+\version "2.12.3"
+

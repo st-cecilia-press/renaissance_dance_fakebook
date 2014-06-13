@@ -10,9 +10,9 @@ ppTempo = #(ly:make-moment 100 2)
   subtitle = \markup \italic "for two couples facing"
   meter = "ABB x 3"
   poet = \playfordSource
-  composer = "arr. David Yardley"
-  tagline = \yardleyTagline
-  copyright = \yardleyCopyright
+%  composer = "arr. David Yardley"
+%  tagline = \yardleyTagline
+%  copyright = \yardleyCopyright
 }
 
 global= {

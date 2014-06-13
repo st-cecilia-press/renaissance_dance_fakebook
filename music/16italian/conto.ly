@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Il Conto Dell'Orco"
-  subtitle = \markup \italic "Balletto"
+  subtitle = \markup \italic "for couples"
   poet = \carosoSourceBalarino
-  composer = "arr. Katrina Hunt"
+%  composer = "arr. Katrina Hunt"
   meter = "(AABB)x2 Cx2 or 3"
-  tagline = \katrinaTagline
-  copyright = \katrinaCopyright
+%  tagline = \katrinaTagline
+%  copyright = \katrinaCopyright
 }
 
 global= {

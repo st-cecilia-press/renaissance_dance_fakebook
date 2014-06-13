@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Cast A Bell"
+  subtitle = \markup \italic "longways for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

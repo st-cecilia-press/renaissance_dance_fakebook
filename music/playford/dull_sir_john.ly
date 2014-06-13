@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Dull Sir John"
+  subtitle = \markup \italic "square for four couples"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

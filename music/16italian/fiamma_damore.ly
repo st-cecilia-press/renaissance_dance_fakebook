@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 140 2)
 
 \header{
   title = "Fiamma d'Amore"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for couples"
   meter = "AA B x 4"
   poet = \carosoSourceBalarino
-  composer = "arr. Katrina Hunt"
-  tagline = \katrinaTagline
-  copyright = \katrinaCopyright
+%  composer = "arr. Katrina Hunt"
+%  tagline = \katrinaTagline
+%  copyright = \katrinaCopyright
 }
 
 global= {

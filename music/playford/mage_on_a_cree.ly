@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 140 2)
 
 \header{
   title = "Mage on a Cree"
-  subtitle = \markup \italic "Round for four couples"
+  subtitle = \markup \italic "round for four couples"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = "14 or 12 times through"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

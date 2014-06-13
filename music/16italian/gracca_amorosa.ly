@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 140 2)
 
 \header{
   title = "Gracca Amorosa"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for couples"
   meter = "ABB x 5"
   poet = \carosoSourceBalarino
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

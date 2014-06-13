@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Soldier's Life"
+  subtitle = \markup \italic "longways for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

@@ -1,8 +1,8 @@
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{
-  title = "Courante CXLII à 4"
-  subtitle = \markup \italic "So ben mi ch'ha bon tempo"
+  title = "Courante CXLII à 4: So ben mi ch'ha bon tempo"
+  subtitle = \markup \italic "for couples"
   poet = \praetoriusSource
   tagline = ""
 }

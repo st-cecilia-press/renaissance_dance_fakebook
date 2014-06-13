@@ -6,12 +6,12 @@ ppTempo = #(ly:make-moment 90 2)
 
 \header{
   title = "Furioso all'Italiana"
-  subtitle = \markup \italic "Balletto for three couples"
+  subtitle = \markup \italic "for three couples"
   poet = \carosoSourceNobilta
-  composer = "arr. Al Cofrin"
+%  composer = "arr. Al Cofrin"
   meter = "Ax10 Bx3 C Bx2 C B"
-  tagline = \avatarTagline
-  copyright = \avatarCopyright
+%  tagline = \avatarTagline
+%  copyright = \avatarCopyright
 }
 
 global= {

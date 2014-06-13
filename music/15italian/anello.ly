@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 115 4)
 \header{
   title = "Anello"
   poet = \pndSource
-%  subtitle = \markup \italic "for couples"
-  composer = "arr. Monica Cellio"
+  subtitle = \markup \italic "for two couples"
+%  composer = "arr. Monica Cellio"
   meter = "One dance: once through. Play: two dances."
   piece = "Drone: F/C"
-  copyright = \monicaCopyright
-  tagline = \monicaTagline
+%  copyright = \monicaCopyright
+%  tagline = \monicaTagline
 }
 
 global= {

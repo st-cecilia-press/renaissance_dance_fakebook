@@ -5,9 +5,9 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Sofferance"
-  subtitle = \markup \italic "for Two"
-  poet = "Gresley Manuscript, c. 1500"
-  composer = "Richard Schweitzer"
+  subtitle = \markup \italic "for two"
+%  poet = "Gresley Manuscript, c. 1500"
+  poet = "Richard Schweitzer"
   meter = "AAA BB CC DD EE"
   tagline = "Permission granted to copy within the SCA."
 }

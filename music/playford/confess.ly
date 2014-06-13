@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 80 1)
 
 \header{
   title = "Confess (his tune)"
-  subtitle = \markup \italic "Two Lords and Four Ladies"
+  subtitle = \markup \italic "for two lords and four ladies"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = "ABB"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 \include "english.ly"

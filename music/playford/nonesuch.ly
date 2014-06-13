@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Nonesuch"
-  subtitle = \markup \italic "Longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = "9 times through (or sometimes 11 or 15)"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

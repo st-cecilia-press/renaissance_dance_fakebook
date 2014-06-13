@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Jamaica"
-  subtitle = \markup \italic "Longways for as many as will"
+  subtitle = \markup \italic "longways for as many as will"
   meter = "A BB = one progression"
   poet = \markup { "John Playford," \italic "The Dancing Master," "1670" }
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

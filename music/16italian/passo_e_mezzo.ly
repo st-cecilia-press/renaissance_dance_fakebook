@@ -2,15 +2,16 @@
 \include "english.ly"
 \header{
   title = "Passo e Mezzo"
+  subtitle = \markup \italic "for one or three couples"
   meter = \markup \column { 
     "for Passo e Mezzo: 11 times through" 
     "for Dolce Amoroso Fuoco: 5 times through"
-    "for Ardente Sola: 7 times through"
+    "for Ardente Sole: 7 times through"
   }
   poet = \carosoSourceBalarino
-  composer = "arr. Dave Lankford"
-  tagline = \arthTagline
-  copyright = \arthCopyright
+%  composer = "arr. Dave Lankford"
+%  tagline = \arthTagline
+%  copyright = \arthCopyright
 }
 ppTempo = #(ly:make-moment 180 4)
 

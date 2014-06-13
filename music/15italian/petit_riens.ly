@@ -7,9 +7,9 @@ ppTempo = #(ly:make-moment 180 4)
   subtitle = \markup \italic "for three"
   poet = \pnaSource
   meter = "One dance: AAB; play 3 dances"
-  composer = "arr. Monica Cellio"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  composer = "arr. Monica Cellio"
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
   piece = "Drone: G/D"
 }
 

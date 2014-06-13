@@ -9,12 +9,12 @@ global= {
 
 \header{
   title = "Tom Tinker"
-  subtitle = \markup \italic "Longways for as many as well"
+  subtitle = \markup \italic "longways for as many as will"
   meter = "AABB x many"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 

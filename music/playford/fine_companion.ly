@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "The Fine Companion"
-  subtitle = \markup \italic "Square for four couples"
+  subtitle = \markup \italic "square for four couples"
   poet = \playfordSource
-  composer = "arr. Paul Butler"
+%  composer = "arr. Paul Butler"
   meter = "AABB x 3"
-  tagline = \butlerTagline
-  copyright = \butlerCopyright
+%  tagline = \butlerTagline
+%  copyright = \butlerCopyright
 }
 
 global= {

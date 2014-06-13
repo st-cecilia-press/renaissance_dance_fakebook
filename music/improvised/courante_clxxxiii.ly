@@ -3,8 +3,8 @@ ppTempo = #(ly:make-moment 180 4)
 
 \include "english.ly"
 \header{
-  title = "Courante CLXXXIII à 4"
-  subtitle = \markup \italic "Entree Courante"
+  title = "Courante CLXXXIII à 4: Entree Courante"
+  subtitle = \markup \italic "for couples"
   poet = \praetoriusSource
   tagline = ""
 }

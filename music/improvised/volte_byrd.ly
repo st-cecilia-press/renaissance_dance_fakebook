@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "La Volta"
-%  subtitle = \markup \italic "Couples"
+  subtitle = \markup \italic "for couples"
   poet = \byrdSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

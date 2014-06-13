@@ -144,7 +144,7 @@ bassusWhirligig = \relative c {
     >>
     \header{
       title = "Woodycock"
-      subtitle = \markup \italic "Longways for three couples"
+      subtitle = \markup \italic "longways for three couples"
       poet = \playfordSource
       meter = "For Whirlygig: Woodycock (A BB)x3 A Whirlygig (AA BB)x3 AA Woodycock (A BB)x3 A"
     }
@@ -183,7 +183,7 @@ bassusWhirligig = \relative c {
     >>
         \header{
           title = "Whirlygig"
-          subtitle = \markup \italic "Longways for three couples"
+          subtitle = \markup \italic "longways for three couples"
           poet = \playfordSource
         }
 
@@ -192,20 +192,20 @@ bassusWhirligig = \relative c {
   }
 
 
-\paper {
-  oddFooterMarkup = \markup {
-      \column{
-        \fill-line {  \octavioCopyright }
-        \fill-line {  \octavioTagline }
-      }
-  }
-  evenFooterMarkup = \markup {
-      \column{
-        \fill-line {  \hendricksCopyright }
-        \fill-line {  \hendricksTagline }
-      }
-  }
-}
+%\paper {
+%  oddFooterMarkup = \markup {
+%      \column{
+%        \fill-line {  \octavioCopyright }
+%        \fill-line {  \octavioTagline }
+%      }
+%  }
+%  evenFooterMarkup = \markup {
+%      \column{
+%        \fill-line {  \hendricksCopyright }
+%        \fill-line {  \hendricksTagline }
+%      }
+%  }
+%}
 
 
 \version "2.10.10"  % necessary for upgrading to future LilyPond versions.

@@ -7,13 +7,13 @@ ppTempo = #(ly:make-moment 80 2)
 \include "english.ly"
 \header{
   title = "Contrapasso Nuovo"
-  subtitle = \markup \italic "Balletto"
-%  subtitle = \markup \italic "for couples"
+%  subtitle = \markup \italic "Balletto"
+  subtitle = \markup \italic "for couples"
   poet = \carosoSourceNobilta
-  composer = "arr. Kathy Van Stone"
+%  composer = "arr. Kathy Van Stone"
   meter = "AAA BBB AA BBB (for Contrapasso in Due)"
-  tagline = \vanstoneTagline
-  copyright = \vanstoneCopyright
+%  tagline = \vanstoneTagline
+%  copyright = \vanstoneCopyright
 }
 
 global= {

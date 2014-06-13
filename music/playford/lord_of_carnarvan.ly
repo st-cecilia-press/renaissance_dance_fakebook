@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 120 2)
 
 \header{
   title = "Lord of Carnarvan's Jig"
-  subtitle = \markup \italic "Longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
   meter = "8 times through"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

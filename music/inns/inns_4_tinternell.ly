@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Tinternell"
+  subtitle = \markup \italic "for couples"
   meter = "A BB C AAA BB C"
   poet = "Dallis Lute Book, c.1583"
-  composer = "arr. Joseph Casazza"
-  copyright = \casazzaCopyright
-  tagline = \casazzaTagline
+%  composer = "arr. Joseph Casazza"
+%  copyright = \casazzaCopyright
+%  tagline = \casazzaTagline
 }
 
 global = {

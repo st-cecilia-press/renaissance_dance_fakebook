@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 224 4)
 
 \header{
   title = "Vita di Cholino"
-  subtitle = \markup \italic "for a lord between 2 ladies"
-  arranger = "modified by V. Stephens from \"La Vida de Culin\""
-  composer = "arr. Monica Cellio"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+  subtitle = \markup \italic "for three"
+  poet = "modified by V. Stephens from \"La Vida de Culin\""
+%  composer = "arr. Monica Cellio"
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
   meter = "One dance: 5 times through. Play: two dances."
 }
 

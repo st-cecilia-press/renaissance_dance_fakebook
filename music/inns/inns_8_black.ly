@@ -4,10 +4,11 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Black Alman"
+  subtitle = \markup \italic "for couples"
   poet = "Melody from R.C.M Ms. 1119"
-  composer = "arr. Robert Stockton"
-  tagline = \stocktonTagline
-  copyright = \stocktonCopyright
+%  composer = "arr. Robert Stockton"
+%  tagline = \stocktonTagline
+%  copyright = \stocktonCopyright
 }
 
 global= {

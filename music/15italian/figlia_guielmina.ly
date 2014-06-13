@@ -6,13 +6,13 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Figlia di Guielmina"
-  %  subtitle = \markup \italic "for couples"
+  subtitle = \markup \italic "for couples"
   poet = \pndSource
   piece = "Drone: D/A"
-  composer = "arr. Al Cofrin"
+%  composer = "arr. Al Cofrin"
   meter = "AABCDE x 2"
-  tagline = \avatarTagline
-  copyright = \avatarCopyright
+%  tagline = \avatarTagline
+%  copyright = \avatarCopyright
 }
 
 global= {

@@ -1,13 +1,13 @@
 \include "music/include/fb_functions.ly"
 \include "english.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Bransle de la Montarde"
-  subtitle = \markup \italic "for sets of 4 (or more)"
+  subtitle = \markup \italic "for sets of four (or more)"
   poet = "Pierre Phalese, 1571"
-  tagline = \emmaTagline
+%  tagline = \emmaTagline
 }
 
 global= {

@@ -9,12 +9,12 @@ global= {
 
 \header{
   title = "Cantiga 119"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for couples"
   meter = ""
   poet = "Alfonso X- 13th Century Spanish"
-  composer = "arr. Jay Ter Louw"
-  copyright = \octavioCopyright
-  tagline = \octavioTagline
+%  composer = "arr. Jay Ter Louw"
+%  copyright = \octavioCopyright
+%  tagline = \octavioTagline
 }
 
 

@@ -5,11 +5,11 @@ ppTempo = #(ly:make-moment 60 2)
 \header{
   title = "Rostiboli Gioioso"
   poet = \pngSource
-%  subtitle = \markup \italic "for couples"
-  composer = "arr. Aaron Pavao"
+  subtitle = \markup \italic "for two or three"
+%  composer = "arr. Aaron Pavao"
   meter = "One dance: AA BB CC DD. Play: two dances."
-  tagline = \pavaoTagline
-  copyright = \pavaoCopyright
+%  tagline = \pavaoTagline
+%  copyright = \pavaoCopyright
 }
 
 global= {

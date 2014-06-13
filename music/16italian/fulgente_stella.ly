@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 200 4)
 
 \header{
   title = "Fulgente Stella"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for one or two couples"
   meter = "AABB x4"
   poet = \carosoSourceBalarino
-  composer = "arr. Aaron Elkiss"
-  tagline = \aaronTagline
-  copyright = \aaronCopyright
+%  composer = "arr. Aaron Elkiss"
+%  tagline = \aaronTagline
+%  copyright = \aaronCopyright
 }
 
 global= {

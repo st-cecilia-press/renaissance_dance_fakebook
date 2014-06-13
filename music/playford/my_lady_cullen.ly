@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "My Lady Cullen"
-  subtitle = \markup \italic "Longways for as many as will"
+  subtitle = \markup \italic "longways for as many as will"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = "AABB x 4 = one progression"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Maiden Fair" %Once I Loved A Maiden Fair
+	title = "Once I Loved a Maiden Fair"
+  subtitle = \markup \italic "longways for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

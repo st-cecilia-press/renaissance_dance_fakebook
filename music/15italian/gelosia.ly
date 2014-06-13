@@ -5,12 +5,12 @@
 
 \header{
   title = "Gelosia"
-  subtitle = \markup \italic "Longways for 3 couples"
+  subtitle = \markup \italic "for 3 couples"
   poet = \pndSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = "One dance: AAA B CC D EE FFF GG. Play: 3 dances."
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
   piece = "Drone: G/D"
 }
 ppTempo = #(ly:make-moment 90 4)

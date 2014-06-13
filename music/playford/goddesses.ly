@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 68 2)
 
 \header{
   title = "Goddesses"
-  subtitle = \markup \italic "Longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
   meter = "AA BB x 11"
   poet = \playfordSource
-  composer = "arr. Kathy Van Stone"
-  tagline = \vanstoneTagline
-  copyright = \vanstoneCopyright
+%  composer = "arr. Kathy Van Stone"
+%  tagline = \vanstoneTagline
+%  copyright = \vanstoneCopyright
 }
 
 global= {

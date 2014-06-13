@@ -7,9 +7,9 @@ ppTempo = #(ly:make-moment 100 2)
   subtitle = \markup \italic "for two couples facing"
   meter = "AA BB x 3"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  composer = "arr. Jay Ter Louw"
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

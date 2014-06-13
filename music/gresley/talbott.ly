@@ -4,7 +4,8 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Talbott"
-  poet = "Gresley Manuscript, c. 1500"
+  subtitle = \markup \italic "for two"
+  poet = \gresleySource %"Gresley Manuscript, c. 1500"
   tagline = ""
   piece = "Drone: F/C"
 }

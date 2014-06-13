@@ -5,12 +5,12 @@ ppTempo = #(ly:make-moment 80 2)
 \include "english.ly"
 \header{
   title = "Torneo Amoroso"
-%  subtitle = \markup \italic "for couples"
+  subtitle = \markup \italic "for couples"
   poet = \negriSource
-  composer = "arr. Katrina Hunt"
+%  composer = "arr. Katrina Hunt"
   meter = "(AABBCC)x2 DDEEFFGGHHJJ"
-  tagline = \katrinaTagline
-  copyright = \katrinaCopyright
+%  tagline = \katrinaTagline
+%  copyright = \katrinaCopyright
 }
 
 global= {

@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Sellinger's Round"
-  subtitle = \markup \italic "Round for as many as will"
+  subtitle = \markup \italic "round for as many as will"
   meter = "AA BB x 4"
   poet = \byrdSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

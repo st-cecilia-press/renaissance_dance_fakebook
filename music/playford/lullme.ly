@@ -5,11 +5,11 @@
 
   poet = \playfordSource
   title = "Lull Me Beyond Thee"
-  subsubtitle = \markup \italic "Longways for four couples"
-  composer = "arr. Steven Hendricks"
+  subsubtitle = \markup \italic "longways for four couples"
+%  composer = "arr. Steven Hendricks"
   meter = "A BB x 3"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 \include "english.ly"
 ppTempo = #(ly:make-moment 100 2)

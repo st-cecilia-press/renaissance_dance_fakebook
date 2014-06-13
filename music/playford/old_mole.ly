@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Old Mole"
-  subtitle = \markup \italic "Longways for three couples"
+  subtitle = \markup \italic "longways for three couples"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
+%  composer = "arr. Jay Ter Louw"
   meter = "11 times through"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

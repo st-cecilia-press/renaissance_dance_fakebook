@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Gathering Peascods"
-  subtitle = \markup \italic "Round for as many as will"
+  subtitle = \markup \italic "round for as many as will"
   meter = "AA BB CC x 3"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

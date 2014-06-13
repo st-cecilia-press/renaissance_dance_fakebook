@@ -4,9 +4,10 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Quadran Pavane"
+  subtitle = \markup \italic "for couples"
   meter = "Play once through."
-  poet = "Melody from R.C.M. Ms. 1119"
-  composer = "arr. Kristina Pereyra"
+  poet = "R.C.M. Ms. 1119"
+%  composer = "arr. Kristina Pereyra"
   tagline = ""
 }
 

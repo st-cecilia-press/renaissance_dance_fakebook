@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "All in a Garden Green"
-  subtitle = \markup \italic "Longways for Three Couples"
+  subtitle = \markup \italic "longways for three couples"
   meter = "AA BB x 3"
   poet = \playfordSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

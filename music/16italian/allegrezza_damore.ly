@@ -5,12 +5,12 @@ ppTempo = #(ly:make-moment 120 2)
 
 \header{
   title = "Allegrezza d'Amore"
-  subtitle = \markup \italic "Cascarda for three"
+  subtitle = \markup \italic "for three"
   poet = \carosoSourceBalarino
-  composer = "arr. Monique Rio"
+%  composer = "arr. Monique Rio"
   meter = ""
-  tagline = \jadwigaTagline
-  copyright = \jadwigaCopyright
+%  tagline = \jadwigaTagline
+%  copyright = \jadwigaCopyright
 }
 
 global= {

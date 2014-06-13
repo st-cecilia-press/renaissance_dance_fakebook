@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Saturday Night & Sunday Morning"
+	title = "Saturday Night and Sunday Morn"
+  subtitle = \markup \italic "longways for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Old Alman"
+  subtitle = \markup \italic "for couples"
   meter = "AAB x2"
   poet = \markup{Anthony Holborne, \italic "The Cittharn Schoole," 1597}
-  composer = "arr. Paul Butler"
-  tagline = \butlerTagline
-  copyright = \butlerCopyright
+%  composer = "arr. Paul Butler"
+%  tagline = \butlerTagline
+%  copyright = \butlerCopyright
 }
 
 

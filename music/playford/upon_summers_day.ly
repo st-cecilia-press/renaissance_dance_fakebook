@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 200 4)
 \header{
   title = "Upon a Summer's Day"
   poet = \playfordSource
-  subtitle = \markup \italic "Longways for three couples"
-  composer = "arr. Jay Ter Louw"
+  subtitle = \markup \italic "longways for three couples"
+%  composer = "arr. Jay Ter Louw"
   meter = "AABBB x 3"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global = {

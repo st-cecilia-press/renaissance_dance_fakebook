@@ -2,10 +2,11 @@
 \include "english.ly"
 \header{
   title = "Rose e Viole"
+  subtitle = \markup \italic "for couples"
   poet = "attrib. Antonio Casteliono, 1536"
-  composer = "arr. Paul Butler"
-  tagline = \butlerTagline
-  copyright = \butlerCopyright
+%  composer = "arr. Paul Butler"
+%  tagline = \butlerTagline
+%  copyright = \butlerCopyright
   meter = "AABB"
 }
 ppTempo = #(ly:make-moment 200 4)

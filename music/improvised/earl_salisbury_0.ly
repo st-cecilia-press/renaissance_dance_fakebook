@@ -4,10 +4,10 @@ ppTempo = #(ly:make-moment 60 2)
 
 
 \header{
-  title = "Pavane"
-  subtitle = \markup \italic "Earl of Salisbury"
+  title = "Pavane: Earl of Salisbury"
+  subtitle = \markup \italic "for couples"
   poet = \byrdSource
-  arranger = \markup { Arr. Aaron Elkiss based on anthem “Lord, make me to know” }
+%  arranger = \markup { Arr. Aaron Elkiss based on anthem “Lord, make me to know� }
   meter = "AABB x 2"
   tagline = ""
 }

@@ -7,10 +7,10 @@ ppTempo = #(ly:make-moment 60 2)
   title = "Glory of the West"
   subtitle = \markup \italic "for two couples facing"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
+%  composer = "arr. Jay Ter Louw"
   meter = "AABB x 3 or AAB x 3"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

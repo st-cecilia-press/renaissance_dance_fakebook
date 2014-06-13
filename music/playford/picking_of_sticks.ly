@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 300 4)
 
 \header{
   title = "Picking of Sticks"
-  subtitle = \markup \italic "Longways for three couples"
+  subtitle = \markup \italic "longways for three couples"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = \markup{\bold{Note Roadmap:} Ax7 Bx3 Ax7}
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

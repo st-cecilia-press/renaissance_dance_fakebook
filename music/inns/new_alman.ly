@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "New Alman"
+  subtitle = \markup \italic "for couples"
   meter = "ABB"
   poet = "Bernard Schmid (c. 1577)" 
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

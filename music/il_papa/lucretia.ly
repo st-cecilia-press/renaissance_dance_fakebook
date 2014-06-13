@@ -5,9 +5,9 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Lucretia"
-  subtitle = \markup \italic "For Three"
-  poet = "Il Papa Manuscript, Giovannino"
-  composer = "Nathan Kronenfeld" %SCA Daniele da Padola
+  subtitle = \markup \italic "for three"
+%  poet = "Il Papa Manuscript, Giovannino"
+  poet = "Nathan Kronenfeld" %SCA Daniele da Padola
   meter = "AA B CC x5"
   tagline = "" %CC0??
 }

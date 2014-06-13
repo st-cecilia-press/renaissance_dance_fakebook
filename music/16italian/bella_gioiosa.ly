@@ -9,12 +9,12 @@ global= {
 
 \header{
   title = "Bella Gioiosa"
-  subtitle = \markup \italic "Cascarda for three"
+  subtitle = \markup \italic "for three"
   meter = "AA BBC x 7 (or sometimes AA BBC AA x 6)"
   poet = \carosoSourceBalarino
-  composer = "arr. Steven Hendricks"
-  copyright = \hendricksCopyright
-  tagline = \hendricksTagline
+%  composer = "arr. Steven Hendricks"
+%  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
 }
 
 

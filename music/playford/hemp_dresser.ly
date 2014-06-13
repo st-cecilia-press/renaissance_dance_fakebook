@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Hemp Dresser, or The London Gentlewoman" % or The London Maid
+	title = "Hemp Dresser, or The London Gentlewoman"
+  subtitle = \markup \italic "longways for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

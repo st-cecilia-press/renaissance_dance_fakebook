@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 140 2)
 
 \header{
   title = "Half Hannikin"
-  subtitle = \markup \italic "Longways for as many as will"
+  subtitle = \markup \italic "longways for as many as will"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

@@ -4,6 +4,7 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Madam Sosilia's Alman"
+  subtitle = \markup \italic "for couples"
   meter = "AABB x2"
   poet = "Joseph Casazza"
   tagline = \casazzaTagline

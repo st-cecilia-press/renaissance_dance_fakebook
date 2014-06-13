@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Bransle Official"
-  subtitle = ""
+  subtitle = \markup \italic "for as many as will"
   poet = \arbeauSource
-  composer = "arr. Russell G. Almond"
-  tagline = \almondTagline
-  copyright = \almondCopyright
+%  composer = "arr. Russell G. Almond"
+%  tagline = \almondTagline
+%  copyright = \almondCopyright
 }
 
 global= {

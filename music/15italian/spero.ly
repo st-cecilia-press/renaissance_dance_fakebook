@@ -3,13 +3,13 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Spero"
-%  subtitle = \markup \italic "for couples"
+  subtitle = \markup \italic "for couples"
   poet = \pngSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = "AABBCDEF X2"
   piece = "Drone: F/C"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 150 2)
 
 \header{
   title = "The New Bo Peep"
-  subtitle = \markup \italic "Longways for as many as will"
+  subtitle = \markup \italic "longways for as many as will"
   meter = "AABB x 3"
   poet = \playfordSource
-  composer = "arr. Monica Cellio"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  composer = "arr. Monica Cellio"
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

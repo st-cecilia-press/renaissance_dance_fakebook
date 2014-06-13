@@ -5,11 +5,11 @@ ppTempo = #(ly:make-moment 300 4)
 \header{
   title = "Fedelta"
   poet = \carosoSourceBalarino
-  subtitle = \markup \italic "Cascarda"
-  composer = "arr. Aaron Elkiss"
+  subtitle = \markup \italic "for couples in a circle"
+%  composer = "arr. Aaron Elkiss"
   meter = "AAB x 3"
-  tagline = \aaronTagline
-  copyright = \aaronCopyright
+%  tagline = \aaronTagline
+%  copyright = \aaronCopyright
 }
 
 global = \transpose ees d {

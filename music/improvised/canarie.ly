@@ -2,6 +2,7 @@
 \include "english.ly"
 \header{
   title = "La Canarie"
+  subtitle =  \markup \italic "for couples"
   poet = \praetoriusSource
   tagline = ""
 }

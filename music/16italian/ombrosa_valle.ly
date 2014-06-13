@@ -2,12 +2,12 @@
 \include "english.ly"
 \header{
   title = "Ombrosa Valle"
-  subtitle = \markup \italic "Balletto"
+  subtitle = \markup \italic "for couples"
   meter = "AB x 7"
   poet = \carosoSourceBalarino
-  composer = "arr. Aaron Elkiss"
-  tagline = \aaronTagline
-  copyright = \aaronCopyright
+%  composer = "arr. Aaron Elkiss"
+%  tagline = \aaronTagline
+%  copyright = \aaronCopyright
 }
 ppTempo = #(ly:make-moment 180 4)
 

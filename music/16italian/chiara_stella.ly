@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 140 2)
 
 \header{
   title = "Chiara Stella"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for couples"
   meter = "ABB x 4"
   poet = \carosoSourceBalarino
-  composer = "arr. Dennis Sherman"
-  tagline = \robyyanTagline
-  copyright = \robyyanCopyright
+%  composer = "arr. Dennis Sherman"
+%  tagline = \robyyanTagline
+%  copyright = \robyyanCopyright
 }
 
 global= {

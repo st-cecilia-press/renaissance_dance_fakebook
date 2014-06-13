@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Hit Or Miss"
+	title = "Hit or Miss"
+  subtitle = \markup \italic "for two couples facing"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

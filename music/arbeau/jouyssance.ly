@@ -5,10 +5,11 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Jouyssance vous donneray"
-  poet = \arbeauSource
+  subtitle = \markup \italic "for couples"
+%  poet = \arbeauSource
   composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
   meter = "AA BB CC"
 }
 

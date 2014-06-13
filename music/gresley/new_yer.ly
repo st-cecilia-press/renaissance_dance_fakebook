@@ -1,11 +1,11 @@
 \include "music/include/fb_functions.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)
 
 
 \header{
   title = "New Yer"
-  subtitle = \markup \italic "for Three"
+  subtitle = \markup \italic "for three"
 %  poet = "Gresley Manuscript, c. 1500"
   poet = "Richard Schweitzer"
   meter = "One dance: AA BBB CCC DDD E"

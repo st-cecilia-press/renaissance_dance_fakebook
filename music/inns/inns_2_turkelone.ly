@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 \include "english.ly"
 \header{
   title = "Turkelone"
-  composer = "arr. Monique Rio"
+  subtitle = \markup \italic "for couples"
+%  composer = "arr. Monique Rio"
   poet = "Willoughby Lute Book, c.1585"
   meter = "AA BB CC D x 4"
-  tagline = \jadwigaTagline
-  tagline = \jadwigaCopyright
+%  tagline = \jadwigaTagline
+%  tagline = \jadwigaCopyright
 }
 global = {
   \key g \dorian

@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "The New Exchange" %Durham Stable
+	title = "The New Exchange"
+  subtitle = \markup \italic "longways for three couples"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

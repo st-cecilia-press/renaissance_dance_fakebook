@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Dissembling Love" %The Lost Heart
+	title = "Dissembling Love"
+  subtitle = \markup \italic "longways for three couples"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

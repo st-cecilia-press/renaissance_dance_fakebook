@@ -3,13 +3,13 @@
 ppTempo = #(ly:make-moment 180 2)
 
 \header{
-  title = "Stingo"
-  subtitle = \markup \italic "Longways for three couples"
+  title = "Stingo, or The Oil of Barley"
+  subtitle = \markup \italic "longways for three couples"
   meter = "AA BB x 3"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

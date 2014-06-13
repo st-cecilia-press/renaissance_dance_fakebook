@@ -3,8 +3,8 @@ ppTempo = #(ly:make-moment 80 2)
 
 
 \header{
-  title = "Se pensando al partire"
-  subtitle = \markup \italic "Balletto"
+  title = "Se Pensando al Partire"
+  subtitle = \markup \italic "for couples"
 %  subtitle = \markup \small \italic "for Fra. Guillaume de San Marino's reconstruction"
   poet = \carosoSourceBalarino
   composer = "Arr. Emma Badowski"

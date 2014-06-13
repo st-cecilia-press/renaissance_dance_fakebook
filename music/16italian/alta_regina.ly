@@ -3,14 +3,14 @@ ppTempo = #(ly:make-moment 300 4)
 \header{
   title = "Alta Regina"
   poet = \carosoSourceBalarino
-  subtitle = \markup \italic "Cascarda"
-  composer = "arr. Aaron Elkiss"
+  subtitle = \markup \italic "for two or three"
+%  composer = "arr. Aaron Elkiss"
   meter = \markup \column { 
     "For Alta Regina: AB x 6" 
     "For Squilina: A x 21" 
   }
-  tagline = \aaronTagline
-  copyright = \aaronCopyright
+%  tagline = \aaronTagline
+%  copyright = \aaronCopyright
 }
 
 global = {

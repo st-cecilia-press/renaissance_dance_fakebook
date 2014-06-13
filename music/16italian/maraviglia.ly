@@ -9,12 +9,12 @@ global= {
 
 \header{
   title = "Maraviglia d'Amore"
-  subtitle = \markup \italic "Cascarda"
+  subtitle = \markup \italic "for couples"
   meter = "ABBCC x 4"
   poet = \carosoSourceBalarino
-  composer = "arr. Aaron Elkiss"
-  copyright = \aaronCopyright
-  tagline = \aaronTagline
+%  composer = "arr. Aaron Elkiss"
+%  copyright = \aaronCopyright
+%  tagline = \aaronTagline
 }
 
 

@@ -5,8 +5,8 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Damesyn"
-  subtitle = \markup \italic "for Three"
-  poet = "Gresley Manuscript, c. 1500"
+  subtitle = \markup \italic "for three"
+  poet = \gresleySource %"Gresley Manuscript, c. 1500"
   composer = "Music for This enderis day"
   meter = "AAA B CC D"
   tagline = ""

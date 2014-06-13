@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "Queen's Alman"
+  subtitle = \markup \italic "for couples"
   meter = "AABB x2"
   poet = \byrdSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global = {

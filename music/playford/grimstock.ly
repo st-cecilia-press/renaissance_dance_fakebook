@@ -5,12 +5,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Grimstock"
-  subtitle = \markup \italic "Longways for 3 couples"
+  subtitle = \markup \italic "longways for three couples"
   meter = "AA BB x 3"
   poet = \playfordSource
-  composer = "arr. Monica Cellio"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  composer = "arr. Monica Cellio"
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

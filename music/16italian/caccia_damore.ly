@@ -1,12 +1,13 @@
 \include "music/include/fb_functions.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 \include "english.ly"
 ppTempo = #(ly:make-moment 180 4)
-#(set-global-staff-size 18)
+%#(set-global-staff-size 18)
 
 \header{
   title = "La Caccia d'Amore"
-  subtitle = \markup \italic "Questa dolce sirena"
+  subtitle = \markup \italic "for couples"
+%  subtitle = \markup \italic "Questa dolce sirena"
   poet = \markup { Giovanni Giacomo Gastoldi, \italic {Balletti a cinque voci,} 1591 }
   tagline = ""
 }

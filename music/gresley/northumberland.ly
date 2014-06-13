@@ -5,8 +5,8 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Northumberland"
-  subtitle = \markup \italic "for Three"
-  poet = "Gresley Manuscript, c. 1500"
+  subtitle = \markup \italic "for three"
+  poet = \gresleySource %"Gresley Manuscript, c. 1500"
   composer = ""
   meter = "AAA B CCC D E FF G"
   tagline = "Permission granted to copy within the SCA."

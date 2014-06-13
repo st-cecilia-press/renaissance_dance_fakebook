@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 120 2)
 
 \header{
   title = "Spagnoletta"
+  subtitle = \markup \italic "for two or three"
   poet = \carosoSourceBalarino
-  composer = "arr. David Yardley"
+%  composer = "arr. David Yardley"
   meter = "5 times through (6 for Spagnoletta Nuova)"
-  tagline = \yardleyTagline
-  copyright = \yardleyCopyright
+%  tagline = \yardleyTagline
+%  copyright = \yardleyCopyright
 
 }
 

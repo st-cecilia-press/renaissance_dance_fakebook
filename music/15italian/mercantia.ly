@@ -6,12 +6,12 @@ ppTempo = #(ly:make-moment 120 4)
 \include "english.ly"
 \header{
   title = "Mercantia"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for four"
   poet = \pndSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = ""
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
   piece = "Drone: F/C"
 }
 

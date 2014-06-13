@@ -1,16 +1,16 @@
 \include "music/include/fb_functions.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)
-#(set-global-staff-size 24)
+%#(set-global-staff-size 24)
 
 \header{
   title = "Greene Gynger"
-  %  subtitle = \markup \italic "for Two"
-  poet = "arr. Dennis R. Sherman"
-  composer = "Richard Schweitzer"
+  subtitle = \markup \italic "for two"
+%  composer = "arr. Dennis R. Sherman"
+  poet = "Richard Schweitzer"
   meter = "One dance: AABCCDDE"
-  copyright = "© Richard Schweitzer and Dennis R. Sherman"
-  tagline = \robyyanTagline
+%  copyright = "© Richard Schweitzer and Dennis R. Sherman"
+%  tagline = \robyyanTagline
 }
 
 global= {

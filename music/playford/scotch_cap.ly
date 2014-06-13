@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Scotch Cap"
-  subtitle = \markup \italic "Line of three couples"
+  subtitle = \markup \italic "longways for three couples"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
+%  composer = "arr. Jay Ter Louw"
   meter = "AABB x 3 or AABB x 5 or AA(BB x 3)(AABB x 2) "
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

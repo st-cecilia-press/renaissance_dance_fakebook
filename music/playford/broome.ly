@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Broome: The bonny bonny Broome"
-  subtitle = \markup \italic "Longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
   meter = "Play 6 times"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

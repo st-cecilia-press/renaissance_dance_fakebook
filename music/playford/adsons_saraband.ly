@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Adson's Saraband"
-  subtitle = \markup \italic "Longways for three couples"
+  subtitle = \markup \italic "longways for three couples"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = "Play 12 times through"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global = {

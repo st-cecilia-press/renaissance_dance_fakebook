@@ -3,13 +3,13 @@
 
 ppTempo = #(ly:make-moment 100 2)
 \header{
-  title = "Hit or Miss (Daphne)"
-  subtitle = \markup \italic "Square for four couples"
+  title = "Daphne (for Hit or Miss)"
+  subtitle = \markup \italic "square for four couples"
   meter = "AA BB C x 3"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  composer = "arr. Jay Ter Louw"
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

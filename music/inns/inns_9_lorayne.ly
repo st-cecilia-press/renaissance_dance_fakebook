@@ -1,11 +1,12 @@
 \include "music/include/fb_functions.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 60 2)
 \include "english.ly"
-#(set-global-staff-size 20)
+%#(set-global-staff-size 20)
 
 \header{
   title = "Lorayne Alman"
+  subtitle = \markup \italic "for couples"
   poet = "Pierre Phalese (1571)"
   tagline = ""
 }

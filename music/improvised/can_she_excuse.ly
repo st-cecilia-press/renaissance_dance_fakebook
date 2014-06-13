@@ -3,12 +3,12 @@
 ppTempo = #(ly:make-moment 180 4)
 
 \header{
-  title = "Galliard"
-  subtitle = \markup \italic "Can she excuse"
+  title = "Galliard: Can She Excuse"
+  subtitle = \markup \italic "for couples"
   poet = \markup { John Dowland, setting from Morley's \italic {Consort Lessons,} 1599 & 1611 }
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

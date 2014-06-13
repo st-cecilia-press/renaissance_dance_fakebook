@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Dargason, or Sedany"
-  subtitle = \markup \italic "For as many as will"
+  subtitle = \markup \italic "for as many as will"
   poet = \playfordSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

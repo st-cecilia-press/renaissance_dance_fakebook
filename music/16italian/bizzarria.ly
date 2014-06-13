@@ -2,12 +2,12 @@
 \include "english.ly"
 \header{
   title = "Bizzarria d'Amore"
-  subtitle = \markup \italic "Balletto for two couples in a diamond"
+  subtitle = \markup \italic "for two couples"
   meter = "AA BB CC x 6"
   poet = \negriSource
-  composer = "arr. Dave Svoboda"
-  tagline = \arslanTagline
-  copyright = \arslanCopyright
+%  composer = "arr. Dave Svoboda"
+%  tagline = \arslanTagline
+%  copyright = \arslanCopyright
 }
 ppTempo = #(ly:make-moment 180 4)
 

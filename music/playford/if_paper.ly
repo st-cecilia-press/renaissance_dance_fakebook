@@ -5,11 +5,11 @@ ppTempo = #(ly:make-moment 150 2)
 
   poet = \playfordSource
   title = "If all the World were Paper"
-  subsubtitle = \markup \italic "Square for four couples"
-  composer = "arr. Monica Cellio"
+  subsubtitle = \markup \italic "square for four couples"
+%  composer = "arr. Monica Cellio"
   meter = "AA BB x 3"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 \include "english.ly"
 

@@ -3,8 +3,8 @@
 ppTempo = #(ly:make-moment 140 4)
 
 \header{
-  title = "Galliard"
-  subtitle = \markup \italic "A Lieta Vita"
+  title = "Galliard: A Lieta Vita"
+  subtitle = \markup \italic "for couples"
   poet = "Giovanni Giacomo Gastoldi (c. 1554 - 1609)"
   tagline = ""
   copyright = ""

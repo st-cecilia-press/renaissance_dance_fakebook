@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Lo Spagnoletto"
-  subtitle = \markup \italic "Balletto for two couples in a diamond"
+  subtitle = \markup \italic "for two couples"
   poet = \negriSource
-  composer = "arr. Katrina Hunt"
+%  composer = "arr. Katrina Hunt"
   meter = "AABBCC x 7"
-  tagline = \katrinaTagline
-  copyright = \katrinaCopyright
+%  tagline = \katrinaTagline
+%  copyright = \katrinaCopyright
 }
 
 global= {

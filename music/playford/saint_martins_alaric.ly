@@ -7,9 +7,9 @@ ppTempo = #(ly:make-moment 100 2)
   subtitle = \markup \italic "for two couples facing"
   meter = "AA BB x 4"
   poet = \byrdSource
-  composer = "arr. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "arr. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

@@ -277,14 +277,6 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Ly Bens Distonys}
-	\index{dancers}{2@Two People!Ly Bens Distonys}
-	\addcontentsline{toc}{section}{Ly Bens Distonys}
-	\lilypondfile{music/gresley/ly_bens2.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
 	\index{name}{Mowbray}
 	\index{dancers}{3@Three People!Mowbray}
 	\addcontentsline{toc}{section}{Mowbray}
@@ -657,7 +649,11 @@ text
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Passo e Mezzo}
-	\index{dancers}{13@I'm not completely sure!Passo e Mezzo}
+	\index{name}{Dolce Amoroso Fuoco|see {Passo e Mezzo}}
+	\index{name}{Ardente Sole|see {Passo e Mezzo}}
+	\index{dancers}{6@Six People!Dolce Amoroso Fuoco|see{Passo e Mezzo}}		
+	\index{dancers}{2@Two People!Passo e Mezzo}
+	\index{dancers}{2@Two People!Ardente Sole|see {Passo e Mezzo}}
 	\addcontentsline{toc}{section}{Passo e Mezzo}
 	\lilypondfile{music/16italian/passo_e_mezzo.ly}
 	\end{minipage}
@@ -682,7 +678,9 @@ text
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Spagnoletta}
+	\index{name}{Spagnoletta Nuova|see {Spagnoletta}}
 	\index{dancers}{2@Two People!Spagnoletta}
+	\index{dancers}{3@Three People!Spagnoletta Nuova|see {Spagnoletta}}
 	\addcontentsline{toc}{section}{Spagnoletta}
 	\lilypondfile{music/16italian/spagnoletta.ly}
 	\end{minipage}
@@ -743,7 +741,7 @@ text
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Montarde Bransle}
-	\index{dancers}{2@Two or More People!Montarde Bransle}
+	\index{dancers}{4@Four People!Montarde Bransle}
 	\addcontentsline{toc}{section}{Montarde Bransle}
 	\lilypondfile{music/arbeau/montarde.ly}
 	\end{minipage}
@@ -770,25 +768,27 @@ text
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{A Lieta Vita}
-	\index{dancers}{2@Two or More People!A Lieta Vita}
-	\addcontentsline{toc}{section}{A Lieta Vita}
+	\index{name}{A Lieta Vita Galliard}
+	\index{name}{Galliard ""A Lieta Vita""}
+	\index{dancers}{2@Two or More People!A Lieta Vita Galliard}
+	\addcontentsline{toc}{section}{A Lieta Vita Galliard}
 	\lilypondfile{music/improvised/a_lieta_vita.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Can She Excuse}
-	\index{dancers}{2@Two or More People!Can She Excuse}
-	\addcontentsline{toc}{section}{Can She Excuse}
+	\index{name}{Can She Excuse Galliard}
+	\index{name}{Galliard ""Can She Excuse""}
+	\index{dancers}{2@Two or More People!Can She Excuse Galliard}
+	\addcontentsline{toc}{section}{Can She Excuse Galliard}
 	\lilypondfile{music/improvised/can_she_excuse.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Canarie}
-	\index{dancers}{2@Two or More People!Canarie}
-	\addcontentsline{toc}{section}{Canarie}
+	\index{name}{Canarie@La Canarie}
+	\index{dancers}{2@Two or More People!Canarie@La Canarie}
+	\addcontentsline{toc}{section}{La Canarie}
 	\lilypondfile{music/improvised/canarie.ly}
 	\end{minipage}
 	
@@ -820,47 +820,44 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Dona}
-	\index{dancers}{2@Two or More People!Dona}
-	\addcontentsline{toc}{section}{Dona}
+	\index{name}{Dona@La Dona Pavane}
+	\index{name}{Pavane ""La Dona""}
+	\index{dancers}{2@Two or More People!Dona@La Dona Pavane}
+	\addcontentsline{toc}{section}{La Dona Pavane}
 	\lilypondfile{music/improvised/dona_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Dona}
-	\index{dancers}{2@Two or More People!Dona}
-	\addcontentsline{toc}{section}{Dona}
+	\index{name}{Dona@La Dona Galliard}
+	\index{name}{Galliard ""La Dona""}
+	\index{dancers}{2@Two or More People!Dona@La Dona Galliard}
+	\addcontentsline{toc}{section}{La Dona Galliard}
 	\lilypondfile{music/improvised/dona_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Earl of Salisbury}
-	\index{dancers}{2@Two or More People!Earl of Salisbury}
-	\addcontentsline{toc}{section}{Earl of Salisbury}
-	\lilypondfile{music/improvised/earl_salisbury.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Earl of Salisbury}
-	\index{dancers}{2@Two or More People!Earl of Salisbury}
-	\addcontentsline{toc}{section}{Earl of Salisbury}
+	\index{name}{Earl of Salisbury Pavane}
+	\index{name}{Pavane ""Earl of Salisbury""}
+	\index{dancers}{2@Two or More People!Earl of Salisbury Pavane}
+	\addcontentsline{toc}{section}{Earl of Salisbury Pavane}
 	\lilypondfile{music/improvised/earl_salisbury_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Earl of Salisbury}
-	\index{dancers}{2@Two or More People!Earl of Salisbury}
-	\addcontentsline{toc}{section}{Earl of Sarisbury}
+	\index{name}{Earl of Salisbury Galliard}
+	\index{name}{Galliard ""Earl of Salisbury""}
+	\index{dancers}{2@Two or More People!Earl of Salisbury Galliard}
+	\addcontentsline{toc}{section}{Earl of Sarisbury Galliard}
 	\lilypondfile{music/improvised/earl_salisbury_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Frog Galliard}
+	\index{name}{Galliard ""Frog""}
 	\index{dancers}{2@Two or More People!Frog Galliard}
 	\addcontentsline{toc}{section}{Frog Galliard}
 	\lilypondfile{music/improvised/frog_galliard.ly}
@@ -868,57 +865,62 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Mille Ducas}
-	\index{dancers}{2@Two or More People!Mille Ducas}
-	\addcontentsline{toc}{section}{Mille Ducas}
+	\index{name}{Mille Ducas Pavane}
+	\index{name}{Pavane ""Mille Ducas""}
+	\index{dancers}{2@Two or More People!Mille Ducas Pavane}
+	\addcontentsline{toc}{section}{Mille Ducas Pavane}
 	\lilypondfile{music/improvised/mille_ducas_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Mille Ducas}
-	\index{dancers}{2@Two or More People!Mille Ducas}
-	\addcontentsline{toc}{section}{Mille Ducas}
+	\index{name}{Mille Ducas Galliard}
+	\index{name}{Galliard ""Mille Ducas""}
+	\index{dancers}{2@Two or More People!Mille Ducas Galliard}
+	\addcontentsline{toc}{section}{Mille Ducas Galliard}
 	\lilypondfile{music/improvised/mille_ducas_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{New Yeere's Gift}
-	\index{dancers}{2@Two or More People!New Yeere's Gift}
-	\addcontentsline{toc}{section}{New Yeere's Gift}
+	\index{name}{New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
+	\index{name}{Galliard ""New Yeere's Gift""}
+	\index{dancers}{2@Two or More People!New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
+	\addcontentsline{toc}{section}{The New Yeere's Gift Galliard}
 	\lilypondfile{music/improvised/new_yeeres_gift.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Quadro}
-	\index{dancers}{2@Two or More People!Quadro}
-	\addcontentsline{toc}{section}{Quadro}
+	\index{name}{Quadro@The Quadro Pavin}
+	\index{name}{Pavane ""Quadro""}
+	\index{dancers}{2@Two or More People!Quadro@The Quadro Pavin}
+	\addcontentsline{toc}{section}{The Quadro Pavin}
 	\lilypondfile{music/improvised/quadro_0.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Quadro}
-	\index{dancers}{2@Two or More People!Quadro}
-	\addcontentsline{toc}{section}{Quadro}
+	\index{name}{Quadro@Galliard to the Quadro Pavin}
+	\index{name}{Galliard to ""The Quadro Pavin""}
+	\index{dancers}{2@Two or More People!Quadro@Galliard to the Quadro Pavin}
+	\addcontentsline{toc}{section}{Galliard to the Quadro Pavin}
 	\lilypondfile{music/improvised/quadro_1.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Volte}
-	\index{dancers}{2@Two or More People!Volte}
-	\addcontentsline{toc}{section}{Volte}
+	\index{name}{Volta@La Volta}
+	\index{dancers}{2@Two or More People!Volta@La Volta}
+	\addcontentsline{toc}{section}{La Volta}
 	\lilypondfile{music/improvised/volte_byrd.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Volte}
-	\index{dancers}{2@Two or More People!Volte}
-	\addcontentsline{toc}{section}{Volte}
+	\index{name}{Volte CCX}
+	\index{dancers}{2@Two or More People!Volte CCX}
+	\addcontentsline{toc}{section}{Volte CCX}
 	\lilypondfile{music/improvised/volte_praetorius.ly}
 	\end{minipage}
 
@@ -970,6 +972,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Ay Me}
+	\index{name}{Symphony@The Symphony|see {Ay Me}}
 	\index{dancers}{8@Eight People!Ay Me}
 	\addcontentsline{toc}{section}{Ay Me}
     \lilypondfile{music/playford/aye_me.ly}
@@ -977,9 +980,9 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Bath}
-	\index{dancers}{21@As Many as Will!Bath}
-	\addcontentsline{toc}{section}{Bath}
+	\index{name}{Bath@The Bath}
+	\index{dancers}{21@As Many as Will!Bath@The Bath}
+	\addcontentsline{toc}{section}{The Bath}
     \lilypondfile{music/playford/bath.ly}
     \end{minipage}
     
@@ -1051,6 +1054,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Chestnut}
+	\index{name}{Dove's Figary|see {Chestnut}}
 	\index{dancers}{6@Six People!Chestnut}
 	\addcontentsline{toc}{section}{Chestnut}
     \lilypondfile{music/playford/chestnut_arslan.ly}
@@ -1059,6 +1063,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Chestnut}
+	\index{name}{Dove's Figary|see {Chestnut}}
 	\index{dancers}{6@Six People!Chestnut}
 	\addcontentsline{toc}{section}{Chestnut}
     \lilypondfile{music/playford/chestnut_hendricks.ly}
@@ -1117,6 +1122,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Dargason}
+	\index{name}{Sedany|see {Dargason}}
 	\index{dancers}{21@As Many as Will!Dargason}
 	\addcontentsline{toc}{section}{Dargason}
     \lilypondfile{music/playford/dargason.ly}
@@ -1244,17 +1250,17 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Health to Betty}
-	\index{dancers}{21@As Many as Will!Health to Betty}
-	\addcontentsline{toc}{section}{Health to Betty}
+	\index{name}{Health to Betty@A Health to Betty}
+	\index{dancers}{21@As Many as Will!Health to Betty@A Health to Betty}
+	\addcontentsline{toc}{section}{A Health to Betty}
     \lilypondfile{music/playford/health_to_betty.ly}
     \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Healths}
-	\index{dancers}{8@Eight People!Healths}
-	\addcontentsline{toc}{section}{Healths}
+	\index{name}{Health@The Health}
+	\index{dancers}{8@Eight People!Health@The Health}
+	\addcontentsline{toc}{section}{The Health}
     \lilypondfile{music/playford/healths.ly}
     \end{minipage}
     
@@ -1269,6 +1275,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Hemp Dresser}
+	\index{name}{London Gentlewoman@The London Gentlewoman|see {Hemp Dresser}}
 	\index{dancers}{21@As Many as Will!Hemp Dresser}
 	\addcontentsline{toc}{section}{Hemp Dresser}
     \lilypondfile{music/playford/hemp_dresser.ly}
@@ -1309,6 +1316,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Irish Lady}
+	\index{name}{Aniseed Water Robin|see {Irish Lady}}
 	\index{dancers}{21@As Many as Will!Irish Lady}
 	\addcontentsline{toc}{section}{Irish Lady}
     \lilypondfile{music/playford/irish_lady.ly}
@@ -1421,17 +1429,10 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Maid Peeped out the Window}
+	\index{name}{Friar in the Well@The Friar in the Well|see {Maid Peeped out the Window}}
 	\index{dancers}{8@Eight People!Maid Peeped out the Window}
 	\addcontentsline{toc}{section}{Maid Peeped out the Window}
     \lilypondfile{music/playford/maid_peeped.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
-	\index{name}{Maiden Fair}
-	\index{dancers}{21@As Many as Will!Maiden Fair}
-	\addcontentsline{toc}{section}{Maiden Fair}
-    \lilypondfile{music/playford/maiden_fair.ly}
     \end{minipage}
     
     \noindent
@@ -1500,9 +1501,9 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{New Exchange}
-	\index{dancers}{6@Six People!New Exchange}
-	\addcontentsline{toc}{section}{New Exchange}
+	\index{name}{New Exchange@The New Exachange}
+	\index{dancers}{6@Six People!New Exchange@The New Exchange}
+	\addcontentsline{toc}{section}{The New Exchange}
     \lilypondfile{music/playford/new_exchange.ly}
     \end{minipage}
     
@@ -1556,11 +1557,27 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
+	\index{name}{Once I Loved a Maiden Fair}
+	\index{dancers}{21@As Many as Will!Once I Loved a Maiden Fair}
+	\addcontentsline{toc}{section}{Once I Loved a Maiden Fair}
+    \lilypondfile{music/playford/maiden_fair.ly}
+    \end{minipage}    
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
 	\index{name}{Parson's Farewell}
 	\index{dancers}{4@Four People!Parson's Farewell}
 	\addcontentsline{toc}{section}{Parson's Farewell}
     \lilypondfile{music/playford/parsons_farewell.ly}
     \end{minipage}
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Paul's Steeple}
+	\index{dancers}{21@As Many as Will!Paul's Steeple}
+	\addcontentsline{toc}{section}{Paul's Steeple}
+    \lilypondfile{music/playford/st_pauls_steeple.ly}
+    \end{minipage}    
     
     \noindent
     \begin{minipage}{\columnwidth}
@@ -1685,6 +1702,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Shepherd's Holiday}
+	\index{name}{Labour in Vain|see {Shepherd's Holiday}}
 	\index{dancers}{6@Six People!Shepherd's Holiday}
 	\addcontentsline{toc}{section}{Shepherd's Holiday}
     \lilypondfile{music/playford/shepherds_holiday.ly}
@@ -1732,14 +1750,6 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{St. Paul's Steeple}
-	\index{dancers}{21@As Many as Will!St. Paul's Steeple}
-	\addcontentsline{toc}{section}{St. Paul's Steeple}
-    \lilypondfile{music/playford/st_pauls_steeple.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
 	\index{name}{Staine's Morris}
 	\index{dancers}{21@As Many as Will!Staine's Morris}
 	\addcontentsline{toc}{section}{Staine's Morris}
@@ -1757,6 +1767,7 @@ text
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Stingo}
+	\index{name}{Oil of Barley@The Oil of Barley|see {Stingo}}
 	\index{dancers}{6@Six People!Stingo}
 	\addcontentsline{toc}{section}{Stingo}
     \lilypondfile{music/playford/stingo.ly}

@@ -4,7 +4,8 @@
 ppTempo = #(ly:make-moment 100 2)
 \header{
   title = "Ballo del Fiore"
-  subtitle = \markup \italic "Bransle de la Torche"
+  subtitle = "for two or three"
+  subsubtitle = \markup \italic "Bransle de la Torche"
   poet = \praetoriusSource
   meter = "Intro: A; one dance = (AB)x4"
   copyright = ""

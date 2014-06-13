@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Contentezza d'Amore"
-  subtitle = \markup \italic "Balletto"
+  subtitle = \markup \italic "for couples"
   meter = "Ax5 B Cx3"
   poet = \negriSource
-  composer = "trans. Robert Smith"
-  tagline = \alaricTagline
-  copyright = \alaricCopyright
+%  composer = "trans. Robert Smith"
+%  tagline = \alaricTagline
+%  copyright = \alaricCopyright
 }
 
 global= {

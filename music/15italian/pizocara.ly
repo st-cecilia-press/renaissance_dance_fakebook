@@ -5,12 +5,12 @@ ppTempo = #(ly:make-moment 120 4)
 
 \header{
   title = "Pizocara"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for four couples"
   poet = \pndSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = ""
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

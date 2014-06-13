@@ -4,13 +4,13 @@ ppTempo = #(ly:make-moment 120 4)
 
 \header{
   title = "Voltate in Ça Rosina"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for three"
   poet = \pnaSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = "One dance: AAA BB or AAA BBBB. Play: two dances"
   piece = "Drone: A/E"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

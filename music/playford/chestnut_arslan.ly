@@ -8,12 +8,12 @@ ppTempo = #(ly:make-moment 90 2)
 
 \header{
   title = "Chestnut"
-  subtitle = \markup \italic "Longways for three couples"
+  subtitle = \markup \italic "longways for three couples"
   meter = "AA BB x 3"
   poet = \playfordSource
-  composer = "arr. Arslan ibn Da'ud"
-  tagline = \arslanTagline
-  copyright = \arslanCopyright
+%  composer = "arr. Arslan ibn Da'ud"
+%  tagline = \arslanTagline
+%  copyright = \arslanCopyright
 }
 
 global= {

@@ -2,12 +2,12 @@
 ppTempo = #(ly:make-moment 60 2)
 
 \header{
-  title = "Galliard"
-  subtitle = \markup \italic "Earl of Salisbury"
+  title = "Galliard: Earl of Salisbury"
+  subtitle = \markup \italic "for couples"
   poet = \byrdSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

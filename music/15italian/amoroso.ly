@@ -6,11 +6,11 @@ ppTempo = #(ly:make-moment 80 2)
 
   title = "Amoroso"
   poet = \pnaSource
-%  subtitle = \markup \italic "for couples"
-  composer = "arr. Monica Cellio"
+  subtitle = \markup \italic "for couples"
+%  composer = "arr. Monica Cellio"
   meter = "One dance: AAA BB CC DD. Play: Two dances."
-  copyright = \monicaCopyright
-  tagline = \monicaTagline
+%  copyright = \monicaCopyright
+%  tagline = \monicaTagline
   piece = "Drone: D/A"
 }
 

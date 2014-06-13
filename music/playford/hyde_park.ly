@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Hyde Park"
-  subtitle = \markup \italic "Square for four couples"
+  subtitle = \markup \italic "square for four couples"
   poet = \playfordSource
-  composer = "arr. Kathy Van Stone"
+%  composer = "arr. Kathy Van Stone"
   meter = "AABB x 3"
-  tagline = \vanstoneTagline
-  copyright = \vanstoneCopyright
+%  tagline = \vanstoneTagline
+%  copyright = \vanstoneCopyright
 }
 
 global= {

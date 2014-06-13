@@ -1,6 +1,9 @@
 \include "music/include/fb_functions.ly"
 \header {
-	title = "Rose is White, Rose is Red"
+	title = "Rose is White and Rose is Red"
+  subtitle = \markup \italic "round for as many as will"
+  meter = ""
+  poet = \playfordSource
   tagline = ""
 }
 ppMusicOne =  {

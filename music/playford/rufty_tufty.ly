@@ -7,9 +7,9 @@ ppTempo = #(ly:make-moment 100 2)
   subtitle = \markup \italic "for two couples facing"
   meter = "AABCC x 3"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

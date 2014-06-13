@@ -6,14 +6,14 @@ ppTempo = #(ly:make-moment 120 4)
 \include "english.ly"
 \header{
   title = "Tesara"
-  subtitle = \markup \italic ""
+  subtitle = \markup \italic "for ten"
   poet = \pndSource
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   piece = "Drone: G/D"
   meter = ""
-  copyright = "This arrangement is copyright by Monica Cellio."
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  copyright = "This arrangement is copyright by Monica Cellio."
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 
 global= {

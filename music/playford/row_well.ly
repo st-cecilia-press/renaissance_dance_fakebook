@@ -5,11 +5,11 @@ ppTempo = #(ly:make-moment 150 2)
 
   poet = \playfordSource
   title = "Row Well Ye Mariners"
-  subsubtitle = \markup \italic "Longways for as many as will"
-  composer = "arr. Monica Cellio"
+  subsubtitle = \markup \italic "longways for as many as will"
+%  composer = "arr. Monica Cellio"
   meter = "AA BB x 3"
-  tagline = \monicaTagline
-  copyright = \monicaCopyright
+%  tagline = \monicaTagline
+%  copyright = \monicaCopyright
 }
 \include "english.ly"
 

@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Jenny Pluck Pears"
-  subtitle = \markup \italic "Round for three couples"
+  subtitle = \markup \italic "round for three couples"
   poet = \playfordSource
-  composer = "arr. Robert Stockton"
+%  composer = "arr. Robert Stockton"
   meter = "AAB x 6"
-  tagline = \stocktonTagline
-  copyright = \stocktonCopyright
+%  tagline = \stocktonTagline
+%  copyright = \stocktonCopyright
 }
 
 global= {

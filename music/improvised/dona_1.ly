@@ -3,8 +3,8 @@
 ppTempo = #(ly:make-moment 140 4)
 
 \header{
-  title = "Galliard"
-  subtitle = \markup \italic "La dona"
+  title = "Galliard: La Dona"
+  subtitle = \markup \italic "for couples"
   poet = \susatoSource
   tagline = ""
   copyright = ""

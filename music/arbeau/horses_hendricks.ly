@@ -4,11 +4,11 @@ ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Bransle des Chevaulx (Horse's Bransle)"
-%  subtitle = \markup \italic "for as many as will"
+  subtitle = \markup \italic "for as many as will"
   poet = \arbeauSource
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

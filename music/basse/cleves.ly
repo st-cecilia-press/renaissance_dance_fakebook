@@ -3,9 +3,9 @@
 \header{
   title = "Danse de Cleves"
   poet = \brusselsSource
-  composer = "arr. David Yardley"
-  tagline = \yardleyTagline
-  copyright = \yardleyCopyright
+%  composer = "arr. David Yardley"
+%  tagline = \yardleyTagline
+%  copyright = \yardleyCopyright
 }
 ppTempo = #(ly:make-moment 120 4)
 

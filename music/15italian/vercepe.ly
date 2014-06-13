@@ -5,12 +5,13 @@ ppTempo = #(ly:make-moment 80 2)
 \header{
 
   title = "Verçepe"
+  subtitle = \markup \italic "for five"
   poet = \pndSource
   piece = "Drone: D/A"
-  composer = "arr. Monica Cellio"
+%  composer = "arr. Monica Cellio"
   meter = "Play once through"
-  copyright = \monicaCopyright
-  tagline = \monicaTagline
+%  copyright = \monicaCopyright
+%  tagline = \monicaTagline
 }
 
 global= {

@@ -4,12 +4,12 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Merry Merry Milkmaids"
-  subtitle = \markup \italic "Longways for four couples"
+  subtitle = \markup \italic "longways for four couples"
   poet = \playfordSource
-  composer = "arr. Jay Ter Louw"
+%  composer = "arr. Jay Ter Louw"
   meter = "AABB x 3"
-  tagline = \octavioTagline
-  copyright = \octavioCopyright
+%  tagline = \octavioTagline
+%  copyright = \octavioCopyright
 }
 
 global= {

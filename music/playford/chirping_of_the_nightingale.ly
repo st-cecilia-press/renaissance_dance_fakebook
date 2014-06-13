@@ -3,12 +3,12 @@ ppTempo = #(ly:make-moment 60 2)
 
 \header{
   title = "Chirping of the Nightingale"
-  subtitle = \markup \italic "Round for as Many as Will"
+  subtitle = \markup \italic "round for as many as will"
   poet = \playfordSource
-  composer = "arr. Steven Hendricks"
+%  composer = "arr. Steven Hendricks"
   meter = ""
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {

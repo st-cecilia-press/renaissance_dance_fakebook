@@ -5,9 +5,9 @@ ppTempo = #(ly:make-moment 80 2)
 
 \header{
   title = "Lo Dimostra"
-  subtitle = \markup \italic "For Three"
-  poet = "Il Papa Manuscript, Giovannino"
-  composer = "Nathan Kronenfeld"
+  subtitle = \markup \italic "for three"
+%  poet = "Il Papa Manuscript, Giovannino"
+  poet = "Nathan Kronenfeld"
   meter = "AAA BB C"
   tagline = "" %CC0??
 }

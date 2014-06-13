@@ -4,11 +4,12 @@ ppTempo = #(ly:make-moment 72 2)
 
 \header{
   title = "The Earl of Essex Measure"
+  subtitle = \markup \italic "for couples"
   meter = "AAB x 2"
-  poet = "Melody from R.C.M. Ms. 1119"
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+  poet = "R.C.M. Ms. 1119"
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global = {

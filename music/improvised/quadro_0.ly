@@ -5,10 +5,11 @@ ppTempo = #(ly:make-moment 140 4)
 
 \header{
   title = "The Quadro Pavin"
+  subtitle = \markup \italic "for couples"
   poet = \markup { Richard Allison (fl. 1592 - 1606), setting from Morley's \italic "Consort Lessons," 1599 & 1611 }
-  composer = "arr. Steven Hendricks"
-  tagline = \hendricksTagline
-  copyright = \hendricksCopyright
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
 global= {
