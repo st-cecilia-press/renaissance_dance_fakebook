@@ -24,21 +24,21 @@ text
 	\lilypondfile{music/basse/cleves.ly}
 	\end{minipage}
 	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Cupido}
-	\index{dancers}{2@Two People!Cupido}
-	\addcontentsline{toc}{section}{Cupido}
-	\lilypondfile{music/basse/cupido.ly}
-	\end{minipage}
+%	\noindent
+%	\begin{minipage}{\columnwidth}
+%	\index{name}{Cupido}
+%	\index{dancers}{2@Two People!Cupido}
+%	\addcontentsline{toc}{section}{Cupido}
+%	\lilypondfile{music/basse/cupido.ly}
+%	\end{minipage}
 	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Lauro}
-	\index{dancers}{2@Two People!Lauro}
-	\addcontentsline{toc}{section}{Lauro}
-	\lilypondfile{music/basse/lauro.ly}
-	\end{minipage}
+%	\noindent
+%	\begin{minipage}{\columnwidth}
+%	\index{name}{Lauro}
+%	\index{dancers}{2@Two People!Lauro}
+%	\addcontentsline{toc}{section}{Lauro}
+%	\lilypondfile{music/basse/lauro.ly}
+%	\end{minipage}
 
 \chapter{15th Century Italian}
 text
@@ -1348,6 +1348,14 @@ text
 	\addcontentsline{toc}{section}{Jack Pudding}
     \lilypondfile{music/playford/jack_pudding.ly}
     \end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Jamaica}
+	\index{dancers}{21@As Many as Will!Jamaica}
+	\addcontentsline{toc}{section}{Jamaica}
+	\lilypondfile{music/playford/jamaica.ly}
+	\end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
@@ -1836,14 +1844,6 @@ text
 	\index{dancers}{12@Twelve People!Crossed Purposes}
 	\addcontentsline{toc}{section}{Crossed Purposes}
 	\lilypondfile{music/abominations/crossed_purposes.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Jamaica}
-	\index{dancers}{21@As Many as Will!Jamaica}
-	\addcontentsline{toc}{section}{Jamaica}
-	\lilypondfile{music/abominations/jamaica.ly}
 	\end{minipage}
 	
 	\noindent
