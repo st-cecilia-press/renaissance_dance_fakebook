@@ -886,6 +886,15 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Monsieur's Almain}
+	\index{name}{Almain ""Monsieur's""}
+	\index{dancers}{2@Two or More People!Monsieur's Almain}
+	\addcontentsline{toc}{section}{Monsieur's Almain}
+	\lilypondfile{music/improvised/monsieurs_almain.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
 	\index{name}{Galliard ""New Yeere's Gift""}
 	\index{dancers}{2@Two or More People!New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
@@ -1860,6 +1869,14 @@ text
 	\index{dancers}{21@As Many as Will!Lightly Love}
 	\addcontentsline{toc}{section}{Lightly Love}
 	\lilypondfile{music/abominations/lightly_love.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Ronde IX}
+	\index{dancers}{21@As Many as Will!Ronde IX}
+	\addcontentsline{toc}{section}{Ronde IX}
+	\lilypondfile{music/abominations/ronde.ly}
 	\end{minipage}
 
 \addcontentsline{toc}{chapter}{Index}

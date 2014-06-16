@@ -1,28 +1,147 @@
 \include "music/include/fb_functions.ly"
-\header {
-	title = "Maiden Lane"
+%#(set-default-paper-size "letter")
+\include "english.ly"
+%#(set-global-staff-size 22)
+ppTempo = #(ly:make-moment 100 2)
+
+\header{
+  title = "Maiden Lane"
   subtitle = \markup \italic "longways for three couples"
-  meter = ""
+  meter = "AABBCC x 3"
   poet = \playfordSource
-  tagline = ""
-}
-ppMusicOne =  {
-\set Score.defaultBarType = "empty"
-
-\repeat volta 2 {
-\time 4/4 
- \key g \major   d''4.    c''8    b'8    a'8    g'4  \bar "|"   g''4    fis''4  
-  g''4    d''4  \bar "|"   g''4    fis''4    g''4    d''8    c''8  \bar "|"   
-b'4    a'4    g'2  }     \repeat volta 2 {   a'8    b'8    c''8    d''8    e''4 
-   a'4  \bar "|"   c''4    b'4    a'4    e''4  \bar "|"   e''4    e''4    e''4  
-  d''8    c''8  \bar "|"   b'8    a'8    b'8    c''8    a'2  }     
-\repeat volta 2 {   d''4    b'8    c''8    d''4    b'8    c''8  \bar "|"   d''8 
-   c''8    b'8    a'8    b'4    g'4  \bar "|"   d''4    b'8    c''8    d''8    
-e''8    d''8    c''8  \bar "|"   b'4    a'4    g'2  \bar "|."       }
+%  composer = "arr. Steven Hendricks"
+%  tagline = \hendricksTagline
+%  copyright = \hendricksCopyright
 }
 
-global = {}
-ppChordLine = \chordmode {}
-ppTempo = #(ly:make-moment 80 2)
+global= {
+  \key g \major
+  \time 4/4
+}
+
+ppMusicOne =    \relative c'' {  
+
+  \ppMark
+  \repeat volta 2  {
+    d4. c8 b a g4 |
+    g' fs g d |
+    g fs g d8 c |
+    b4 a g2
+  }
+  \ppMark
+  \repeat volta 2 {
+    a8 b c d e4 a, |
+    c b a e' |
+    e e e d8 c |
+    b a b c a2
+  }
+  \ppMark
+  \repeat volta 2 {
+    d4 b8 c d4 b8 c |
+    d c b a b4 g |
+    d' b8 c d e d c |
+    b4 a g2
+  }
+
+}
+
+ppMusicTwo = \relative c'' {
+
+  \repeat volta 2  {
+    b4. a8 g2 |
+    b4 d d8 c b4 |
+    b d d b8 a |
+    g4. fs8 g2
+  }
+  \repeat volta 2  {
+    a2 a4 a |
+    a gs a c |
+    c c a2 |
+    a4 gs a2
+  }
+  \repeat volta 2  {
+    b4 g2 g8 a |
+    b a g4 g b |
+    g2 a |
+    g4. fs8 g2
+  }
+
+}
+
+ppMusicThree = \relative c' {
+  \clef "G_8"
+
+  \repeat volta 2  {
+    g2 b4 d |
+    d a b8 a g4 |
+    g a g2 |
+    d' b
+  }
+  \repeat volta 2  {
+    c8 d e4 c c | 
+    e e c a |
+    a c e f |
+    e2 c
+  }
+    \repeat volta 2  {
+    d4 d d d |
+    d d8 c b a g4 |
+    g d' d8 g fs e |
+    d2 b
+  }
+
+
+}
+
+ppMusicFour = 
+\relative c {
+  \clef bass
+
+  \repeat volta 2  {
+    g'2 g4 g |
+    g d g2 |
+    g4 d b2 |
+    d g,
+  }
+  \repeat volta 2 {
+    a'4. b8 c4 a |
+    a e a2 |
+    a, c4 d |
+    e2 a,
+  }
+    \repeat volta 2  {
+    g'4. a8 b4 g |
+    g2 g, |
+    b d |
+    b4 d g,2
+  }
+
+}
+
+ppChordLine = \chordmode {
+  \repeat volta 2 {
+    g1
+    g4 d g2
+    g4 d g2
+    g4 d g2
+  }
+
+  \repeat volta 2 {
+    a1:m
+    a4:m e a2:m
+    a2.:m d4:m
+    e1
+  }
+    \repeat volta 2 {
+    g1
+    g1
+    g2 d
+    g4 d g2
+  }
+}
+
+
 \include "music/include/fb_a1.ly"
-\version "2.14.2"
+
+\version "2.12.0"  % necessary for upgrading to future LilyPond versions.
+
