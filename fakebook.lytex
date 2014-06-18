@@ -9,16 +9,32 @@
 \makeindex{dancers}
 \begin{document}
 
+\frontmatter
+
 %include title page (and introduction?)- from pdf?
 \includepdf{../titles/title.pdf}
+\thispagestyle{empty}
+\cleardoublepage
+
+\includepdf{../titles/intro.pdf}
+
+\newpage
+
+\setcounter{page}{2}
 
 \begin{multicols}{2}
 \tableofcontents
 \end{multicols}
 
+\mainmatter
 
-\chapter{Basse Dance}
-text
+\cleardoublepage
+\setcounter{page}{1}
+
+\phantomsection \addcontentsline{toc}{chapter}{Basse Dance}
+\includepdf{../titles/chapter_basse.pdf}
+%\chapter{Basse Dance}
+%text
 \newpage
 
 	\noindent
@@ -46,8 +62,10 @@ text
 %	\lilypondfile{music/basse/lauro.ly}
 %	\end{minipage}
 
-\chapter{15th Century Italian}
-text
+\phantomsection \addcontentsline{toc}{chapter}{15th Century Italian}
+\includepdf{../titles/title.pdf}
+%\chapter{15th Century Italian}
+%text
 \newpage
 
 	\noindent
@@ -205,8 +223,10 @@ text
 	\lilypondfile{music/15italian/voltate.ly}
 	\end{minipage}
 	
-\chapter{Gresley}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Gresley}
+\includepdf{../titles/title.pdf}
+%\chapter{Gresley}
+%text
 \newpage
 
 	\noindent
@@ -377,8 +397,10 @@ text
 	\lilypondfile{music/gresley/temperans.ly}
 	\end{minipage}
 
-\chapter{Il Papa}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Il Papa}
+\includepdf{../titles/title.pdf}
+%\chapter{Il Papa}
+%text
 \newpage
 
 	\noindent
@@ -407,8 +429,10 @@ text
 	\lilypondfile{music/il_papa/la_vita.ly}
 	\end{minipage}
 	
-\chapter{Inns of Court}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Inns of Court}
+\includepdf{../titles/title.pdf}
+%\chapter{Inns of Court}
+%text
 \newpage
 
 	\noindent
@@ -491,8 +515,10 @@ text
 	\lilypondfile{music/inns/new_alman.ly}
 	\end{minipage}
 
-\chapter{16th Century Italian}
-text
+\phantomsection \addcontentsline{toc}{chapter}{16th Century Italian}
+\includepdf{../titles/title.pdf}
+%\chapter{16th Century Italian}
+%text
 \newpage
 
 	\noindent
@@ -727,8 +753,10 @@ text
 	\lilypondfile{music/16italian/villanella.ly}
 	\end{minipage}
 	
-\chapter{Arbeau}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Arbeau}
+\includepdf{../titles/title.pdf}
+%\chapter{Arbeau}
+%text
 \newpage
 
 	\noindent
@@ -779,8 +807,10 @@ text
 	\lilypondfile{music/arbeau/washerwomans_bransle.ly}
 	\end{minipage}
 	
-\chapter{Improvised}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Improvised}
+\includepdf{../titles/title.pdf}
+%\chapter{Improvised}
+%text
 \newpage
 
 	\noindent
@@ -950,8 +980,10 @@ text
 	\lilypondfile{music/improvised/volte_praetorius.ly}
 	\end{minipage}
 
-\chapter{Playford}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Playford}
+\includepdf{../titles/title.pdf}
+%\chapter{Playford}
+%text
 \newpage
 
     \noindent
@@ -1856,9 +1888,10 @@ text
     \end{minipage}
 
 
-
-\chapter{Abominations}
-text
+\phantomsection \addcontentsline{toc}{chapter}{Abominations}
+\includepdf{../titles/title.pdf}
+%\chapter{Abominations}
+%text
 \newpage
 
     \noindent
