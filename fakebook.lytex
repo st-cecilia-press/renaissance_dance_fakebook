@@ -7,20 +7,23 @@
 
 \makeindex{name}
 \makeindex{dancers}
+
+\raggedbottom
 \begin{document}
 
 \frontmatter
 
-%include title page (and introduction?)- from pdf?
 \includepdf{../titles/title.pdf}
 \thispagestyle{empty}
 \cleardoublepage
 
-\includepdf{../titles/intro.pdf}
+\section*{Introduction}
+\setcounter{page}{1}
+Here is an introduction.
 
 \newpage
 
-\setcounter{page}{2}
+
 
 \begin{multicols}{2}
 \tableofcontents
@@ -31,10 +34,10 @@
 \cleardoublepage
 \setcounter{page}{1}
 
-\phantomsection \addcontentsline{toc}{chapter}{Basse Dance}
-\includepdf{../titles/chapter_basse.pdf}
-%\chapter{Basse Dance}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Basse Dance}
+%\includepdf{../titles/chapter_basse.pdf}
+\chapter{Basse Dance}
+text
 \newpage
 
 	\noindent
@@ -62,10 +65,10 @@
 %	\lilypondfile{music/basse/lauro.ly}
 %	\end{minipage}
 
-\phantomsection \addcontentsline{toc}{chapter}{15th Century Italian}
-\includepdf{../titles/title.pdf}
-%\chapter{15th Century Italian}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{15th Century Italian}
+%\includepdf{../titles/title.pdf}
+\chapter{15th Century Italian}
+text
 \newpage
 
 	\noindent
@@ -223,10 +226,10 @@
 	\lilypondfile{music/15italian/voltate.ly}
 	\end{minipage}
 	
-\phantomsection \addcontentsline{toc}{chapter}{Gresley}
-\includepdf{../titles/title.pdf}
-%\chapter{Gresley}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Gresley}
+%\includepdf{../titles/title.pdf}
+\chapter{Gresley}
+text
 \newpage
 
 	\noindent
@@ -397,10 +400,10 @@
 	\lilypondfile{music/gresley/temperans.ly}
 	\end{minipage}
 
-\phantomsection \addcontentsline{toc}{chapter}{Il Papa}
-\includepdf{../titles/title.pdf}
-%\chapter{Il Papa}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Il Papa}
+%\includepdf{../titles/title.pdf}
+\chapter{Il Papa}
+text
 \newpage
 
 	\noindent
@@ -429,10 +432,10 @@
 	\lilypondfile{music/il_papa/la_vita.ly}
 	\end{minipage}
 	
-\phantomsection \addcontentsline{toc}{chapter}{Inns of Court}
-\includepdf{../titles/title.pdf}
-%\chapter{Inns of Court}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Inns of Court}
+%\includepdf{../titles/title.pdf}
+\chapter{Inns of Court}
+text
 \newpage
 
 	\noindent
@@ -515,10 +518,10 @@
 	\lilypondfile{music/inns/new_alman.ly}
 	\end{minipage}
 
-\phantomsection \addcontentsline{toc}{chapter}{16th Century Italian}
-\includepdf{../titles/title.pdf}
-%\chapter{16th Century Italian}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{16th Century Italian}
+%\includepdf{../titles/title.pdf}
+\chapter{16th Century Italian}
+text
 \newpage
 
 	\noindent
@@ -753,15 +756,70 @@
 	\lilypondfile{music/16italian/villanella.ly}
 	\end{minipage}
 	
-\phantomsection \addcontentsline{toc}{chapter}{Arbeau}
-\includepdf{../titles/title.pdf}
-%\chapter{Arbeau}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Arbeau}
+%\includepdf{../titles/title.pdf}
+\chapter{Arbeau}
+text
 \newpage
 
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Basic Bransle Suite}
+	\index{name}{Bransle Suite: Basic}	
+	\index{name}{Double Bransle}
+	\index{name}{Bransle Double}
+	\index{dancers}{2@Two or More People!Double Bransle}
+	\index{dancers}{2@Two or More People!Basic Bransle Suite}
+	\phantomsection \addcontentsline{toc}{section}{Cassandra Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Basic Bransle Suite}	
+	\lilypondfile{music/arbeau/basic_1_double.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Single Bransle}
+	\index{name}{Bransle Simple}
+	\index{dancers}{2@Two or More People!Single Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Single Bransle}
+	\lilypondfile{music/arbeau/basic_2_single.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Gay Bransle}
+	\index{name}{Bransle Gay}
+	\index{dancers}{2@Two or More People!Gay Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Gay Bransle}
+	\lilypondfile{music/arbeau/basic_3_gay.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Burgundian Bransle}
+	\index{name}{Bransle de Burgoigne}
+	\index{name}{Burgoigne, Bransle de}
+	\index{dancers}{2@Two or More People!Burgundian Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Burgundian Bransle Bransle}
+	\lilypondfile{music/arbeau/basic_4_burgundian.ly}
+	\end{minipage}
+
+
+
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Clog Bransle}
+	\index{name}{Bransle des Sabots}
+	\index{name}{Sabots, Bransle des}	
+	\index{dancers}{2@Two or More People!Clog Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Clog Bransle}
+	\lilypondfile{music/arbeau/clog.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Haye Bransle}
+	\index{name}{Bransle de la Haye}	
 	\index{dancers}{2@Two or More People!Haye Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Haye Bransle}
 	\lilypondfile{music/arbeau/haye_bransle.ly}
@@ -769,7 +827,18 @@
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Hermits' Bransle}
+	\index{name}{Bransle des Hermites}	
+	\index{dancers}{2@Two or More People!Hermits' Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Hermits' Bransle}
+	\lilypondfile{music/arbeau/hermits.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Horses Bransle}
+	\index{name}{Bransle des Chevaulx}
+	\index{name}{Chevaulx, Bransle des}	
 	\index{dancers}{2@Two or More People!Horses Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Horses Bransle}
 	\lilypondfile{music/arbeau/horses_hendricks.ly}
@@ -785,7 +854,75 @@
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Maltese Bransle}
+	\index{name}{Bransle de Malte}	
+	\index{dancers}{2@Two or More People!Maltese Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Maltese Bransle}
+	\lilypondfile{music/arbeau/maltese.ly}
+	\end{minipage}
+	
+	
+	
+	
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Mixed Bransle Suite}
+	\index{name}{Bransle Suite: Mixed}	
+	\index{name}{Cassandra Bransle}
+	\index{name}{Bransle Cassandre}
+	\index{dancers}{2@Two or More People!Cassandra Bransle}
+	\index{dancers}{2@Two or More People!Mixed Bransle Suite}
+	\phantomsection \addcontentsline{toc}{section}{Cassandra Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Mixed Bransle Suite}	
+	\lilypondfile{music/arbeau/mixed_1_cassandra.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Pinagay Bransle}
+	\index{name}{Bransle Pinagay}
+	\index{dancers}{2@Two or More People!Pinagay Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Pinagay Bransle}
+	\lilypondfile{music/arbeau/mixed_2_pinagay.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Charlotte Bransle}
+	\index{name}{Bransle Charlotte}
+	\index{dancers}{2@Two or More People!Charlotte Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Charlotte Bransle}
+	\lilypondfile{music/arbeau/mixed_3_charlotte.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{War Bransle}
+	\index{name}{Bransle de la Guerre}
+	\index{name}{Guerre, Bransle de la}
+	\index{dancers}{2@Two or More People!War Bransle}
+	\phantomsection \addcontentsline{toc}{section}{War Bransle}
+	\lilypondfile{music/arbeau/mixed_4_war.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Aridan Bransle}
+	\index{name}{Bransle Aridan}
+	\index{dancers}{2@Two or More People!Aridan Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Aridan Bransle}
+	\lilypondfile{music/arbeau/mixed_5_Aridan.ly}
+	\end{minipage}
+
+
+
+	
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Montarde Bransle}
+	\index{name}{Bransle de la Montarde}	
 	\index{dancers}{4@Four People!Montarde Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Montarde Bransle}
 	\lilypondfile{music/arbeau/montarde.ly}
@@ -794,6 +931,7 @@
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Official Bransle}
+	\index{name}{Bransle Official}	
 	\index{dancers}{2@Two or More People!Official Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Official Bransle}
 	\lilypondfile{music/arbeau/official_bransle.ly}
@@ -801,16 +939,54 @@
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Pease Bransle}
+	\index{name}{Bransle des Pois}	
+	\index{dancers}{2@Two or More People!Pease Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Pease Bransle}
+	\lilypondfile{music/arbeau/pease.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Poictou Bransle}
+	\index{name}{Bransle de Poictou}	
+	\index{dancers}{2@Two or More People!Poictou Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Poictou Bransle}
+	\lilypondfile{music/arbeau/poictou.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Scottish Bransles}
+	\index{name}{Bransles d'Ecosse}
+	\index{name}{Ecosse, Branles d'}	
+	\index{dancers}{2@Two or More People!Scottish Bransles}
+	\phantomsection \addcontentsline{toc}{section}{Scottish Bransles}
+	\lilypondfile{music/arbeau/scotch.ly}
+	\end{minipage}	
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Trihory de Bretagne}
+	\index{dancers}{2@Two or More People!Trihory de Bretagne}
+	\phantomsection \addcontentsline{toc}{section}{Trihory de Bretagne}
+	\lilypondfile{music/arbeau/brittany.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Washerwoman's Bransle}
+	\index{name}{Bransle des Lavandieres}
+	\index{name}{Lavandieres, Bransle des}
 	\index{dancers}{2@Two or More People!Washerwoman's Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Washerwoman's Bransle}
 	\lilypondfile{music/arbeau/washerwomans_bransle.ly}
 	\end{minipage}
 	
-\phantomsection \addcontentsline{toc}{chapter}{Improvised}
-\includepdf{../titles/title.pdf}
-%\chapter{Improvised}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Improvised}
+%\includepdf{../titles/title.pdf}
+\chapter{Improvised}
+text
 \newpage
 
 	\noindent
@@ -980,10 +1156,10 @@
 	\lilypondfile{music/improvised/volte_praetorius.ly}
 	\end{minipage}
 
-\phantomsection \addcontentsline{toc}{chapter}{Playford}
-\includepdf{../titles/title.pdf}
-%\chapter{Playford}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Playford}
+%\includepdf{../titles/title.pdf}
+\chapter{Playford}
+text
 \newpage
 
     \noindent
@@ -1888,10 +2064,10 @@
     \end{minipage}
 
 
-\phantomsection \addcontentsline{toc}{chapter}{Abominations}
-\includepdf{../titles/title.pdf}
-%\chapter{Abominations}
-%text
+%\phantomsection \addcontentsline{toc}{chapter}{Abominations}
+%\includepdf{../titles/title.pdf}
+\chapter{Abominations}
+text
 \newpage
 
     \noindent

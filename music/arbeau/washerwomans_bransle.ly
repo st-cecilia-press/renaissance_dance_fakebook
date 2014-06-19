@@ -3,7 +3,7 @@
 ppTempo = #(ly:make-moment 140 4)
 
 \header{
-  title = "Bransle des Lavandieres (Washerwoman's Bransle)"
+  title = "Bransle des Lavandieres (Washerwomen's Bransle)"
   subtitle = \markup \italic "for as many as will"
   poet = \markup {Jean d'Estrees, \italic {Premier livre de danseries,} 1559}
   tagline = ""
