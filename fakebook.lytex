@@ -770,7 +770,7 @@ text
 	\index{name}{Bransle Double}
 	\index{dancers}{2@Two or More People!Double Bransle}
 	\index{dancers}{2@Two or More People!Basic Bransle Suite}
-	\phantomsection \addcontentsline{toc}{section}{Cassandra Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Double Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Basic Bransle Suite}	
 	\lilypondfile{music/arbeau/basic_1_double.ly}
 	\end{minipage}
@@ -799,7 +799,7 @@ text
 	\index{name}{Bransle de Burgoigne}
 	\index{name}{Burgoigne, Bransle de}
 	\index{dancers}{2@Two or More People!Burgundian Bransle}
-	\phantomsection \addcontentsline{toc}{section}{Burgundian Bransle Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Burgundian Bransle}
 	\lilypondfile{music/arbeau/basic_4_burgundian.ly}
 	\end{minipage}
 
@@ -1162,17 +1162,17 @@ text
 text
 \newpage
 
-    \noindent
-    \begin{minipage}{\columnwidth}
-	\index{name}{Adson's Saraband}
-	\index{dancers}{6@Six People!Adson's Saraband}
-	\phantomsection \addcontentsline{toc}{section}{Adson's Saraband}
-    \lilypondfile{music/playford/adsons_saraband.ly}
-    \end{minipage}
+%    \noindent
+%    \begin{minipage}{\columnwidth}
+%	\index{name}{Adson's Saraband}
+%	\index{dancers}{6@Six People!Adson's Saraband}
+%	\phantomsection \addcontentsline{toc}{section}{Adson's Saraband}
+%    \lilypondfile{music/playford/adsons_saraband.ly}
+%    \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Adson's Sarabande}
+	\index{name}{Adson's Saraband}
 	\index{dancers}{6@Six People!Adson's Saraband}
 	\phantomsection \addcontentsline{toc}{section}{Adson's Saraband}
     \lilypondfile{music/playford/adsons_saraband_terlouw.ly}
@@ -1285,14 +1285,14 @@ text
     \lilypondfile{music/playford/cheerily_and_merrily.ly}
     \end{minipage}
     
-    \noindent
-    \begin{minipage}{\columnwidth}
-	\index{name}{Chestnut}
-	\index{name}{Dove's Figary|see {Chestnut}}
-	\index{dancers}{6@Six People!Chestnut}
-	\phantomsection \addcontentsline{toc}{section}{Chestnut}
-    \lilypondfile{music/playford/chestnut_arslan.ly}
-    \end{minipage}
+%    \noindent
+%    \begin{minipage}{\columnwidth} 
+%	\index{name}{Chestnut}
+%	\index{name}{Dove's Figary|see {Chestnut}}
+%	\index{dancers}{6@Six People!Chestnut}
+%  	\phantomsection \addcontentsline{toc}{section}{Chestnut}
+%    \lilypondfile{music/playford/chestnut_arslan.ly}
+%    \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
@@ -1785,7 +1785,7 @@ text
     \begin{minipage}{\columnwidth}
 	\index{name}{Old Man is a Bed Full of Bones, An}
 	\index{dancers}{21@As Many as Will!An Old Man is a Bed Full of Bones}
-	\phantomsection \addcontentsline{toc}{section}{An Old Mane is a Bed Full of Bones}
+	\phantomsection \addcontentsline{toc}{section}{An Old Man is a Bed Full of Bones}
     \lilypondfile{music/playford/old_man.ly}
     \end{minipage}
     
@@ -1901,13 +1901,13 @@ text
     \lilypondfile{music/playford/saint_martins.ly}
     \end{minipage}
     
-    \noindent
-    \begin{minipage}{\columnwidth}
-	\index{name}{Saint Martin's}
-	\index{dancers}{4@Four People!Saint Martin's}
-	\phantomsection \addcontentsline{toc}{section}{Saint Martin's}
-    \lilypondfile{music/playford/saint_martins_alaric.ly}
-    \end{minipage}
+%    \noindent
+%    \begin{minipage}{\columnwidth}
+%	\index{name}{Saint Martin's}
+%	\index{dancers}{4@Four People!Saint Martin's}
+%	\phantomsection \addcontentsline{toc}{section}{Saint Martin's}
+%    \lilypondfile{music/playford/saint_martins_alaric.ly}
+%    \end{minipage}
     
     \noindent
     \begin{minipage}{\columnwidth}
