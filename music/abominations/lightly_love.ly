@@ -3,8 +3,9 @@
 ppTempo = #(ly:make-moment 72 2)
 
 \header{
-  title = "Lightly Love (to Light of Love, or Earl of Bedford)"
+  title = "Lightly Love"
   subtitle = \markup \italic "longways for as many as will"
+  subsubtitle = \markup \italic "Light of Love, or Earl of Bedford"
   meter = "One round: AA BBB BBB; end with AA BB"
   poet = "16th. C English"
 %  composer = "arr. Paul Butler"

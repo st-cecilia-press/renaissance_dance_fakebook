@@ -1,16 +1,17 @@
 \include "music/include/fb_functions.ly"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)
 %\include "english.ly"
 %#(set-global-staff-size 22)
-#(set-global-staff-size 19)
+%#(set-global-staff-size 19)
 ppTempo = #(ly:make-moment 100 2)
 
 \header{
   title = "Quen Quer Que"
+  subtitle = \markup \italic "for as many as will"
   meter = "(AB) x 8 AA"
-  poet = "Modern Choreography by Master Sion Andreas o Wynedd"
-  composer = "Music 13th Century Spanish"
+  poet = "13th Century Spanish for choreography by Master Sion Andreas o Wynedd"
+  composer = ""
   tagline = ""
   copyright = ""
 }

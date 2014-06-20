@@ -2072,6 +2072,22 @@ text
 
     \noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Burley Mariners}
+	\index{dancers}{6@Six People!Burley Mariners}
+	\phantomsection \addcontentsline{toc}{section}{Burley Mariners}
+	\lilypondfile{music/abominations/burley_mariners.ly}
+	\end{minipage}
+	
+    \noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Corwyn's Folly}
+	\index{dancers}{21@As Many as Will!Corwyn's Folly}
+	\phantomsection \addcontentsline{toc}{section}{Corwyn's Folly}
+	\lilypondfile{music/abominations/corwyns_folly.ly}
+	\end{minipage}
+
+    \noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Crossed Purposes}
 	\index{dancers}{12@Twelve People!Crossed Purposes}
 	\phantomsection \addcontentsline{toc}{section}{Crossed Purposes}
@@ -2088,10 +2104,34 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Kelsterne Gardens}
+	\index{dancers}{6@Six People!Kelsterne Gardens}
+	\phantomsection \addcontentsline{toc}{section}{Kelsterne Gardens}
+	\lilypondfile{music/abominations/kelsterne_gardens.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Lightly Love}
 	\index{dancers}{21@As Many as Will!Lightly Love}
 	\phantomsection \addcontentsline{toc}{section}{Lightly Love}
 	\lilypondfile{music/abominations/lightly_love.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{On the Banks of the Helicon}
+	\index{dancers}{6@Six People!On the Banks of the Helicon}
+	\phantomsection \addcontentsline{toc}{section}{On the Banks of the Helicon}
+	\lilypondfile{music/abominations/on_the_banks.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Quen Quer Que}
+	\index{dancers}{21@As Many as Will!Quen Quer Que}
+	\phantomsection \addcontentsline{toc}{section}{Quen Quer Que}
+	\lilypondfile{music/abominations/quen_quer_que.ly}
 	\end{minipage}
 	
 	\noindent
@@ -2101,6 +2141,8 @@ text
 	\phantomsection \addcontentsline{toc}{section}{Ronde IX}
 	\lilypondfile{music/abominations/ronde.ly}
 	\end{minipage}
+	
+
 
 \newpage
 \phantomsection
