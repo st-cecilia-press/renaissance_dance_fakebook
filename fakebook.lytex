@@ -2119,13 +2119,13 @@ Here is an introduction.
 	\lilypondfile{music/abominations/hole_in_the_head.ly}
 	\end{minipage}
 	
-%	\noindent
-%	\begin{minipage}{\columnwidth}
-%	\index{name}{John Tallow's Canon}
-%	\index{dancers}{4@Four People!John Tallow's Canon}
-%	\phantomsection \addcontentsline{toc}{section}{John Tallow's Canon}
-%	\lilypondfile{music/abominations/john_tallows_canon.ly}
-%	\end{minipage}
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{John Tallow's Canon}
+	\index{dancers}{4@Four People!John Tallow's Canon}
+	\phantomsection \addcontentsline{toc}{section}{John Tallow's Canon}
+	\lilypondfile{music/abominations/john_tallows_chanconeta.ly}
+	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
