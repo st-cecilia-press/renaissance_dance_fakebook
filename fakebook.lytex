@@ -37,7 +37,7 @@ Here is an introduction.
 %\phantomsection \addcontentsline{toc}{chapter}{Basse Dance}
 %\includepdf{../titles/chapter_basse.pdf}
 \chapter{Basse Dance}
-text
+%text
 \newpage
 
 	\noindent
@@ -68,7 +68,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{15th Century Italian}
 %\includepdf{../titles/title.pdf}
 \chapter{15th Century Italian}
-text
+%text
 \newpage
 
 	\noindent
@@ -229,7 +229,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Gresley}
 %\includepdf{../titles/title.pdf}
 \chapter{Gresley}
-text
+%text
 \newpage
 
 	\noindent
@@ -403,7 +403,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Il Papa}
 %\includepdf{../titles/title.pdf}
 \chapter{Il Papa}
-text
+%text
 \newpage
 
 	\noindent
@@ -435,7 +435,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Inns of Court}
 %\includepdf{../titles/title.pdf}
 \chapter{Inns of Court}
-text
+%text
 \newpage
 
 	\noindent
@@ -521,7 +521,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{16th Century Italian}
 %\includepdf{../titles/title.pdf}
 \chapter{16th Century Italian}
-text
+%text
 \newpage
 
 	\noindent
@@ -759,7 +759,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Arbeau}
 %\includepdf{../titles/title.pdf}
 \chapter{Arbeau}
-text
+%text
 \newpage
 
 	\noindent
@@ -986,7 +986,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Improvised}
 %\includepdf{../titles/title.pdf}
 \chapter{Improvised}
-text
+%text
 \newpage
 
 	\noindent
@@ -1159,7 +1159,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Playford}
 %\includepdf{../titles/title.pdf}
 \chapter{Playford}
-text
+%text
 \newpage
 
 %    \noindent
@@ -1807,6 +1807,14 @@ text
     
     \noindent
     \begin{minipage}{\columnwidth}
+	\index{name}{Oranges and Lemons}
+	\index{dancers}{8@Eight People!Oranges and Lemons}
+	\phantomsection \addcontentsline{toc}{section}{Oranges and Lemons}
+    \lilypondfile{music/playford/oranges_and_lemons.ly}
+    \end{minipage}    
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
 	\index{name}{Parson's Farewell}
 	\index{dancers}{4@Four People!Parson's Farewell}
 	\phantomsection \addcontentsline{toc}{section}{Parson's Farewell}
@@ -2067,7 +2075,7 @@ text
 %\phantomsection \addcontentsline{toc}{chapter}{Abominations}
 %\includepdf{../titles/title.pdf}
 \chapter{Abominations}
-text
+%text
 \newpage
 
     \noindent
@@ -2093,6 +2101,31 @@ text
 	\phantomsection \addcontentsline{toc}{section}{Crossed Purposes}
 	\lilypondfile{music/abominations/crossed_purposes.ly}
 	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Female Sailor}
+	\index{dancers}{21@As Many as Will!Female Sailor}
+	\phantomsection \addcontentsline{toc}{section}{Female Sailor}
+	\lilypondfile{music/abominations/female_sailor.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Hole in the Wall}
+	\index{name}{Hole in the Head|see {Hole in the Wall}}	
+	\index{dancers}{21@As Many as Will!Hole in the Wall}
+	\phantomsection \addcontentsline{toc}{section}{Hole in the Wall}
+	\lilypondfile{music/abominations/hole_in_the_head.ly}
+	\end{minipage}
+	
+%	\noindent
+%	\begin{minipage}{\columnwidth}
+%	\index{name}{John Tallow's Canon}
+%	\index{dancers}{4@Four People!John Tallow's Canon}
+%	\phantomsection \addcontentsline{toc}{section}{John Tallow's Canon}
+%	\lilypondfile{music/abominations/john_tallows_canon.ly}
+%	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
@@ -2128,6 +2161,22 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Pontyplas}
+	\index{dancers}{8@Eight People!Pontyplas}
+	\phantomsection \addcontentsline{toc}{section}{Pontyplas}
+	\lilypondfile{music/abominations/pontyplas.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Posten's Jig}
+	\index{dancers}{8@Eight People!Posten's Jig}
+	\phantomsection \addcontentsline{toc}{section}{Posten's Jig}
+	\lilypondfile{music/abominations/postens.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Quen Quer Que}
 	\index{dancers}{21@As Many as Will!Quen Quer Que}
 	\phantomsection \addcontentsline{toc}{section}{Quen Quer Que}
@@ -2136,10 +2185,44 @@ text
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Road to the Isles}
+	\index{dancers}{2@Two or More People!Road to the Isles}
+	\phantomsection \addcontentsline{toc}{section}{Road to the Isles}
+	\lilypondfile{music/abominations/road_to_the_isles.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Ronde IX}
 	\index{dancers}{21@As Many as Will!Ronde IX}
 	\phantomsection \addcontentsline{toc}{section}{Ronde IX}
 	\lilypondfile{music/abominations/ronde.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{St. Joan}
+	\index{dancers}{8@Eight People!St. Joan}
+	\phantomsection \addcontentsline{toc}{section}{St. Joan}
+	\lilypondfile{music/abominations/st_joan.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Turkish Bransle}
+	\index{name}{SCA Maltese Bransle}
+	\index{name}{Maltese Bransle (SCA)}
+	\index{dancers}{21@As Many as Will!Turkish Bransle}
+	\phantomsection \addcontentsline{toc}{section}{Turkish Bransle}
+	\lilypondfile{music/abominations/turkish.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Two Fat Ladies}
+	\index{dancers}{8@Eight People!Two Fat Ladies}
+	\phantomsection \addcontentsline{toc}{section}{Two Fat Ladies}
+	\lilypondfile{music/abominations/two_fat_ladies.ly}
 	\end{minipage}
 	
 
