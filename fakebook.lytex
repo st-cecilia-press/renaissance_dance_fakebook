@@ -912,7 +912,7 @@ Here is an introduction.
 	\index{name}{Bransle Aridan}
 	\index{dancers}{2@Two or More People!Aridan Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Aridan Bransle}
-	\lilypondfile{music/arbeau/mixed_5_Aridan.ly}
+	\lilypondfile{music/arbeau/mixed_5_aridan.ly}
 	\end{minipage}
 
 
@@ -1156,9 +1156,9 @@ Here is an introduction.
 	\lilypondfile{music/improvised/volte_praetorius.ly}
 	\end{minipage}
 
-%\phantomsection \addcontentsline{toc}{chapter}{Playford}
+%\phantomsection \addcontentsline{toc}{chapter}{Playford 1651}
 %\includepdf{../titles/title.pdf}
-\chapter{Playford}
+\chapter{Playford 1651}
 %text
 \newpage
 
@@ -1226,14 +1226,6 @@ Here is an introduction.
 	\index{dancers}{6@Six People!Beggar Boy}
 	\phantomsection \addcontentsline{toc}{section}{Beggar Boy}
     \lilypondfile{music/playford/beggar_boy.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
-	\index{name}{Black Nag}
-	\index{dancers}{6@Six People!Black Nag}
-	\phantomsection \addcontentsline{toc}{section}{Black Nag}
-    \lilypondfile{music/playford/blacknag.ly}
     \end{minipage}
     
     \noindent
@@ -1580,14 +1572,6 @@ Here is an introduction.
     \lilypondfile{music/playford/jack_pudding.ly}
     \end{minipage}
 	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Jamaica}
-	\index{dancers}{21@As Many as Will!Jamaica}
-	\phantomsection \addcontentsline{toc}{section}{Jamaica}
-	\lilypondfile{music/playford/jamaica.ly}
-	\end{minipage}
-    
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Jenny Pluck Pears}
@@ -1807,14 +1791,6 @@ Here is an introduction.
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Oranges and Lemons}
-	\index{dancers}{8@Eight People!Oranges and Lemons}
-	\phantomsection \addcontentsline{toc}{section}{Oranges and Lemons}
-    \lilypondfile{music/playford/oranges_and_lemons.ly}
-    \end{minipage}    
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
 	\index{name}{Parson's Farewell}
 	\index{dancers}{4@Four People!Parson's Farewell}
 	\phantomsection \addcontentsline{toc}{section}{Parson's Farewell}
@@ -1943,14 +1919,6 @@ Here is an introduction.
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Sellinger's Round}
-	\index{dancers}{21@As Many as Will!Sellinger's Round}
-	\phantomsection \addcontentsline{toc}{section}{Sellenger's Round}
-    \lilypondfile{music/playford/sellingers_alaric.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
 	\index{name}{Shepherd's Holiday}
 	\index{name}{Labour in Vain|see {Shepherd's Holiday}}
 	\index{dancers}{6@Six People!Shepherd's Holiday}
@@ -2033,14 +2001,6 @@ Here is an introduction.
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Trenchmore}
-	\index{dancers}{21@As Many as Will!Trenchmore}
-	\phantomsection \addcontentsline{toc}{section}{Trenchmore}
-    \lilypondfile{music/playford/trenchmore.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
 	\index{name}{Up Tails All}
 	\index{dancers}{21@As Many as Will!Up Tails All}
 	\phantomsection \addcontentsline{toc}{section}{Up Tails All}
@@ -2071,6 +2031,52 @@ Here is an introduction.
     \lilypondfile{music/playford/wish.ly}
     \end{minipage}
 
+%\phantomsection \addcontentsline{toc}{chapter}{Later Playford}
+%\includepdf{../titles/title.pdf}
+\chapter{Later Playford}
+%text
+\newpage
+
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Black Nag}
+	\index{dancers}{6@Six People!Black Nag}
+	\phantomsection \addcontentsline{toc}{section}{Black Nag}
+    \lilypondfile{music/playford_later/blacknag.ly}
+    \end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Jamaica}
+	\index{dancers}{21@As Many as Will!Jamaica}
+	\phantomsection \addcontentsline{toc}{section}{Jamaica}
+	\lilypondfile{music/playford_later/jamaica.ly}
+	\end{minipage}
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Oranges and Lemons}
+	\index{dancers}{8@Eight People!Oranges and Lemons}
+	\phantomsection \addcontentsline{toc}{section}{Oranges and Lemons}
+    \lilypondfile{music/playford_later/oranges_and_lemons.ly}
+    \end{minipage}    
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Sellinger's Round}
+	\index{dancers}{21@As Many as Will!Sellinger's Round}
+	\phantomsection \addcontentsline{toc}{section}{Sellenger's Round}
+    \lilypondfile{music/playford_later/sellingers_alaric.ly}
+    \end{minipage}
+
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Trenchmore}
+	\index{dancers}{21@As Many as Will!Trenchmore}
+	\phantomsection \addcontentsline{toc}{section}{Trenchmore}
+    \lilypondfile{music/playford_later/trenchmore.ly}
+    \end{minipage}
+    
 
 %\phantomsection \addcontentsline{toc}{chapter}{Abominations}
 %\includepdf{../titles/title.pdf}
