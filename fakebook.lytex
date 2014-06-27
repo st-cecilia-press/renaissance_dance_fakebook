@@ -1142,6 +1142,30 @@ Here is an introduction.
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Saltarello I}
+	\index{dancers}{2@Two or More People!Saltarello I}
+	\phantomsection \addcontentsline{toc}{section}{Saltarello I}
+	\lilypondfile{music/improvised/saltarello1_compressed.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Saltarello II}
+	\index{dancers}{2@Two or More People!Saltarello II}
+	\phantomsection \addcontentsline{toc}{section}{Saltarello II}
+	\lilypondfile{music/improvised/saltarello_ii_compressed.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Saltarello la Regina}
+	\index{dancers}{2@Two or More People!Saltarello la Regina}
+	\phantomsection \addcontentsline{toc}{section}{Saltarello la Regina}
+	\lilypondfile{music/improvised/saltarello_la_regina_compressed.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Volta@La Volta}
 	\index{dancers}{2@Two or More People!Volta@La Volta}
 	\phantomsection \addcontentsline{toc}{section}{La Volta}
@@ -2059,7 +2083,15 @@ Here is an introduction.
 	\index{dancers}{8@Eight People!Oranges and Lemons}
 	\phantomsection \addcontentsline{toc}{section}{Oranges and Lemons}
     \lilypondfile{music/playford_later/oranges_and_lemons.ly}
-    \end{minipage}    
+    \end{minipage} 
+    
+    \noindent
+    \begin{minipage}{\columnwidth}
+	\index{name}{Prince William}
+	\index{dancers}{6@Six People!Prince William}
+	\phantomsection \addcontentsline{toc}{section}{Prince William}
+    \lilypondfile{music/playford_later/prince_william.ly}
+    \end{minipage}   
     
     \noindent
     \begin{minipage}{\columnwidth}
@@ -2159,6 +2191,15 @@ Here is an introduction.
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Mairi's Wedding}
+	\index{dancers}{6@Six People!Mairi's Wedding}
+	\index{dancers}{8@Eight People!Mairi's Wedding}
+	\phantomsection \addcontentsline{toc}{section}{Mairi's Wedding}
+	\lilypondfile{music/abominations/mairis_wedding.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{On the Banks of the Helicon}
 	\index{dancers}{6@Six People!On the Banks of the Helicon}
 	\phantomsection \addcontentsline{toc}{section}{On the Banks of the Helicon}
@@ -2184,7 +2225,7 @@ Here is an introduction.
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Quen Quer Que}
-	\index{dancers}{21@As Many as Will!Quen Quer Que}
+	\index{dancers}{2@Two or More People!Quen Quer Que}
 	\phantomsection \addcontentsline{toc}{section}{Quen Quer Que}
 	\lilypondfile{music/abominations/quen_quer_que.ly}
 	\end{minipage}
@@ -2200,7 +2241,7 @@ Here is an introduction.
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Ronde IX}
-	\index{dancers}{21@As Many as Will!Ronde IX}
+	\index{dancers}{2@Two or More People!Ronde IX}
 	\phantomsection \addcontentsline{toc}{section}{Ronde IX}
 	\lilypondfile{music/abominations/ronde.ly}
 	\end{minipage}
@@ -2218,7 +2259,7 @@ Here is an introduction.
 	\index{name}{Turkish Bransle}
 	\index{name}{SCA Maltese Bransle}
 	\index{name}{Maltese Bransle (SCA)}
-	\index{dancers}{21@As Many as Will!Turkish Bransle}
+	\index{dancers}{2@Two or More People!Turkish Bransle}
 	\phantomsection \addcontentsline{toc}{section}{Turkish Bransle}
 	\lilypondfile{music/abominations/turkish.ly}
 	\end{minipage}

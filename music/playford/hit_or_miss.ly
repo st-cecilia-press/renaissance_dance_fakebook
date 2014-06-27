@@ -12,7 +12,7 @@ ppMusicOne =  {
 \repeat volta 2 {
 \time 6/4 
  \key c \major   c''2    d''4    e''4    c''4    a'4  \bar "|"   g'4.    a'8    
-b'8    c''8  \bar "|"   d''4    b'4    g'4  \bar "|"   e''2    f''4    g''4    
+b'8    c''8  d''4    b'4    g'4  \bar "|"   e''2    f''4    g''4    
 e''4    c''4  \bar "|"   d''4    b'4    g'4    c''4    g'4    e'4  }     
 \repeat volta 2 {   c''4    c''4    c''4    c''4    d''8    e''8    f''4  
 \bar "|"   e''2.    e''4.    d''8    c''4  \bar "|"   b'4.    c''8    d''4    
