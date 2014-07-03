@@ -42,7 +42,7 @@ Here is an introduction.
 
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Cleves, Danse de}
+	\index{name}{Cleves, Danse de}	
 	\index{name}{Danse de Cleves}
 	\index{dancers}{2@Two People!Danse de Cleves}
 	\phantomsection \addcontentsline{toc}{section}{Danse de Cleves}
@@ -606,9 +606,8 @@ Here is an introduction.
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Conto dell'Orco, Il}
-	\index{name}{Il Conto dell'Orco}
-	\index{dancers}{2@Two People!Il Conto dell'Orco}
+	\index{name}{Conto dell'Orco@Il Conto dell'Orco}
+	\index{dancers}{2@Two People!Conto dell'Orco@Il Conto dell'Orco}
 	\phantomsection \addcontentsline{toc}{section}{Il Conto dell'Orco}
 	\lilypondfile{music/16italian/conto.ly}
 	\end{minipage}
@@ -706,7 +705,6 @@ Here is an introduction.
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Pensand' al Partire, Se}
 	\index{name}{Se Pensand' al Partire}
 	\index{dancers}{2@Two People!Se Pensand' al Partire}
 	\phantomsection \addcontentsline{toc}{section}{Se Pensand' al Partire}
@@ -724,18 +722,16 @@ Here is an introduction.
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Spagnoletta}
-	\index{name}{Spagnoletta Nuova|see {Spagnoletta}}
 	\index{dancers}{2@Two People!Spagnoletta}
-	\index{dancers}{3@Three People!Spagnoletta Nuova|see {Spagnoletta}}
+	\index{dancers}{3@Three People!Spagnoletta Nuova}
 	\phantomsection \addcontentsline{toc}{section}{Spagnoletta}
 	\lilypondfile{music/16italian/spagnoletta.ly}
 	\end{minipage}
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Spagnoletto, Lo}
-	\index{name}{Lo Spagnoletto}
-	\index{dancers}{4@Four People!Lo Spagnoletto}
+	\index{name}{Spagnoletto@Lo Spagnoletto}
+	\index{dancers}{4@Four People!Spagnoletto@Lo Spagnoletto}
 	\phantomsection \addcontentsline{toc}{section}{Lo Spagnoletto}
 	\lilypondfile{music/16italian/spagnoletto.ly}
 	\end{minipage}
@@ -1255,7 +1251,6 @@ Here is an introduction.
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Blue Cap}
-	\index{name}{Blew Cap}
 	\index{dancers}{6@Six People!Blue Cap}
 	\phantomsection \addcontentsline{toc}{section}{Blue Cap}
     \lilypondfile{music/playford/blue_cap.ly}
@@ -1373,7 +1368,9 @@ Here is an introduction.
     \begin{minipage}{\columnwidth}
 	\index{name}{Dargason}
 	\index{name}{Sedany|see {Dargason}}
+	\index{name}{Hawthorne|see {Dargason}}
 	\index{dancers}{21@As Many as Will!Dargason}
+	\index{dancers}{2@Two or More People!Hawthorne|see {Dargason}}	
 	\phantomsection \addcontentsline{toc}{section}{Dargason}
     \lilypondfile{music/playford/dargason.ly}
     \end{minipage}
