@@ -133,7 +133,10 @@ ppMusicFour = \relative c {
 }
 
 ppChordLine = \chordmode {
-% TODO: chords
+    c1 g g c
+    c g f2 g c1
+    g g g g 
+    c2 f c g f g c1
 }
 
 

@@ -354,6 +354,22 @@ Here is an introduction.
 
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Prenes a Gard}
+	\index{dancers}{3@Three People!Prenes a Gard}
+	\phantomsection \addcontentsline{toc}{section}{Prenes a Gard}
+	\lilypondfile{music/gresley/prenes_a_gard.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Prenes in Gre}
+	\index{dancers}{2@Two People!Prenes in Gre}
+	\phantomsection \addcontentsline{toc}{section}{Prenes in Gre}
+	\lilypondfile{music/gresley/prenes_en_gre.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Princitore}
 	\index{dancers}{2@Two People!Princitore}
 	\phantomsection \addcontentsline{toc}{section}{Princitore}
@@ -391,6 +407,14 @@ Here is an introduction.
 	\phantomsection \addcontentsline{toc}{section}{Talbott}
 	\lilypondfile{music/gresley/talbott.ly}
 	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Tamrett}
+	\index{dancers}{2@Two People!Tamrett}
+	\phantomsection \addcontentsline{toc}{section}{Tamrett}
+	\lilypondfile{music/gresley/tamrett.ly}
+	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
@@ -398,6 +422,14 @@ Here is an introduction.
 	\index{dancers}{3@Three People!Temperans}
 	\phantomsection \addcontentsline{toc}{section}{Temperans}
 	\lilypondfile{music/gresley/temperans.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Whatsoever Ye Wyll}
+	\index{dancers}{2@Two People!Whatsoever Ye Wyll}
+	\phantomsection \addcontentsline{toc}{section}{Whatsoever Ye Wyll}
+	\lilypondfile{music/gresley/whatsoever_ye_wyll.ly}
 	\end{minipage}
 
 %\phantomsection \addcontentsline{toc}{chapter}{Il Papa}
