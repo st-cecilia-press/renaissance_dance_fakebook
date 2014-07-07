@@ -71,13 +71,13 @@ ppMusicOne =
       	}
       	
       	\break \break
-      	e'4^\markup{ \bold { \center-column { \null \null \null \null "Verse 1,2" \null } } } e8 d4 e8 |
+      	e'4^\markup{ \bold { \center-column { \null \null "Verse 1,2" \null } } } e8 d4 e8 |
       	a,4 e'8 a,4 e'8 |
       	e d e c b c |
       	d4 e8 d e c  \bar "||"
       	
       	\break
-      	a'2.^\markup{ \bold { \center-column { \null \null \null \null "Verse 3,4" \null } } } |
+      	a'2.^\markup{ \bold { \center-column { \null \null "Verse 3,4" \null } } } |
       	a4. g8 f g |
       	a g a e dis e |
       	g fis g c, b c |
@@ -87,7 +87,7 @@ ppMusicOne =
       	e' e  \bar "||"
       		
       	\break
-      	b2.^\markup{ \bold { \center-column { \null \null \null \null "Verse 5,6" \null } } } |
+      	b2.^\markup{ \bold { \center-column { \null \null "Verse 5,6" \null } } } |
       	c4 b8 c4 a8 |
       	b4. a |
       	g4 a8 g fis g |
@@ -100,7 +100,7 @@ ppMusicOne =
       	e' e  \bar "||"
       		
 	\break
-      	gis,4.^\markup{ \bold { \center-column { \null \null \null \null "Verse 7,8" \null } } } gis |
+      	gis,4.^\markup{ \bold { \center-column { \null \null "Verse 7,8" \null } } } gis |
       	a4 gis8 a gis a |
       	a4 gis8 a4 b8 |
       	c b c a gis a |

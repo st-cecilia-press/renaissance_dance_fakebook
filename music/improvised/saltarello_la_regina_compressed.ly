@@ -3,7 +3,7 @@
 #(ly:make-moment 100 2)
 %\include "english.ly"
 %#(set-global-staff-size 22)
-#(set-global-staff-size 17)
+#(set-global-staff-size 18)
 ppTempo = #(ly:make-moment 70 2)
 
 
