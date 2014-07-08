@@ -9,18 +9,25 @@
 ppMusicOne =  {
 \set Score.defaultBarType = "empty"
 
+\ppMark
 \repeat volta 2 {
 \time 6/4 
  \key g \major   g'4  \bar "|"   a'2    b'4    c''4.    b'8    a'4  \bar "|"   
 b'4.    a'8    g'4    d''2    c''4  \bar "|"   a'2    fis'4    d'2    g'4  
-\bar "|"   fis'4.    e'8    fis'4    g'2  }     \repeat volta 2 {   g'4  
+\bar "|"   fis'4.    e'8    fis'4    g'2  }     
+
+\ppMark
+\repeat volta 2 {   g'4  
 \bar "|"   a'2    fis'4    d'2    d''4    \bar "|"   b'2    g'4    g'2    b'4  
 \bar "|"   a'2    fis'4    d'2    g'4  \bar "|"   fis'4.    e'8    fis'4    g'2 
  }       
 }
 
 global = {}
-ppChordLine = \chordmode {}
+ppChordLine = \chordmode {
+s4 d1. g d d2. g
+d1. g d d2. g2
+}
 ppTempo = #(ly:make-moment 80 2)
 \include "music/include/fb_a1.ly"
 \version "2.14.2"

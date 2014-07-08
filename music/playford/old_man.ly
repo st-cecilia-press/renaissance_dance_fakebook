@@ -20,7 +20,9 @@ e''4.    d''8    c''4  \bar "|"   d''2    e''4    f''4.    e''8    d''4  }
 }
 
 global = {}
-ppChordLine = \chordmode {}
-ppTempo = #(ly:make-moment 80 2)
+ppChordLine = \chordmode {
+a1.:m a:m g d:m a:m a:m d2.:m a:m g d:m
+}
+ppTempo = #(ly:make-moment 80 1)
 \include "music/include/fb_a1.ly"
 \version "2.14.2"

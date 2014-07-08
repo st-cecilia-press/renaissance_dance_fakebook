@@ -1675,14 +1675,6 @@ Here is an introduction.
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Lavena}
-	\index{dancers}{21@As Many as Will!Lavena}
-	\phantomsection \addcontentsline{toc}{section}{Lavena}
-    \lilypondfile{music/playford/lavena.ly}
-    \end{minipage}
-    
-    \noindent
-    \begin{minipage}{\columnwidth}
 	\index{name}{Lord of Carnarvan's Jegg}
 	\index{dancers}{8@Eight People!Lord of Carnarvan's Jegg}
 	\phantomsection \addcontentsline{toc}{section}{Lord of Carnarvan's Jegg}
@@ -1759,7 +1751,7 @@ Here is an introduction.
 	\index{name}{Mundesse}
 	\index{dancers}{6@Six People!Mundesse}
 	\phantomsection \addcontentsline{toc}{section}{Mundesse}
-    \lilypondfile{music/playford/mundesse.ly}
+    \lilypondfile{music/playford/mundesse_susato.ly}
     \end{minipage}
     
     \noindent
@@ -1885,7 +1877,10 @@ Here is an introduction.
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Picking of Sticks}
+	\index{name}{Lavena}
 	\index{dancers}{6@Six People!Picking of Sticks}
+	\index{dancers}{21@As Many as Will!Lavena}
+	\phantomsection \addcontentsline{toc}{section}{Lavena}	
 	\phantomsection \addcontentsline{toc}{section}{Picking of Sticks}
     \lilypondfile{music/playford/picking_of_sticks.ly}
     \end{minipage}
@@ -2071,8 +2066,11 @@ Here is an introduction.
     \noindent
     \begin{minipage}{\columnwidth}
 	\index{name}{Whirligig}
+	\index{name}{Woodycock}	
 	\index{dancers}{6@Six People!Whirligig}
-	\phantomsection \addcontentsline{toc}{section}{Whirligig}
+	\index{dancers}{6@Six People!Woodycock}	
+	\phantomsection \addcontentsline{toc}{section}{Woodycock}
+	\phantomsection \addcontentsline{toc}{section}{Whirligig}	
     \lilypondfile{music/playford/whirligig.ly}
     \end{minipage}
     
