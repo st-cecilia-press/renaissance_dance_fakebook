@@ -20,7 +20,10 @@ g''4  \bar "|"   \time 9/4   fis''2.    e''2.   ~    e''2    fis''4  \bar "|"
 }
 
 global = {}
-ppChordLine = \chordmode {}
+ppChordLine = \chordmode {
+d1. d2. a d1. d2. a1.
+g2. d a d a g d
+}
 ppTempo = #(ly:make-moment 80 2)
 \include "music/include/fb_a1.ly"
 \version "2.14.2"
