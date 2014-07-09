@@ -52,7 +52,9 @@ Here is an introduction.
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Casuelle la Novele}
+	\index{name}{Lauro|see {Casuelle la Novele}}	
 	\index{dancers}{2@Two People!Casuelle la Novele}
+	\index{dancers}{2@Two People!Lauro|see {Casuelle la Novele}}	
 	\phantomsection \addcontentsline{toc}{section}{Casuelle la Novele}
 	\lilypondfile{music/basse/cleves.ly}
 	\end{minipage}
