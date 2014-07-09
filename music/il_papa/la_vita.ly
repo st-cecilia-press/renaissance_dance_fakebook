@@ -18,7 +18,8 @@ global= {
 }
 
 ppChordLine = \chordmode {
-
+a1.:m d2.:m c a:m d:m e a:m
+g2. a:m g a:m a1.:m
 }
 
 ppMusicOne = \relative c' {

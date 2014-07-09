@@ -18,6 +18,12 @@ global= {
 }
 
 ppChordLine = \chordmode {
+g1. d2. g
+g1. c g d
+g2. d g1.
+g1. c g d
+g2. d g1.
+g1. d2. g
 
 }
 

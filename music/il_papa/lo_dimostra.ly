@@ -1,4 +1,4 @@
-\include "../music/include/fb_functions.ly"
+\include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)
 
@@ -18,7 +18,14 @@ global= {
 }
 
 ppChordLine = \chordmode {
+g1. c d d e:m
+g a:m g c
+c2. d:m g c f1. f2. d
+g1. g2. f c1. g2. c
 
+c1. f g g2. c g c
+
+a1.:m g f g2. c
 }
 
 ppMusicOne = \relative c' {
@@ -41,7 +48,7 @@ ppMusicOne = \relative c' {
   g4. a8 b4 d4. c8 b4
   b4. a8 g4 a4. b8 a4
   g4. f8 e4 e4. f8 g4
-  g4. a8 b4 c2. \mark "(3)"
+  g4. a8 b4 c2.^\markup{\translate #(cons 5 0) \huge "(3)"}
     }
       
     \ppMark
@@ -55,7 +62,7 @@ ppMusicOne = \relative c' {
       g4. a8 b4 c2 a4
     }
     {
-      g4. a8 b4 c2.
+      g4. a8 b4 c2. \bar "||"
     }
   }
 
@@ -70,6 +77,6 @@ ppMusicOne = \relative c' {
 }
 
 
-\include "../music/include/fb_a1.ly"
+\include "music/include/fb_a1.ly"
 
 \version "2.10.10"  % necessary for upgrading to future LilyPond versions.
