@@ -7,21 +7,21 @@
   tagline = ""
 }
 ppMusicOne =  {
-\set Score.defaultBarType = "empty"
+%\set Score.defaultBarType = "empty"
 
 \ppMark
 \repeat volta 2 {
 \time 6/4 
- \key g \minor   d'4  \bar "|"   g'2    g'4    a'2    g'4  \bar "|"   bes'4    
-g'2    c''2    g'4  \bar "|"   d''4    bes'2    a'2    g'4  \bar "|"   g'2.  
+ \key g \minor  \partial 4 d'4  |   g'2    g'4    a'2    g'4  |   bes'4    
+g'2    c''2    g'4  |   d''4    bes'2    a'2    g'4  |   g'2.  
  ~    g'2    }     
  
 \ppMark
- \repeat volta 2 {   g''4  \bar "|"   f''4    d''2    ees''2  
-  c''4  \bar "|"   d''4    bes'2    c''2    a'4  \bar "|"   bes'4    g'2    a'4 
-   f'2  \bar "|"   bes'2.   ~    bes'2    bes'4  \bar "|"     c''4    a'2    
-d''2    a'4  \bar "|"   fis'4    d'2    bes'2    c''4  \bar "|"   d''4    bes'2 
-   c''4    a'2  \bar "|"   g'2.   ~    g'2  }       
+ \repeat volta 2 {   g''4  |   f''4    d''2    ees''2  
+  c''4  |   d''4    bes'2    c''2    a'4  |   bes'4    g'2    a'4 
+   f'2  |   bes'2.   ~    bes'2    bes'4  |     c''4    a'2    
+d''2    a'4  |   fis'4    d'2    bes'2    c''4  |   d''4    bes'2 
+   c''4    a'2  |   g'2.   ~    g'2  }       
 }
 
 global = {}
