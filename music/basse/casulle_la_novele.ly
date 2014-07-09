@@ -1,12 +1,15 @@
 \include "music/include/fb_functions.ly"
 \header{
   title = "Casulle la Novele"
+  subtitle = \markup \italic "for couples"
   poet = \brusselsSource
+  piece = "Can be played with La Spagna" 
+  
 }
 ppTempo = #(ly:make-moment 120 1)
 
 global= {
-  \key a \minor
+  \key d \minor
   \time 6/4
 }
 
@@ -14,8 +17,9 @@ ppChordLine = \chordmode {
 
 }
 
-ppMusicOne = \relative c'' {
-  a1. a e, d f e d d f g a a c bes a c d d g, a g g d' d c c d g, f bes a a d, e g a c b a g f e d e d \bar "|." %45 
+ppMusicOne = \relative c' {
+	\clef "G_8"
+  d1. d a g bes a g g bes c d d f e d f g g c, d c c g' g f f g c, bes ees d d g, a c d f e d c bes a g a g \bar "|." %45 
 }
 
 

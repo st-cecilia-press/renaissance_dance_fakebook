@@ -2,6 +2,7 @@
 \include "english.ly"
 \header{
   title = "Danse de Cleves"
+  subtitle = \markup \italic "for couples"
   poet = \brusselsSource
 %  composer = "arr. David Yardley"
 %  tagline = \yardleyTagline

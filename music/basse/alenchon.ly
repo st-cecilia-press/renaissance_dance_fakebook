@@ -2,6 +2,7 @@
 \include "english.ly"
 \header{
   title = "Alenchon"
+  subtitle = \markup \italic "for couples"
   poet = \brusselsSource
 }
 ppTempo = #(ly:make-moment 120 1)

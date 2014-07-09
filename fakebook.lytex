@@ -51,12 +51,12 @@ Here is an introduction.
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Casuelle la Novele}
-	\index{name}{Lauro|see {Casuelle la Novele}}	
-	\index{dancers}{2@Two People!Casuelle la Novele}
-	\index{dancers}{2@Two People!Lauro|see {Casuelle la Novele}}	
-	\phantomsection \addcontentsline{toc}{section}{Casuelle la Novele}
-	\lilypondfile{music/basse/cleves.ly}
+	\index{name}{Casulle la Novele}
+	\index{name}{Lauro|see {Casulle la Novele}}	
+	\index{dancers}{2@Two People!Casulle la Novele}
+	\index{dancers}{2@Two People!Lauro|see {Casulle la Novele}}	
+	\phantomsection \addcontentsline{toc}{section}{Casulle la Novele}
+	\lilypondfile{music/basse/casulle_la_novele.ly}
 	\end{minipage}
 
 	\noindent
@@ -75,6 +75,14 @@ Here is an introduction.
 	\phantomsection \addcontentsline{toc}{section}{Le Mois de May}
 	\lilypondfile{music/basse/mois_de_may.ly}
 	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Spagna@La Spagna}	
+	\index{dancers}{2@Two People!Spagna@La Spagna}
+	\phantomsection \addcontentsline{toc}{section}{Spagna@La Spagna}
+	\lilypondfile{music/basse/spagna.ly}
+	\end{minipage}	
 	
 %	\noindent
 %	\begin{minipage}{\columnwidth}
