@@ -42,11 +42,36 @@ Here is an introduction.
 
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Alenchon}
+	\index{name}{Basse Alenchon}
+	\index{dancers}{2@Two People!Alenchon}
+	\phantomsection \addcontentsline{toc}{section}{Alenchon}
+	\lilypondfile{music/basse/alenchon.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Casuelle la Novele}
+	\index{dancers}{2@Two People!Casuelle la Novele}
+	\phantomsection \addcontentsline{toc}{section}{Casuelle la Novele}
+	\lilypondfile{music/basse/cleves.ly}
+	\end{minipage}
+
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Cleves, Danse de}	
 	\index{name}{Danse de Cleves}
 	\index{dancers}{2@Two People!Danse de Cleves}
 	\phantomsection \addcontentsline{toc}{section}{Danse de Cleves}
 	\lilypondfile{music/basse/cleves.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Mois de May@Le Mois de May}	
+	\index{dancers}{2@Two People!Mois de May@Le Mois de May}
+	\phantomsection \addcontentsline{toc}{section}{Le Mois de May}
+	\lilypondfile{music/basse/mois_de_may.ly}
 	\end{minipage}
 	
 %	\noindent
