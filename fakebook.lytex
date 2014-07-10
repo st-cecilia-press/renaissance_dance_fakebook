@@ -169,6 +169,16 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Giove}
+	\index{name}{Jupiter|see {Giove}}
+	\index{dancers}{3@Three People!Giove}
+	\index{dancers}{3@Three People!Jupiter|see {Giove}}	
+	\phantomsection \addcontentsline{toc}{section}{Giove}
+	\lilypondfile{music/15italian/giove.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Gratioso}
 	\index{dancers}{2@Two People!Gratioso}
 	\phantomsection \addcontentsline{toc}{section}{Gratioso}
