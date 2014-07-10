@@ -4,6 +4,7 @@
   subtitle = "for three"
   poet = \pndSource
   tagline = ""
+  piece = \markup{ "Drone: B" \flat "/F"}
 }
 
 #(set-default-paper-size "letter")

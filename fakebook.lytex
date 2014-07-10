@@ -137,6 +137,14 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Belreguardo}
+	\index{dancers}{2@Two People!Belreguardo}
+	\phantomsection \addcontentsline{toc}{section}{Belreguardo}
+	\lilypondfile{music/15italian/belreguardo.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Chirintana}
 	\index{dancers}{21@As Many as Will!Chirintana}
 	\phantomsection \addcontentsline{toc}{section}{Chirintana}
@@ -187,6 +195,22 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Ingrata}
+	\index{dancers}{3@Three People!Ingrata}
+	\phantomsection \addcontentsline{toc}{section}{Ingrata}
+	\lilypondfile{music/15italian/ingrata.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Legiadra}
+	\index{dancers}{4@Four People!Legiadra}
+	\phantomsection \addcontentsline{toc}{section}{Legiadra}
+	\lilypondfile{music/15italian/legiadra.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Leoncello}
 	\index{dancers}{2@Two People!Leoncello Vecchio}
 	\index{dancers}{3@Three People!Leoncello Novo}
@@ -228,11 +252,27 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Prexonera}
+	\index{dancers}{2@Two People!Prexonera}
+	\phantomsection \addcontentsline{toc}{section}{Prexonera}
+	\lilypondfile{music/15italian/prexonera.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Rostiboli Gioioso}
 	\index{dancers}{2@Two People!Rostiboli Gioioso}
 	\index{dancers}{3@Three People!Gioioso in Tre}
 	\phantomsection \addcontentsline{toc}{section}{Rostiboli Gioioso}
 	\lilypondfile{music/15italian/rostiboli.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Sobria}
+	\index{dancers}{6@Six People!Sobria}
+	\phantomsection \addcontentsline{toc}{section}{Sobria}
+	\lilypondfile{music/15italian/sobria.ly}
 	\end{minipage}
 	
 	\noindent
