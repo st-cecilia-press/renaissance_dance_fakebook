@@ -7,7 +7,7 @@ ppTempo = #(ly:make-moment 80 2)
   title = "Rawty"
   subtitle = \markup \italic "for two"
 %  poet = "Gresley Manuscript, c. 1500"
-  poet = "Richard Schweitzer"
+  poet = "Richard Schweitzer, CC BY-NC-SA 3.0"
   meter = "AABC"
   tagline = "Permission granted to copy within the SCA."
 }

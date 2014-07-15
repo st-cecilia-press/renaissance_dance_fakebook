@@ -6,7 +6,7 @@ ppTempo = #(ly:make-moment 80 2)
   title = "Whatsoever Ye Wyll"
   subtitle = \markup \italic "for two"
 %  poet = \gresleySource %"Gresley Manuscript, c. 1500"
-  poet = "Richard Schweitzer"
+  poet = "Richard Schweitzer, CC BY-NC-SA 3.0"
   tagline = "Permission granted to copy within the SCA."
   piece = "Drone: F/C"
 }

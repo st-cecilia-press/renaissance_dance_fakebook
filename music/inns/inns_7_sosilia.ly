@@ -6,7 +6,7 @@ ppTempo = #(ly:make-moment 72 2)
   title = "Madam Sosilia's Alman"
   subtitle = \markup \italic "for couples"
   meter = "AABB x2"
-  poet = "Joseph Casazza"
+  poet = "Joseph Casazza, CC BY-NC 3.0"
   tagline = \casazzaTagline
   copyright = \casazzaCopyright
 }
