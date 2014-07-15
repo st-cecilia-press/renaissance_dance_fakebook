@@ -1118,7 +1118,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{A Lieta Vita Galliard}
-	\index{name}{Galliard ""A Lieta Vita""}
+	\index{name}{Galliard ``A Lieta Vita''}
 	\index{dancers}{2@Two or More People!A Lieta Vita Galliard}
 	\phantomsection \addcontentsline{toc}{section}{A Lieta Vita Galliard}
 	\lilypondfile{music/improvised/a_lieta_vita.ly}
@@ -1127,7 +1127,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Can She Excuse Galliard}
-	\index{name}{Galliard ""Can She Excuse""}
+	\index{name}{Galliard ``Can She Excuse''}
 	\index{dancers}{2@Two or More People!Can She Excuse Galliard}
 	\phantomsection \addcontentsline{toc}{section}{Can She Excuse Galliard}
 	\lilypondfile{music/improvised/can_she_excuse.ly}
@@ -1170,7 +1170,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Dona@La Dona Pavane}
-	\index{name}{Pavane ""La Dona""}
+	\index{name}{Pavane ``La Dona''}
 	\index{dancers}{2@Two or More People!Dona@La Dona Pavane}
 	\phantomsection \addcontentsline{toc}{section}{La Dona Pavane}
 	\lilypondfile{music/improvised/dona_0.ly}
@@ -1179,7 +1179,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Dona@La Dona Galliard}
-	\index{name}{Galliard ""La Dona""}
+	\index{name}{Galliard ``La Dona''}
 	\index{dancers}{2@Two or More People!Dona@La Dona Galliard}
 	\phantomsection \addcontentsline{toc}{section}{La Dona Galliard}
 	\lilypondfile{music/improvised/dona_1.ly}
@@ -1188,7 +1188,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Earl of Salisbury Pavane}
-	\index{name}{Pavane ""Earl of Salisbury""}
+	\index{name}{Pavane ``Earl of Salisbury''}
 	\index{dancers}{2@Two or More People!Earl of Salisbury Pavane}
 	\phantomsection \addcontentsline{toc}{section}{Earl of Salisbury Pavane}
 	\lilypondfile{music/improvised/earl_salisbury_0.ly}
@@ -1197,7 +1197,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Earl of Salisbury Galliard}
-	\index{name}{Galliard ""Earl of Salisbury""}
+	\index{name}{Galliard ``Earl of Salisbury''}
 	\index{dancers}{2@Two or More People!Earl of Salisbury Galliard}
 	\phantomsection \addcontentsline{toc}{section}{Earl of Sarisbury Galliard}
 	\lilypondfile{music/improvised/earl_salisbury_1.ly}
@@ -1206,7 +1206,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Frog Galliard}
-	\index{name}{Galliard ""Frog""}
+	\index{name}{Galliard ``Frog''}
 	\index{dancers}{2@Two or More People!Frog Galliard}
 	\phantomsection \addcontentsline{toc}{section}{Frog Galliard}
 	\lilypondfile{music/improvised/frog_galliard.ly}
@@ -1215,7 +1215,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Mille Ducas Pavane}
-	\index{name}{Pavane ""Mille Ducas""}
+	\index{name}{Pavane ``Mille Ducas''}
 	\index{dancers}{2@Two or More People!Mille Ducas Pavane}
 	\phantomsection \addcontentsline{toc}{section}{Mille Ducas Pavane}
 	\lilypondfile{music/improvised/mille_ducas_0.ly}
@@ -1224,7 +1224,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Mille Ducas Galliard}
-	\index{name}{Galliard ""Mille Ducas""}
+	\index{name}{Galliard ``Mille Ducas''}
 	\index{dancers}{2@Two or More People!Mille Ducas Galliard}
 	\phantomsection \addcontentsline{toc}{section}{Mille Ducas Galliard}
 	\lilypondfile{music/improvised/mille_ducas_1.ly}
@@ -1233,7 +1233,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Monsieur's Almain}
-	\index{name}{Almain ""Monsieur's""}
+	\index{name}{Almain ``Monsieur's''}
 	\index{dancers}{2@Two or More People!Monsieur's Almain}
 	\phantomsection \addcontentsline{toc}{section}{Monsieur's Almain}
 	\lilypondfile{music/improvised/monsieurs_almain.ly}
@@ -1242,7 +1242,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
-	\index{name}{Galliard ""New Yeere's Gift""}
+	\index{name}{Galliard ``New Yeere's Gift''}
 	\index{dancers}{2@Two or More People!New Yeere's Gift Galliard@The New Yeere's Gift Galliard}
 	\phantomsection \addcontentsline{toc}{section}{The New Yeere's Gift Galliard}
 	\lilypondfile{music/improvised/new_yeeres_gift.ly}
@@ -1251,7 +1251,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Quadro@The Quadro Pavin}
-	\index{name}{Pavane ""Quadro""}
+	\index{name}{Pavane ``Quadro''}
 	\index{dancers}{2@Two or More People!Quadro@The Quadro Pavin}
 	\phantomsection \addcontentsline{toc}{section}{The Quadro Pavin}
 	\lilypondfile{music/improvised/quadro_0.ly}
@@ -1260,7 +1260,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Quadro@Galliard to the Quadro Pavin}
-	\index{name}{Galliard to ""The Quadro Pavin""}
+	\index{name}{Galliard to ``The Quadro Pavin''}
 	\index{dancers}{2@Two or More People!Quadro@Galliard to the Quadro Pavin}
 	\phantomsection \addcontentsline{toc}{section}{Galliard to the Quadro Pavin}
 	\lilypondfile{music/improvised/quadro_1.ly}
@@ -2402,8 +2402,9 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 
 
 \newpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Index}
+\chapter{Index}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Index}
 \phantomsection
 \printindex{name}{Dances by Name}
 \phantomsection
