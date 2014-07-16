@@ -2201,7 +2201,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 
 %\phantomsection \addcontentsline{toc}{chapter}{Later Playford}
 %\includepdf{../titles/title.pdf}
-\chapter{Later English Country}
+\chapter{Other English Country}
 %text
 \newpage
 
@@ -2244,6 +2244,14 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{6@Six People!Kelsterne Gardens}
 	\phantomsection \addcontentsline{toc}{section}{Kelsterne Gardens}
 	\lilypondfile{music/playford_later/kelsterne_gardens.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Lightly Love}
+	\index{dancers}{21@As Many as Will!Lightly Love}
+	\phantomsection \addcontentsline{toc}{section}{Lightly Love}
+	\lilypondfile{music/playford_later/lightly_love.ly}
 	\end{minipage}
     
     \noindent
@@ -2323,14 +2331,6 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{2@Two People!Karobushka}
 	\phantomsection \addcontentsline{toc}{section}{Karobushka}
 	\lilypondfile{music/abominations/karobushka.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Lightly Love}
-	\index{dancers}{21@As Many as Will!Lightly Love}
-	\phantomsection \addcontentsline{toc}{section}{Lightly Love}
-	\lilypondfile{music/abominations/lightly_love.ly}
 	\end{minipage}
 	
 	\noindent
