@@ -664,6 +664,14 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
+	\index{name}{Bassa Toscana}
+	\index{dancers}{2@Two People!Bassa Toscana}
+	\phantomsection \addcontentsline{toc}{section}{Bassa Toscana}
+	\lilypondfile{music/16italian/bassa_toscana.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
 	\index{name}{Bella Gioiosa}
 	\index{dancers}{3@Three People!Bella Gioiosa}
 	\phantomsection \addcontentsline{toc}{section}{Bella Gioiosa}
@@ -884,7 +892,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 %\phantomsection \addcontentsline{toc}{chapter}{Arbeau}
 %\includepdf{../titles/title.pdf}
-\chapter{Arbeau}
+\chapter{16th Century French}
 %text
 \newpage
 
@@ -1122,6 +1130,15 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{2@Two or More People!A Lieta Vita Galliard}
 	\phantomsection \addcontentsline{toc}{section}{A Lieta Vita Galliard}
 	\lilypondfile{music/improvised/a_lieta_vita.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Belle Qui Tiens Ma Vie Pavane}
+	\index{name}{Pavane ``Belle Qui Tiens Ma Vie''}
+	\index{dancers}{2@Two or More People!Belle Qui Tiens Ma Vie Pavane}
+	\phantomsection \addcontentsline{toc}{section}{Belle Qui Tiens Ma Vie Pavane}
+	\lilypondfile{music/improvised/belle_qui_chords.ly}
 	\end{minipage}
 	
 	\noindent
@@ -2184,7 +2201,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 
 %\phantomsection \addcontentsline{toc}{chapter}{Later Playford}
 %\includepdf{../titles/title.pdf}
-\chapter{Later Playford}
+\chapter{Later English Country}
 %text
 \newpage
 
@@ -2195,6 +2212,23 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\phantomsection \addcontentsline{toc}{section}{Black Nag}
     \lilypondfile{music/playford_later/blacknag.ly}
     \end{minipage}
+    
+   	\noindent
+   	\begin{minipage}{\columnwidth}
+   	\index{name}{Female Sailor}
+   	\index{dancers}{21@As Many as Will!Female Sailor}
+   	\phantomsection \addcontentsline{toc}{section}{Female Sailor}
+   	\lilypondfile{music/playford_later/female_sailor.ly}
+   	\end{minipage}
+   	
+   	\noindent
+   	\begin{minipage}{\columnwidth}
+   	\index{name}{Hole in the Wall}
+   	\index{name}{Hole in the Head|see {Hole in the Wall}}	
+   	\index{dancers}{21@As Many as Will!Hole in the Wall}
+   	\phantomsection \addcontentsline{toc}{section}{Hole in the Wall}
+   	\lilypondfile{music/playford_later/hole_in_the_head.ly}
+   	\end{minipage}
 
 	\noindent
 	\begin{minipage}{\columnwidth}
@@ -2202,6 +2236,14 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{21@As Many as Will!Jamaica}
 	\phantomsection \addcontentsline{toc}{section}{Jamaica}
 	\lilypondfile{music/playford_later/jamaica.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Kelsterne Gardens}
+	\index{dancers}{6@Six People!Kelsterne Gardens}
+	\phantomsection \addcontentsline{toc}{section}{Kelsterne Gardens}
+	\lilypondfile{music/playford_later/kelsterne_gardens.ly}
 	\end{minipage}
     
     \noindent
@@ -2269,23 +2311,6 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	
 	\noindent
 	\begin{minipage}{\columnwidth}
-	\index{name}{Female Sailor}
-	\index{dancers}{21@As Many as Will!Female Sailor}
-	\phantomsection \addcontentsline{toc}{section}{Female Sailor}
-	\lilypondfile{music/abominations/female_sailor.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Hole in the Wall}
-	\index{name}{Hole in the Head|see {Hole in the Wall}}	
-	\index{dancers}{21@As Many as Will!Hole in the Wall}
-	\phantomsection \addcontentsline{toc}{section}{Hole in the Wall}
-	\lilypondfile{music/abominations/hole_in_the_head.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
 	\index{name}{John Tallow's Canon}
 	\index{dancers}{4@Four People!John Tallow's Canon}
 	\phantomsection \addcontentsline{toc}{section}{John Tallow's Canon}
@@ -2298,14 +2323,6 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{2@Two People!Karobushka}
 	\phantomsection \addcontentsline{toc}{section}{Karobushka}
 	\lilypondfile{music/abominations/karobushka.ly}
-	\end{minipage}
-	
-	\noindent
-	\begin{minipage}{\columnwidth}
-	\index{name}{Kelsterne Gardens}
-	\index{dancers}{6@Six People!Kelsterne Gardens}
-	\phantomsection \addcontentsline{toc}{section}{Kelsterne Gardens}
-	\lilypondfile{music/abominations/kelsterne_gardens.ly}
 	\end{minipage}
 	
 	\noindent
@@ -2331,6 +2348,16 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{dancers}{6@Six People!On the Banks of the Helicon}
 	\phantomsection \addcontentsline{toc}{section}{On the Banks of the Helicon}
 	\lilypondfile{music/abominations/on_the_banks.ly}
+	\end{minipage}
+	
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Pennsic Dance}
+	\index{name}{Jamie's Fault|see {Pennsic Dance}}
+	\index{dancers}{8@Eight People!Pennsic Dance}
+	\index{dancers}{8@Eight People!Jamie's Fault|see {Pennsic Dance}}
+	\phantomsection \addcontentsline{toc}{section}{Pennsic Dance}
+	\lilypondfile{music/abominations/pennsic_dance.ly}
 	\end{minipage}
 	
 	\noindent
