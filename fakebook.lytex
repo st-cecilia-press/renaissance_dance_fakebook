@@ -2429,9 +2429,9 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 
 
 \newpage
-\chapter{Index}
-%\phantomsection
-%\addcontentsline{toc}{chapter}{Index}
+\phantomsection
+\addcontentsline{toc}{chapter}{Index}
+\markboth{INDEX}{}
 \phantomsection
 \printindex{name}{Dances by Name}
 \phantomsection
