@@ -940,6 +940,15 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 
 
 
+
+	\noindent
+	\begin{minipage}{\columnwidth}
+	\index{name}{Bouffons@Les Bouffons}	
+	\index{dancers}{4@Four People!Bouffons@Les Bouffons}
+	\phantomsection \addcontentsline{toc}{section}{Les Bouffons}
+	\lilypondfile{music/arbeau/bouffons.ly}
+	\end{minipage}
+
 	\noindent
 	\begin{minipage}{\columnwidth}
 	\index{name}{Clog Bransle}
@@ -2212,6 +2221,14 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\phantomsection \addcontentsline{toc}{section}{Black Nag}
     \lilypondfile{music/playford_later/blacknag.ly}
     \end{minipage}
+    
+   	\noindent
+   	\begin{minipage}{\columnwidth}
+   	\index{name}{Epping Forest}
+   	\index{dancers}{21@As Many as Will!Epping Forest}
+   	\phantomsection \addcontentsline{toc}{section}{Epping Forest}
+   	\lilypondfile{music/playford_later/epping_forest.ly}
+   	\end{minipage}
     
    	\noindent
    	\begin{minipage}{\columnwidth}
