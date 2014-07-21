@@ -7,7 +7,7 @@
   piece = "Drone: G/D"
 }
 
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 %\include "english.ly"
 
 global = {

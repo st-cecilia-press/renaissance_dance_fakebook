@@ -7,7 +7,7 @@
   piece = \markup{ "Drone: B" \flat "/F"}
 }
 
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 %\include "english.ly"
 
 global = {
