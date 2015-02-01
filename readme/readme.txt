@@ -5,3 +5,6 @@
 5) Run pdflatex on fakebook.tex twice to build TOC
 6) Run makeindex on each index (e.g. name, dancers)
 7) Run pdflatex again on fakebook.tex
+
+
+
