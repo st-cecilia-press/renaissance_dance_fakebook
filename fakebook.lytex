@@ -85,7 +85,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\begin{minipage}{\columnwidth}
 	\index{name}{Spagna@La Spagna}	
 	\index{dancers}{2@Two People!Spagna@La Spagna}
-	\phantomsection \addcontentsline{toc}{section}{Spagna@La Spagna}
+	\phantomsection \addcontentsline{toc}{section}{La Spagna}
 	\lilypondfile{music/basse/spagna.ly}
 	\end{minipage}	
 	
@@ -1225,7 +1225,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
 	\index{name}{Earl of Salisbury Galliard}
 	\index{name}{Galliard ``Earl of Salisbury''}
 	\index{dancers}{2@Two or More People!Earl of Salisbury Galliard}
-	\phantomsection \addcontentsline{toc}{section}{Earl of Sarisbury Galliard}
+	\phantomsection \addcontentsline{toc}{section}{Earl of Salisbury Galliard}
 	\lilypondfile{music/improvised/earl_salisbury_1.ly}
 	\end{minipage}
 	
@@ -1647,7 +1647,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
     \begin{minipage}{\columnwidth}
 	\index{name}{Have at thy Coat Old Woman}
 	\index{dancers}{21@As Many as Will!Have at thy Coat Old Woman}
-	\phantomsection \addcontentsline{toc}{section}{Have at Thy Coat Old Woman}
+	\phantomsection \addcontentsline{toc}{section}{Have at thy Coat Old Woman}
     \lilypondfile{music/playford/have_at_thy_coat.ly}
     \end{minipage}
     
@@ -1896,7 +1896,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{New Exchange@The New Exachange}
+	\index{name}{New Exchange@The New Exchange}
 	\index{dancers}{6@Six People!New Exchange@The New Exchange}
 	\phantomsection \addcontentsline{toc}{section}{The New Exchange}
     \lilypondfile{music/playford/new_exchange.ly}
@@ -1936,8 +1936,8 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
     
     \noindent
     \begin{minipage}{\columnwidth}
-	\index{name}{Old Man is a Bed Full of Bones, An}
-	\index{dancers}{21@As Many as Will!An Old Man is a Bed Full of Bones}
+	\index{name}{Old Man is a Bed Full of Bones@An Old Man is a Bed Full of Bones}
+	\index{dancers}{21@As Many as Will!Old Man is a Bed Full of Bones@An Old Man is a Bed Full of Bones}
 	\phantomsection \addcontentsline{toc}{section}{An Old Man is a Bed Full of Bones}
     \lilypondfile{music/playford/old_man.ly}
     \end{minipage}
@@ -2291,7 +2291,7 @@ This, the draft edition, has been printed for use at Pennsic 43 in the hopes tha
     \begin{minipage}{\columnwidth}
 	\index{name}{Sellinger's Round}
 	\index{dancers}{21@As Many as Will!Sellinger's Round}
-	\phantomsection \addcontentsline{toc}{section}{Sellenger's Round}
+	\phantomsection \addcontentsline{toc}{section}{Sellinger's Round}
     \lilypondfile{music/playford_later/sellingers_alaric.ly}
     \end{minipage}
 

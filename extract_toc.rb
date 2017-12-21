@@ -37,21 +37,25 @@ class Dance
   def add_dance_metadata
     figure_out_names
 
-    puts
-    puts "DANCE: #{filename}"
-    puts "% name: #{toc_name}"
+    contents = File.read(filename)
+    open(filename,"w") do |file|
+      file.puts "% ---"
+      file.puts "% name: #{toc_name}"
 
-    names.each do |name|
-      puts "% alt_name: #{name}"
-    end
+      names.each do |name|
+        file.puts "% alt_name: #{name}"
+      end
 
-    puts "% index_sort_name: #{index_sort_name}" if index_sort_name
-    puts "% sort_name: #{sort_name}" if sort_name
+      file.puts "% index_sort_name: #{index_sort_name}" if index_sort_name
+      file.puts "% sort_name: #{sort_name}" if sort_name
 
-    dancers.each do |dancers|
-      # dance formation crossref defaults to main name
-      dancers_no_default = dancers.sub(/!#{crossref_name}$/,'')
-      puts "% dancers: #{dancers_no_default}"
+      dancers.each do |dancers|
+        # dance formation crossref defaults to main name
+        dancers_no_default = dancers.sub(/!#{crossref_name}$/,'')
+        file.puts "% dancers: #{dancers_no_default}"
+      end
+      file.puts
+      file.write(contents)
     end
 
   end
