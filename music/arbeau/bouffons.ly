@@ -1,3 +1,8 @@
+% ---
+% name: Les Bouffons
+% sort_name: Bouffons
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 %\include "english.ly"

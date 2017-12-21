@@ -1,3 +1,7 @@
+% ---
+% name: Friar and the Nun
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Friar and the Nun"

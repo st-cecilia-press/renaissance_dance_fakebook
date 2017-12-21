@@ -1,3 +1,8 @@
+% ---
+% name: Voltate in ca Rosina
+% alt_name: Rosina, Voltate in ca
+% dancers: 3@Three People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 120 4)

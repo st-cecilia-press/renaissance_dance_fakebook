@@ -1,3 +1,7 @@
+% ---
+% name: Ronde IX
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 \include "english.ly"

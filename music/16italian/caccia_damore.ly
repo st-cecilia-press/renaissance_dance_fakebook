@@ -1,3 +1,8 @@
+% ---
+% name: La Caccia d'Amore
+% sort_name: Caccia d'Amore
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 \include "english.ly"

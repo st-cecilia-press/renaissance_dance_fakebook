@@ -1,3 +1,8 @@
+% ---
+% name: Frog Galliard
+% alt_name: Galliard ``Frog''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 140 4)

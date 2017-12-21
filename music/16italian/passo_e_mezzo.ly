@@ -1,3 +1,11 @@
+% ---
+% name: Passo e Mezzo
+% alt_name: Dolce Amoroso Fuoco|see {Passo e Mezzo}
+% alt_name: Ardente Sole|see {Passo e Mezzo}
+% dancers: 6@Six People!Dolce Amoroso Fuoco|see{Passo e Mezzo}
+% dancers: 2@Two People
+% dancers: 2@Two People!Ardente Sole|see {Passo e Mezzo}
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

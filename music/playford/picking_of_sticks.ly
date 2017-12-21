@@ -1,3 +1,9 @@
+% ---
+% name: Picking of Sticks
+% alt_name: Lavena
+% dancers: 6@Six People
+% dancers: 21@As Many as Will!Lavena
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 300 4)

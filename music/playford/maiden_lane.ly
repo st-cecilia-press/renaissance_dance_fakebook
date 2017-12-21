@@ -1,3 +1,7 @@
+% ---
+% name: Maiden Lane
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 \include "english.ly"

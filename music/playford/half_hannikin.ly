@@ -1,3 +1,7 @@
+% ---
+% name: Half Hannikin
+% dancers: 21@As Many as Will
+
 \include "english.ly"
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 140 2)

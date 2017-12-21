@@ -1,3 +1,9 @@
+% ---
+% name: Casulle la Novele
+% alt_name: Lauro|see {Casulle la Novele}
+% dancers: 2@Two People
+% dancers: 2@Two People!Lauro|see {Casulle la Novele}
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Casulle la Novele"

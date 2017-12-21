@@ -1,3 +1,10 @@
+% ---
+% name: Dargason
+% alt_name: Sedany|see {Dargason}
+% alt_name: Hawthorne|see {Dargason}
+% dancers: 21@As Many as Will
+% dancers: 2@Two or More People!Hawthorne|see {Dargason}
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 100 2)

@@ -1,3 +1,7 @@
+% ---
+% name: Bobbing Joe
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Bobbing Joe"

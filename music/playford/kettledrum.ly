@@ -1,3 +1,7 @@
+% ---
+% name: Kettledrum
+% dancers: 8@Eight People! Kettledrum
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Kettledrum"

@@ -1,3 +1,7 @@
+% ---
+% name: Petit Riens
+% dancers: 3@Three People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 180 4)
 \include "english.ly"

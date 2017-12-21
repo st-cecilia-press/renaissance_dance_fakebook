@@ -1,3 +1,7 @@
+% ---
+% name: Cantiga 119
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 
 ppTempo = #(ly:make-moment 165 2)

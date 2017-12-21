@@ -1,3 +1,7 @@
+% ---
+% name: New New Nothing
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "New New Nothing"

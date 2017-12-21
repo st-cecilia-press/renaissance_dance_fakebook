@@ -1,3 +1,7 @@
+% ---
+% name: Prince Rupert's March
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Prince Rupert's March"

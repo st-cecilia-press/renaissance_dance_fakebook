@@ -1,3 +1,8 @@
+% ---
+% name: Hole in the Wall
+% alt_name: Hole in the Head|see {Hole in the Wall}
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)

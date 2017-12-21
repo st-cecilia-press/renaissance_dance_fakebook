@@ -1,3 +1,7 @@
+% ---
+% name: Crossed Purposes
+% dancers: 12@Twelve People
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Crossed Purposes"

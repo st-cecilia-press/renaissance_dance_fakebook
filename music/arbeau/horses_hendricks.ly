@@ -1,3 +1,9 @@
+% ---
+% name: Horses Bransle
+% alt_name: Bransle des Chevaulx
+% alt_name: Chevaulx, Bransle des
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 100 2)

@@ -1,3 +1,7 @@
+% ---
+% name: John Tallow's Canon
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)

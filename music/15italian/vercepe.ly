@@ -1,3 +1,7 @@
+% ---
+% name: Vercepe
+% dancers: 5@Five People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 80 2) 
 

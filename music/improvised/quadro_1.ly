@@ -1,3 +1,9 @@
+% ---
+% name: Galliard to the Quadro Pavin
+% alt_name: Galliard to ``The Quadro Pavin''
+% sort_name: Quadro
+% dancers: 2@Two or More People
+
 % TODO: typeset corrections
 \include "music/include/fb_functions.ly"
 \include "english.ly"

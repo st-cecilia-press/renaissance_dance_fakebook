@@ -1,3 +1,8 @@
+% ---
+% name: Ay Me
+% alt_name: Symphony@The Symphony|see {Ay Me}
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Aye Me, or The Symphony"

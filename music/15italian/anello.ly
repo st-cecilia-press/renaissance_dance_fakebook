@@ -1,3 +1,7 @@
+% ---
+% name: Anello
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 115 4)
 

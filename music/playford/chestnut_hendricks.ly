@@ -1,3 +1,8 @@
+% ---
+% name: Chestnut
+% alt_name: Dove's Figary|see {Chestnut}
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 120 2)

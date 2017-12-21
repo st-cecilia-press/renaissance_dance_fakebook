@@ -1,3 +1,7 @@
+% ---
+% name: Rufty Tufty
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 100 2)

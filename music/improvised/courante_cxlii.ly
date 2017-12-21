@@ -1,3 +1,8 @@
+% ---
+% name: Courante CXLII
+% alt_name: So Ben Courante
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

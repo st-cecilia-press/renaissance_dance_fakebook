@@ -1,3 +1,8 @@
+% ---
+% name: Mille Ducas Galliard
+% alt_name: Galliard ``Mille Ducas''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 60 2)

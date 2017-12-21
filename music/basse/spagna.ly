@@ -1,3 +1,8 @@
+% ---
+% name: La Spagna
+% sort_name: Spagna
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "La Spagna"

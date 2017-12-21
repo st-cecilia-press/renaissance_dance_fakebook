@@ -1,3 +1,7 @@
+% ---
+% name: Allegrezza d'Amore
+% dancers: 3@Three People
+
 \include "music/include/fb_functions.ly"
 
 ppTempo = #(ly:make-moment 120 2)

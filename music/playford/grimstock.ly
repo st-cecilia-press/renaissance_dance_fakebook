@@ -1,3 +1,7 @@
+% ---
+% name: Grimstock
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 #(ly:make-moment 100 2)
 \include "english.ly"

@@ -1,3 +1,7 @@
+% ---
+% name: Cheerily and Merrily
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Cheerily and Merrily"

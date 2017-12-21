@@ -1,3 +1,8 @@
+% ---
+% name: Danse de Cleves
+% index_sort_name: Cleves, Danse de
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

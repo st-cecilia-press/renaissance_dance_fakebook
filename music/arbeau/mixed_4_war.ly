@@ -1,3 +1,9 @@
+% ---
+% name: War Bransle
+% alt_name: Bransle de la Guerre
+% alt_name: Guerre, Bransle de la
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

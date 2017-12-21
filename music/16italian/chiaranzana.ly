@@ -1,3 +1,7 @@
+% ---
+% name: Chiaranzana
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 
 %#(set-default-paper-size "letter")

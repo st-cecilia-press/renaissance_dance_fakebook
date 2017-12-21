@@ -1,3 +1,7 @@
+% ---
+% name: Quen Quer Que
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)

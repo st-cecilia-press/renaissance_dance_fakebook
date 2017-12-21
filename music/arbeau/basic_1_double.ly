@@ -1,3 +1,11 @@
+% ---
+% name: Basic Bransle Suite
+% alt_name: Bransle Suite: Basic
+% alt_name: Double Bransle
+% alt_name: Bransle Double
+% dancers: 2@Two or More People!Double Bransle
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

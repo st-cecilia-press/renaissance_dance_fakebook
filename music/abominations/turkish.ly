@@ -1,3 +1,9 @@
+% ---
+% name: Turkish Bransle
+% alt_name: SCA Maltese Bransle
+% alt_name: Maltese Bransle (SCA)
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)

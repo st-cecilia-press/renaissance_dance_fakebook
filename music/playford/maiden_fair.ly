@@ -1,3 +1,7 @@
+% ---
+% name: Once I Loved a Maiden Fair
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Once I Loved a Maiden Fair"

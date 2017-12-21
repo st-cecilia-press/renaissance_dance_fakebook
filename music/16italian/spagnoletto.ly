@@ -1,3 +1,8 @@
+% ---
+% name: Lo Spagnoletto
+% sort_name: Spagnoletto
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 100 2)
 

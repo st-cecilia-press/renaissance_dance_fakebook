@@ -1,3 +1,8 @@
+% ---
+% name: Rostiboli Gioioso
+% dancers: 2@Two People
+% dancers: 3@Three People!Gioioso in Tre
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 60 2)

@@ -1,3 +1,7 @@
+% ---
+% name: Belfiore
+% dancers: 3@Three People
+
 % TODO: FIX SOMEHOW
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 60 2)

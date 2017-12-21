@@ -1,3 +1,9 @@
+% ---
+% name: Whirligig
+% alt_name: Woodycock
+% dancers: 6@Six People
+% dancers: 6@Six People!Woodycock
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 165 2)
 

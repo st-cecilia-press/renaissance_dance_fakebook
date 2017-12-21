@@ -1,3 +1,9 @@
+% ---
+% name: Burgundian Bransle
+% alt_name: Bransle de Burgoigne
+% alt_name: Burgoigne, Bransle de
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

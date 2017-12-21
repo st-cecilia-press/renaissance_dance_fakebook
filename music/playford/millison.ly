@@ -1,3 +1,7 @@
+% ---
+% name: Millison's Jigg
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 100 2)

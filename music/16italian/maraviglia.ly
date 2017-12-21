@@ -1,3 +1,7 @@
+% ---
+% name: Maraviglia d'Amore
+% dancers: 2@Two People!Maravigla d'Amore
+
 \include "music/include/fb_functions.ly"
 
 ppTempo = #(ly:make-moment 165 2)

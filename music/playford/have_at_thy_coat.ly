@@ -1,3 +1,7 @@
+% ---
+% name: Have at thy Coat Old Woman
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Have at Thy Coat Old Woman"

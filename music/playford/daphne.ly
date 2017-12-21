@@ -1,3 +1,9 @@
+% ---
+% name: Daphne
+% alt_name: Hit or Miss|see {Daphne}
+% dancers: 8@Eight People
+% dancers: 4@Four People!Hit or Miss|see {Daphne}
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 

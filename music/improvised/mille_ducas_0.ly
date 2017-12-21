@@ -1,3 +1,8 @@
+% ---
+% name: Mille Ducas Pavane
+% alt_name: Pavane ``Mille Ducas''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 60 2)

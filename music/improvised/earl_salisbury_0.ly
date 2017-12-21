@@ -1,3 +1,8 @@
+% ---
+% name: Earl of Salisbury Pavane
+% alt_name: Pavane ``Earl of Salisbury''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 60 2)

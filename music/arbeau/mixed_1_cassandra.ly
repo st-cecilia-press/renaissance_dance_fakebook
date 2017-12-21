@@ -1,3 +1,11 @@
+% ---
+% name: Mixed Bransle Suite
+% alt_name: Bransle Suite: Mixed
+% alt_name: Cassandra Bransle
+% alt_name: Bransle Cassandre
+% dancers: 2@Two or More People!Cassandra Bransle
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

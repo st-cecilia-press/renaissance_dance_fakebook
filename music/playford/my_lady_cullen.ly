@@ -1,3 +1,7 @@
+% ---
+% name: My Lady Cullen
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 80 2)
 

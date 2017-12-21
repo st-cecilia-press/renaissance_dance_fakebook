@@ -1,3 +1,10 @@
+% ---
+% name: Stingo
+% alt_name: Oil of Barley@The Oil of Barley|see {Stingo}
+% alt_name: Juice of Barley|see {Stingo}
+% dancers: 6@Six People
+% dancers: 21@As Many as Will!Juice of Barley
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 180 2)

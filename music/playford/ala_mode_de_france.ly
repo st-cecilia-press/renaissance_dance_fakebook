@@ -1,3 +1,8 @@
+% ---
+% name: A la Mode de France
+% alt_name: Mode de France, A la
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "A La Mode De France"

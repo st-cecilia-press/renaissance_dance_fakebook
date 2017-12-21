@@ -1,3 +1,8 @@
+% ---
+% name: Contrapasso
+% dancers: 2@Two People!Contrapasso in Due
+% dancers: 21@As Many as Will!Contrapasso in Ruota
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 80 2)
 

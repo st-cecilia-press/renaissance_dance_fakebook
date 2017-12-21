@@ -1,3 +1,7 @@
+% ---
+% name: Posten's Jig
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 #(ly:make-moment 100 2)

@@ -1,3 +1,8 @@
+% ---
+% name: Can She Excuse Galliard
+% alt_name: Galliard ``Can She Excuse''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 180 4)

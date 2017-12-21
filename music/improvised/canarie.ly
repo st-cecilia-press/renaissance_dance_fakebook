@@ -1,3 +1,8 @@
+% ---
+% name: La Canarie
+% sort_name: Canarie
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

@@ -1,3 +1,7 @@
+% ---
+% name: Hockley in the Hole
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Hockley in the Hole"

@@ -1,3 +1,7 @@
+% ---
+% name: Epping Forest
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \version "2.10.0"
 ppTempo = #(ly:make-moment 100 2)

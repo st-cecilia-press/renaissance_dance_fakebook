@@ -1,3 +1,7 @@
+% ---
+% name: Egle
+% dancers: 3@Three People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)

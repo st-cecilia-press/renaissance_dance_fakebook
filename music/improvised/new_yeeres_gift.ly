@@ -1,3 +1,9 @@
+% ---
+% name: The New Yeere's Gift Galliard
+% alt_name: Galliard ``New Yeere's Gift''
+% sort_name: New Yeere's Gift Galliard
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 180 4)

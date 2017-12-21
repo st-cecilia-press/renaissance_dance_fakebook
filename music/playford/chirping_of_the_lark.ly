@@ -1,3 +1,7 @@
+% ---
+% name: Chirping of the Lark
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Chirping Of The Lark"

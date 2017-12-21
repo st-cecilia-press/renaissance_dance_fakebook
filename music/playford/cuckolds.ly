@@ -1,3 +1,7 @@
+% ---
+% name: Cuckolds all a Row
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 
 % CHANGED: meter 3/4 -> 6/4, ties at end of A part

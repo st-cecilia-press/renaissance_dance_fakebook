@@ -1,3 +1,7 @@
+% ---
+% name: Tom Tinker
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 165 2)

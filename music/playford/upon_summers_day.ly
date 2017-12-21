@@ -1,3 +1,7 @@
+% ---
+% name: Upon a Summer's Day
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 200 4)
 

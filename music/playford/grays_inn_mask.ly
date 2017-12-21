@@ -1,3 +1,7 @@
+% ---
+% name: Gray's Inn Mask
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Gray's Inn Mask"

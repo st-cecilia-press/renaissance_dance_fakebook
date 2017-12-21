@@ -1,3 +1,8 @@
+% ---
+% name: Fulgente Stella
+% dancers: 2@Two People
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 200 4)

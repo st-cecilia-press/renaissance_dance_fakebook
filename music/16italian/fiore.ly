@@ -1,3 +1,12 @@
+% ---
+% name: Ballo del Fiore
+% alt_name: Candlestick Bransle|see {Ballo del Fiore}
+% alt_name: Torch Bransle|see {Ballo del Fiore}
+% index_sort_name: Fiore, Ballo del
+% dancers: 2@Two People
+% dancers: 3@Three People
+% dancers: 2@Two or More People!Candlestick Bransle|see {Ballo del Fiore}
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 

@@ -1,3 +1,8 @@
+% ---
+% name: Belle Qui Tiens Ma Vie Pavane
+% alt_name: Pavane ``Belle Qui Tiens Ma Vie''
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 #(set-global-staff-size 17)

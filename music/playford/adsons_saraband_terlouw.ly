@@ -1,3 +1,7 @@
+% ---
+% name: Adson's Saraband
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Adson's Saraband"

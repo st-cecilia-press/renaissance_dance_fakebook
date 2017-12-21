@@ -1,3 +1,9 @@
+% ---
+% name: Pennsic Dance
+% alt_name: Jamie's Fault|see {Pennsic Dance}
+% dancers: 8@Eight People
+% dancers: 8@Eight People!Jamie's Fault|see {Pennsic Dance}
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 120 4)
 

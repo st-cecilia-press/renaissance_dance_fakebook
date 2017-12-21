@@ -1,3 +1,7 @@
+% ---
+% name: Gelosia
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 

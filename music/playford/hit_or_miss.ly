@@ -1,3 +1,7 @@
+% ---
+% name: Hit or Miss
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Hit or Miss"

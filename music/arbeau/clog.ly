@@ -1,3 +1,9 @@
+% ---
+% name: Clog Bransle
+% alt_name: Bransle des Sabots
+% alt_name: Sabots, Bransle des
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 17)
 \include "english.ly"

@@ -1,3 +1,7 @@
+% ---
+% name: Tesara
+% dancers: 10@Ten People
+
 \include "music/include/fb_functions.ly"
 
 ppTempo = #(ly:make-moment 120 4)

@@ -1,3 +1,8 @@
+% ---
+% name: The Health
+% sort_name: Health
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "The Health"

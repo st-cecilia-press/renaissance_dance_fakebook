@@ -1,3 +1,7 @@
+% ---
+% name: Lull Me Beyond Thee
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \version "2.10.0"
 

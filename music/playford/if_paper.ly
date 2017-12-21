@@ -1,3 +1,7 @@
+% ---
+% name: If All the World Were Paper
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 150 2)
 

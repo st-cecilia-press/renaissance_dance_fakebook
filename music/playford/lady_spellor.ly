@@ -1,3 +1,7 @@
+% ---
+% name: Lady Spellor
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Lady Spellor" %Lady Spillers

@@ -1,3 +1,7 @@
+% ---
+% name: Saturday Night and Sunday Morn
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Saturday Night and Sunday Morn"

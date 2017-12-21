@@ -1,3 +1,8 @@
+% ---
+% name: La Vita
+% index_sort_name: Vita, La
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 80 2)

@@ -1,3 +1,7 @@
+% ---
+% name: Gun
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "The Gun"

@@ -1,3 +1,7 @@
+% ---
+% name: Merry Merry Milkmaids
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 60 2)
 

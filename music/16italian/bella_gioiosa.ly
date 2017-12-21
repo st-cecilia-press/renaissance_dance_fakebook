@@ -1,3 +1,7 @@
+% ---
+% name: Bella Gioiosa
+% dancers: 3@Three People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 165 2)

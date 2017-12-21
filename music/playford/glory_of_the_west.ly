@@ -1,3 +1,7 @@
+% ---
+% name: Glory of the West
+% dancers: 4@Four People
+
 \include "english.ly"
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 60 2)

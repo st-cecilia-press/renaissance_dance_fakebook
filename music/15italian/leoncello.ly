@@ -1,3 +1,8 @@
+% ---
+% name: Leoncello
+% dancers: 2@Two People!Leoncello Vecchio
+% dancers: 3@Three People!Leoncello Novo
+
 \include "music/include/fb_functions.ly"
 
 ppTempo = #(ly:make-moment 120 4)

@@ -1,3 +1,8 @@
+% ---
+% name: Chestnut
+% alt_name: Dove's Figary|see {Chestnut}
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 %FIXME: bdim in second measure is problematic!! also beat 3 of
 %measure 6!

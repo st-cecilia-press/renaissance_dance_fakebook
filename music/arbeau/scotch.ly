@@ -1,3 +1,9 @@
+% ---
+% name: Scottish Bransles
+% alt_name: Bransles d'Ecosse
+% alt_name: Ecosse, Branles d'
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

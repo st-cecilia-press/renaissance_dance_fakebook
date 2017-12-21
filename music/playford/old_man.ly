@@ -1,3 +1,8 @@
+% ---
+% name: An Old Man is a Bed Full of Bones
+% sort_name: Old Man is a Bed Full of Bones
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "An Old Man Is A Bed Full Of Bones"

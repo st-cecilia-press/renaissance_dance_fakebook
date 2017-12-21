@@ -1,3 +1,7 @@
+% ---
+% name: Bizzaria d'Amore
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

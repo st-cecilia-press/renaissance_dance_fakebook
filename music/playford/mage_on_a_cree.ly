@@ -1,3 +1,7 @@
+% ---
+% name: Mage on a Cree
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 140 2)
 

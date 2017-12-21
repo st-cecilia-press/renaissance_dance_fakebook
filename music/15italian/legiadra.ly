@@ -1,3 +1,7 @@
+% ---
+% name: Legiadra
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Legiadra"

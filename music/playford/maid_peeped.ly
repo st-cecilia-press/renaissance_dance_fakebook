@@ -1,3 +1,8 @@
+% ---
+% name: Maid Peeped out the Window
+% alt_name: Friar in the Well@The Friar in the Well|see {Maid Peeped out the Window}
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = \markup \center-column { "Maid Peeped Out at the Window," "or The Friar in the Well"}

@@ -1,3 +1,8 @@
+% ---
+% name: Montarde Bransle
+% alt_name: Bransle de la Montarde
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 %#(set-default-paper-size "letter")

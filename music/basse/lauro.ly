@@ -1,3 +1,7 @@
+% ---
+% name: Lauro
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 \header{

@@ -1,3 +1,7 @@
+% ---
+% name: Goddesses
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \include "english.ly"
 ppTempo = #(ly:make-moment 68 2)

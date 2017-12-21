@@ -1,3 +1,7 @@
+% ---
+% name: Lorayne Alman
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 ppTempo = #(ly:make-moment 60 2)

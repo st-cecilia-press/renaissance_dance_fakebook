@@ -1,3 +1,8 @@
+% ---
+% name: Spagnoletta
+% dancers: 2@Two People
+% dancers: 3@Three People!Spagnoletta Nuova
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 120 2)
 \include "english.ly"

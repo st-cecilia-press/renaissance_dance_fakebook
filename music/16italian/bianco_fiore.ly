@@ -1,3 +1,8 @@
+% ---
+% name: Il Bianco Fiore
+% sort_name: Bianco Fiore
+% dancers: 4@Four People
+
 \include "music/include/fb_functions.ly"
 
 %#(set-default-paper-size "letter")

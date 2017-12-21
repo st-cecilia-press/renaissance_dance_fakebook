@@ -1,3 +1,7 @@
+% ---
+% name: Dull Sir John
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 \include "english.ly"

@@ -1,3 +1,7 @@
+% ---
+% name: Milkmaid's Bob
+% dancers: 8@Eight People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Milkmaids Bob"

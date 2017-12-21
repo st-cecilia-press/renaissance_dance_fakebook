@@ -1,3 +1,8 @@
+% ---
+% name: Hemp Dresser
+% alt_name: London Gentlewoman@The London Gentlewoman|see {Hemp Dresser}
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Hemp Dresser, or The London Gentlewoman"

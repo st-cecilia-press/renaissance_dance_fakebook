@@ -1,3 +1,9 @@
+% ---
+% name: Giove
+% alt_name: Jupiter|see {Giove}
+% dancers: 3@Three People
+% dancers: 3@Three People!Jupiter|see {Giove}
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Giove"

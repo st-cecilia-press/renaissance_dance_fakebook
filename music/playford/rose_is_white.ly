@@ -1,3 +1,7 @@
+% ---
+% name: Rose is White and Rose is Red
+% dancers: 21@As Many as Will
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Rose is White and Rose is Red"

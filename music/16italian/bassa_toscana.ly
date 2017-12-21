@@ -1,3 +1,7 @@
+% ---
+% name: Bassa Toscana
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 %#(set-default-paper-size "letter")
 \include "english.ly"

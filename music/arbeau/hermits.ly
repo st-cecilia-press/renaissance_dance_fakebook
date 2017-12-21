@@ -1,3 +1,8 @@
+% ---
+% name: Hermits' Bransle
+% alt_name: Bransle des Hermites
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 17)
 \include "english.ly"

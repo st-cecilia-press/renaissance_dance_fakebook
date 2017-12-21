@@ -1,3 +1,7 @@
+% ---
+% name: Prexonera
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 \header{
   title = "Prexonera"

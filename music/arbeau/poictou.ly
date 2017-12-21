@@ -1,3 +1,8 @@
+% ---
+% name: Poictou Bransle
+% alt_name: Bransle de Poictou
+% dancers: 2@Two or More People
+
 \include "music/include/fb_functions.ly"
 %#(set-global-staff-size 18)
 \include "english.ly"

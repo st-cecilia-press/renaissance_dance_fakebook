@@ -1,3 +1,8 @@
+% ---
+% name: Shepherd's Holiday
+% alt_name: Labour in Vain|see {Shepherd's Holiday}
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 \header {
 	title = "Shepherd's Holiday, or Labour in Vain"

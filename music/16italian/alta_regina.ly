@@ -1,3 +1,7 @@
+% ---
+% name: Alta Regina
+% dancers: 2@Two People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 300 4) 
 \header{

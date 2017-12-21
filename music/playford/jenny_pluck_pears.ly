@@ -1,3 +1,7 @@
+% ---
+% name: Jenny Pluck Pears
+% dancers: 6@Six People
+
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 80 2)
 
