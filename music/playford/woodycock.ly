@@ -7,36 +7,33 @@
 \include "music/include/fb_functions.ly"
 ppTempo = #(ly:make-moment 165 2)
 
+\header{
+  title = "Woodycock"
+    subtitle = \markup \italic "longways for three couples"
+    poet = \playfordSource
+}
+
 global= {
 
   \time 6/4
 }
 
-\header{
-  title = "Whirlygig"
-    subtitle = \markup \italic "longways for three couples"
-    poet = \playfordSource
-}
-
 ppChordLine = \chordmode {
-  c1. c2. g c g c g
-  d1.:m g c c2. g d:m g c1. c2. f g c
+  d1.:m a:m d:m a:m d:m a:m d:m a:m
+  f g:m d2.:m a:m d1.:m f g:m d:m d:m
 }
 
 ppMusicOne = \relative c' {
-
-\key c \major
-
+  \key d \minor
+  \ppMark
+  d'2 d4 f4. e8 d4 | c2 a4 c2 c4 | d2 d4 f4. e8 d4 | c a a a2. |
+    d2 d4 f4. e8 d4 | c2 a4 c2 c4 | d2 d4 f4. e8 d4 | c a a a2 d4 |
+    
   \ppMark
   \repeat volta 2 {
-    g'2 g4 c2 d4 | e4. f8 g4 d4. e8 f4 | e g2 g,4. a8 b4 | c4 e2 d2. |
-  }
-
-  \ppMark
-  \repeat volta 2 {
-    d4 f2 f4 g e | d4. e8 f4 b,4. e8 d4 | c4. b8 a4 g4. g'8 f4 | e2. d4. g8 f4 |
-    d f2 b,4 d2 | c4. b8 a4 g4. e'8 d4 | e4. f8 g4 a4. g8 f4 | g d2 c2.
-  }
+    c2 bes4 c4. bes8 a4 | bes g g g2 g4 | a a a a4. bes8 c4 | d4 d, d d2 d'4 |
+    c2 bes4 c4. bes8 a4 | bes g g g2 g4 | a a a a4. bes8 c4 | d4 d, d d2. |
+  } 
 
 }
 
