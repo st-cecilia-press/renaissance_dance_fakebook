@@ -23,7 +23,7 @@ ppChordLine = \chordmode {
   d2.:m a d1.:m
   
   g2.:m f g:m d
-  c d g1.:m g:m
+  c d g4*5:m g:m
 }
 
 global = {
