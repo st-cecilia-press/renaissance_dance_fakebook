@@ -20,6 +20,7 @@ ppTempo = #(ly:make-moment 90 2)
 
 global= {
   \key g \major
+  \time 4/4
 }
 
 ppChordLine = \chordmode {
