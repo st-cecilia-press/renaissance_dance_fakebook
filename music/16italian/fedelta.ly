@@ -3,6 +3,7 @@
 % dancers: 21@As Many as Will
 
 \include "music/include/fb_functions.ly"
+\include "english.ly"
 
 ppTempo = #(ly:make-moment 300 4)
 
@@ -16,12 +17,12 @@ ppTempo = #(ly:make-moment 300 4)
 %  copyright = \aaronCopyright
 }
 
-global = \transpose ees d {
+global = {
   \time 3/4
-  \key ees\major
+  \key d \major
 }
 
-ppMusicOne = \transpose ees d {
+ppMusicOne = \transpose ef d {
   \clef treble
 
   \ppMark
@@ -29,129 +30,129 @@ ppMusicOne = \transpose ees d {
   \repeat volta 2 {
     g'2 g'4 |  % 2
     g'2 g'4 |  % 3
-    aes'2 aes'4 |  % 4
-    aes'2 aes'4 |  % 5
+    af'2 af'4 |  % 4
+    af'2 af'4 |  % 5
     g'2 g'4 |  % 6
-    f'2 ees'4 |  % 7
+    f'2 ef'4 |  % 7
     f'2 f'4 |  % 8
     f'2 g'4 |  % 9
-    g'2 ees'4 |  % 10
+    g'2 ef'4 |  % 10
     f'2 g'4 |  % 11
-    aes'2 aes'4 |  % 12
+    af'2 af'4 |  % 12
     g'2 g'4 |  % 13
-    f'2 ees'4 |  % 14
+    f'2 ef'4 |  % 14
     d'2 f'4 |  % 15
-    ees'2 ees'4 |  % 16
-    ees'2 g'4 
+    ef'2 ef'4 |  % 16
+    ef'2 g'4 
   }
   \break
   \ppMark
-  aes'2 g'4 |  % 18
+  af'2 g'4 |  % 18
   f'2 f'4 |  % 19
   g'2 g'4 |  % 20
   g'2 g'4 |  % 21
-  aes'2 g'4 |  % 22
+  af'2 g'4 |  % 22
   f'2 f'4 |  % 23
-  ees'2 ees'4 |  % 24
-  ees'2 \bar "|."
+  ef'2 ef'4 |  % 24
+  ef'2 \bar "|."
 
 }
 
 
-ppMusicTwo = \transpose ees d {
+ppMusicTwo = \transpose ef d {
   \clef "G_8"
 
   \partial 4
-  ees'4 \repeat volta 2 {
-    ees'4 f'4 g'4 |  % 2
-    ees'4 f'4 g'4 |  % 3
-    ees'2 ees'4   |  % 4
-    ees'2 ees'4   |  % 5
-    ees'2 ees'4 |  % 6
-    bes2. |  % 7
-    bes4 c'4 d'4 |  % 8
-    bes2 ees'4 |  % 9
-    ees'4 f'4 g'4 |  % 10
-    ees'4 f'4 g'4 |  % 11
-    ees'2 ees'4   |  % 12
-    ees'2 ees'4 |  % 13
-    d'4 c'4 bes4 |  % 14
-    bes2 bes4 |  % 15
+  ef'4 \repeat volta 2 {
+    ef'4 f'4 g'4 |  % 2
+    ef'4 f'4 g'4 |  % 3
+    ef'2 ef'4   |  % 4
+    ef'2 ef'4   |  % 5
+    ef'2 ef'4 |  % 6
+    bf2. |  % 7
+    bf4 c'4 d'4 |  % 8
+    bf2 ef'4 |  % 9
+    ef'4 f'4 g'4 |  % 10
+    ef'4 f'4 g'4 |  % 11
+    ef'2 ef'4   |  % 12
+    ef'2 ef'4 |  % 13
+    d'4 c'4 bf4 |  % 14
+    bf2 bf4 |  % 15
     g2 g4   |  % 16
-    bes2 ees'4 
+    bf2 ef'4 
   }
-  ees'2 ees'4 |  % 18
+  ef'2 ef'4 |  % 18
   d'2 d'4 |  % 19
-  ees'2 ees'4   |  % 20
-  ees'2 ees'4 |  % 21
-  ees'2 ees'4 |  % 22
-  ees'2 d'4 |  % 23
-  ees'2 ees'4   |  % 24
-  ees'2 
+  ef'2 ef'4   |  % 20
+  ef'2 ef'4 |  % 21
+  ef'2 ef'4 |  % 22
+  ef'2 d'4 |  % 23
+  ef'2 ef'4   |  % 24
+  ef'2 
 
 
 }
 
-ppMusicThree = \transpose ees'' d' {
+ppMusicThree = \transpose ef'' d' {
   \clef "G_8"
-  bes'4 \repeat volta 2{
-    bes'2 bes'4   |  % 2
-    bes'2. |  % 3
-    c''4 d''4 ees''4 |  % 4
+  bf'4 \repeat volta 2{
+    bf'2 bf'4   |  % 2
+    bf'2. |  % 3
+    c''4 d''4 ef''4 |  % 4
     c''2. |  % 5
-    bes'4 aes'4 g'4 |  % 6
-    f'4 ees'4 d'4 |  % 7
+    bf'4 af'4 g'4 |  % 6
+    f'4 ef'4 d'4 |  % 7
     d'2 f'4   |  % 8
-    f'2 bes'4 |  % 9
-    bes'2 bes'4   |  % 10
-    bes'2. |  % 11
-    c''4 d''4 ees''4 |  % 12
-    bes'2 bes'4 |  % 13
-    bes'4 aes'4 g'4 |  % 14
+    f'2 bf'4 |  % 9
+    bf'2 bf'4   |  % 10
+    bf'2. |  % 11
+    c''4 d''4 ef''4 |  % 12
+    bf'2 bf'4 |  % 13
+    bf'4 af'4 g'4 |  % 14
     f'4 g'4 f'4 |  % 15
-    bes'2 bes'4   |  % 16
-    g'2 bes'4 
+    bf'2 bf'4   |  % 16
+    g'2 bf'4 
   }
-  c''2 bes'4 |  % 18
+  c''2 bf'4 |  % 18
   d''2 c''4 |  % 19
-  bes'2 bes'4   |  % 20
-  bes'2 bes'4 |  % 21
-  c''2 bes'4 |  % 22
-  bes'2 aes'4 |  % 23
-  bes'2 bes'4   |  % 24
-  bes'2 
+  bf'2 bf'4   |  % 20
+  bf'2 bf'4 |  % 21
+  c''2 bf'4 |  % 22
+  bf'2 af'4 |  % 23
+  bf'2 bf'4   |  % 24
+  bf'2 
 
 }
 
 
-ppMusicFour = \transpose ees d {
+ppMusicFour = \transpose ef d {
   \clef bass
-  ees4 \repeat volta 2 {
-    ees2 ees4 |  % 2
-    ees2. |  % 3
-    aes,2 aes,4 |  % 4
-    aes,2. |  % 5
-    ees2 ees4 |  % 6
+  ef4 \repeat volta 2 {
+    ef2 ef4 |  % 2
+    ef2. |  % 3
+    af,2 af,4 |  % 4
+    af,2. |  % 5
+    ef2 ef4 |  % 6
     d2 c4 |  % 7
-    bes,2 bes,4 |  % 8
-    bes,2 ees4 |  % 9
-    ees2 ees4 |  % 10
-    ees2. |  % 11
-    aes,2 c4 |  % 12
-    ees2. |  % 13
+    bf,2 bf,4 |  % 8
+    bf,2 ef4 |  % 9
+    ef2 ef4 |  % 10
+    ef2. |  % 11
+    af,2 c4 |  % 12
+    ef2. |  % 13
     d2 c4 |  % 14
-    bes,2 bes,4 |  % 15
-    ees2 bes,4 |  % 16
-    ees2.
+    bf,2 bf,4 |  % 15
+    ef2 bf,4 |  % 16
+    ef2.
   }
-  aes,2 ees4 |  % 18
-  bes,2 bes,4 |  % 19
-  ees2 bes,4 |  % 20
-  ees2. |  % 21
-  aes,2 ees4 |  % 22
-  bes,2 bes,4 |  % 23
-  ees2 bes,4 |  % 24
-  ees2
+  af,2 ef4 |  % 18
+  bf,2 bf,4 |  % 19
+  ef2 bf,4 |  % 20
+  ef2. |  % 21
+  af,2 ef4 |  % 22
+  bf,2 bf,4 |  % 23
+  ef2 bf,4 |  % 24
+  ef2
 }
 
 ppChordLine = \transpose d' d \chordmode {
