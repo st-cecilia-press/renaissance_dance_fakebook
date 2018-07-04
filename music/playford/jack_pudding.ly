@@ -31,7 +31,7 @@ d''2    a'4  |   fis'4    d'2    bes'2    c''4  |   d''4    bes'2
 global = {}
 ppChordLine = \chordmode {
 s4 g2.:m d g:m c:m g:m d g1.:m
-bes2. c:m g:m f g:m f bes1.
+ bes2. c:m g:m f g:m f bes1.
 f2. d d g:m g:m f g4*5:m
 }
 ppTempo = #(ly:make-moment 140 2)
