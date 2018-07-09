@@ -1,0 +1,268 @@
+X: 1
+T: Burley Mariners
+T: Rights of Man
+P: AABB x 3
+C: TraditionalN: FIXME TRIPLETS
+K: E minor
+M: 4/4
+L: 1/8P: A
+GA | "Em"BcBA BGAF | "Am"GEFG "Em"AB2e | "C"fgfe "G"dedB | "Am"dcBA "D"GA2G | "Em"ABcB ABGA | "Am"FGEF "Em"GAB2 | "Am"efgf "D"edBg | "Em"fgfe2E2"Em"E2 :: P: B ga ba gf e | "Em"fgab gede | "D"fgaf gfef | "D"defg afdf | 
+"Em"a2gf "G"e3f | "Em"g3a "C"baga | "Am"gfg2 "D"efgf | "Em"edBg fgfe2E2E2 :| 
+
+X: 2
+I: linebreak $
+T: Corwyn's Folly
+T: Around the House and Mind the Dresser
+P: 
+C: Traditional
+C: 
+N: 
+N: 
+K: D major
+M: 12/8
+L: 1/8P: A
+g | "D"f2d A2=c "G"B2A G2g | "D"f2d "A"AB=c "D"d3 d2"G"g | "D"f2d A2=c "G"B2A G3 | "D"fag "A7"fB=c "D"d3 d2 :: P: B a | "D"f2g agf "Em"e2f gfe | "D"f2g agf "A7"e3 g3 | "D"f2g agf "Em"e2f "G"g2a | "Em"ggf "A7"eAB "D"=cd3d2 :| 
+
+X: 3
+I: linebreak $N: FIXME CLEF
+T: Crossed Purposes
+C: Johann Sebastien Bach for dance by Master Sean Andreas O Wynedd
+N: 
+K: E minor
+M: 6/8
+L: 1/8
+EF |: GFE ^DEF | B,^C^D E=D=C | B,A,G, F,G,A, | B,A,G,/F,/ E,EF | GFE ^DEF | B,^C^D E=D=C | 
+B,A,G, F,2G, |  [1 G,4EF :|]  [2 G,4B,G, :: DA,C B,GD | EB,D CB,A, | ^G,A,B, CB,A, | 
+A,4DA, | B,GD EB,D | CAE F^CE | D^CB, ^A,2B, | B,4BF | ^GFE AE=G | 
+FED GD=F | EAE F^CE | ^D2B,2EB, | CDA, B,CG, | A,B,F, G,F,E, | ^D,E,F, G,F,E, | 
+ [1 E,4B,G, :|]  [2 E,4 |] 
+
+X: 4
+I: linebreak $
+T: John Tallow's Canon
+P: 
+C: Pat Shaw, 1965
+C: 
+N: 
+N: 
+K: G major
+M: 6/8
+L: 1/8
+P: A
+D |: "G"G2B d2B | "C"cde "D"d2c | "G"B2d BAG | "C"ABG "D"FED | "G"G2B d2B | "C"cde "D"def | 
+"G"g2d BAG | "C"ABG "D"FED :: 
+P: B
+"G"Bdg dcB | "C"cdB "D"A2d | "G"gab bag | "C"eag "D"fed | 
+"G"Bdg gdB | "C"cdB "D"A2d | "G"g2d BAG | "C"ABG "D"FED :| 
+
+X: 5
+I: linebreak $
+T: John Tallow's Canon
+T: Chanconeta Tedescha
+P: 
+C: Anonymous, London Manuscript (Add. 29987), 14th Century
+N: Drone D/A
+K: A minor
+M: 4/4
+L: 1/8
+P: A
+ |: D2 | D2FE D2A2 | B2AB AGF2 | E2FE D2D2 | E2FG FEFG | A2AG F2E2 | D2d2 cBAG | 
+F2E2 FGFE | D6 :: 
+P: B
+D2 | D2AB dcB2 | AGF2 cdB2 | B2A2 A2BA | G2F2 E4 | 
+D2dB e2de | f2cd edc2 | B2AG F2GF | E6 :| 
+
+X: 6
+I: linebreak $N: FIXME CHORDS
+T: Karobushka
+C: Ukranian Traditional
+K: A minor
+M: 2/2
+L: 1/4
+"E"B3/c/ dc/B/ | "Am^3"c3/d/ ed/c/ | "E"B3/c/ de | "Am^3"cA A2 | "Dm"f3/g/ ag/f/ | "Am^3"ec/d/ ed/c/ | 
+"E"B3/c/ de | "Am^3"cA A2 | "Dm"f2 ag/f/ | "Am^3"e/d/c/d/ e/e/d/c/ | "E"B3/c/ dc/B/ | "Am^3"cA Az :: 
+"E"^g/ee/ g/ee/ | "Am^3"a/ee/ a/ee/ | "E"^g/ee/ g/ee/ | "Am^3"a/ee/ a/e/f/f/ | "Dm"a/f/a/f/ a/f/a/f/ | "Am^3"e/c/e/c/ e/c/e/c/ | 
+"E"d/B/d/B/ d/B/d/B/ | "Am^3"A/c/e/c/ A/c/d/e/ | "Dm^3"f2 ag/f/ | "Am^3"e/d/c/d/ e/e/d/c/ | "E"B3/c/ dc/B/ | "Am^3"AA Az :| 
+
+
+X: 7
+I: linebreak $
+T: Mairi's Wedding
+T: Lewis Bridal Song
+C: John Roderick Bannerman, 1934
+K: G major
+M: 4/4
+L: 1/8 |: "G"D3E D2E2 | G2A2 B4 | "C"A2G2 E2G2 | "D7"B2A2 B2d2 | "G"D3E D2E2 | G2A2 B4 | 
+"C"A2G2 E2C2 | "D7"D4 D4 :: "G"d3d d2e2 | d2c2 B4 | "C"A2G2 E2G2 | "D7"B2A2 B2d2 | 
+"G"d3d d2e2 | d2c2 B4 | "C"A2G2 E2G2 | "D7"D4 D4 :| 
+
+X: 8
+T: On the Banks of the Helicon
+C: Henry IV Plantagnet
+K: G major
+M: 4/4
+L: 1/8 |: G2 | "G"G2d2 "D7"d2c2 | "G"B3A G2d2 | "C"efg2 f2e2 | "D7"d3c "G"B2G2 | "C"c2B2 "D7"AGA2 | "G"G4 G2 :: "G7"G2 | "C"c3B c2d2 | "Am"e2d2 c2e=f | "D"e2d2 "A7"d2^c2 | "D"d6 :: "D7"d2 | "G"B3A "C"G2c2 | "G"B3A "C"G2c2 | "C"B2G2 "D7"G2F2 | "G"G6 :| 
+
+X: 9
+I: linebreak $
+T: Pennsic Dance
+C: Emil Allzuwissender
+K: C major
+M: 6/8
+L: 1/8
+"Am"efe d2e | "G"c2d B3 | "Am"cBA cBA | "Am"c3 "G"d3 | "Am"efe d2e | "G"c2d B2G | 
+"Am"A2c "G"c2B | "C"c3 c3 :: "Am"e3 g3 | "C"e2f "Em"e2c | "G"B2c dcB | "Dm"d3 e3 | 
+"Am"e3 f3 | "G"d2e d2B | "Dm"A2B cBA | "C"c3 "G"d3 | "Am"efe d2e | "Em"c2d B2G | 
+"Am"A2c "G"c2B | "Am"c3 "G"d3 :| "Am"efe d2e | "G"c2d B2G | "Am"A2c "G"c2B | "C"c3 c3 |] 
+
+
+X: 10
+I: linebreak $
+T: Pontyplas
+T: Un jour Dieu se resolut
+C: Michael Corrette, Nouveau Livre de noels, 1741
+P: 10 times
+K: G major
+M: 4/4
+L: 1/8
+P: A
+ "G"B2c2 | "G"d2G2 G2"D"A2 | "G"B4 "G"B2c2 | "G"d2G2 G2"D"A2 | "G"B4 B2"Am"c2 | "G"d2G2 G2"D"A2 | "G"B4 B2"Am"c2 | 
+"G"d2G2 G2"D"A2 | "G"B4 B2c2 | "G"d2e2 "D7"c2d2 | "G"d4 G2d2 | "G"d2d2 "C"e4 | "G"d4 "C"c2"D7"c2 | 
+"G"B2c2 d2cB | "D"A4 c2c2 | "G"B2"Am"c2 "D"A4 | "G"G4 :| 
+
+X: 11
+I: linebreak $
+T: Posten's Jig
+P: 
+C: Traditional
+C: 
+N: 
+N: 
+K: G major
+M: 6/8
+L: 1/8
+P: A
+ |: "^Old Maid at the Spinning Wheel"D | "G"GFG B2G | "G"BcA B2D | "G"GFG BAG | "D"F2G AFD | "G"GFG B2G | "G"BcA B2g | 
+"D"fed cAF | "G"GAG G2 :: 
+P: B
+c | "G"BAG "D"AFD | "D"DED AFD | "D"DF/E/D AFD | "C"EFG "D"ABc | 
+"G"BAG "D"AFD | "D"DED AFD | "D"ded cAF | "G"GAG G2 :: 
+P: C
+D | "G"GBd gba | "G"gdB "C"ecA | 
+"G"dBG "C"cAG | "D"F2G AFD | "G"GBd gba | "G"gdB "C"ecA | "D"fed cAF | "G"GAG G2 :| 
+P: D
+"^Ballykeale"c |: 
+A=FA A2c | A=FA Adc | BGG DGG | BGB dcB | A=FA A2c | A=FA A2a | 
+bag fdc |  [1 BGB dcB :|]  [2 BGF GBd :: 
+P: E
+g3 gag | fde fd^c | dgg gag | 
+fd^c def | g2a bag | fde fga | bag fdc |  [1 BGF GBd :|]  [2 BGB dcB |] 
+
+
+X: 12
+I: linebreak $
+T: Quen Quer Que
+P: (AB) x 8 AA
+C: 13th Century Spanish for choreography by Master Sion Andreas o Wynedd
+C: 
+N: 
+N: 
+K: G mixolydian
+M: 4/4
+L: 1/8
+ |: "^A""^Chorus:"d4 B4 | G4 A2B2 | c4 A2B2 | d4 d4 | e4 c4 | d4 e2f2 | 
+g4 f2e2 | d2c2 B2c2 | A8 | A4 B2c2 | d4 d4 | c2B2 A2B2 | 
+G4 F4 | A4 B2A2 | G4 A2B2 | d2c2 B2A2 | G2F2 G2A2 | G8 || 
+"^B""^Verse:"B4 c4 | d4 e2d2 | c2B2 B2A2 | G4 F4 | A4 B2A2 | G4 A2B2 | 
+d2c2 B2A2 | B2A2 G2F2 | G8 | B4 c4 | d4 e2d2 | c2B2 B2A2 | 
+G4 F4 | A4 B2A2 | G4 A2B2 | d2c2 B2A2 | B2A2 G2F2 | G8 | 
+d4 B4 | G4 A2B2 | c4 A2B2 | d4 d4 | e4 c4 | d4 e2f2 | 
+g4 f2e2 | d2c2 B2c2 | A8 | A4 B2c2 | d4 d4 | c2B2 A2B2 | 
+G4 F4 | A4 B2A2 | G4 A2B2 | d2c2 B2A2 | G2F2 G2A2 | G8 :| 
+
+
+X: 13
+I: linebreak $
+T: Road to the Isles
+T: Scotland the Brave
+C: Traditional
+C: 
+P: 
+N: 
+K: D major
+M: 4/4
+L: 1/8
+P: A
+ |: "D"D4 D3E | "D"F2D2 F2A2 | "D"d4 d3c | "D"d2A2 F2D2 | "G"G4 B3G | "D"F2A2 F2D2 | 
+"E7"E4 A3B | "A7"A3B AGFE | "D"D4 D3E | "D"F2D2 F2A2 | "D"d4 d3c | "D"d2A2 F2D2 | 
+"G"G4 B3G | "D"F2A2 F2D2 | "A7"E4 D3E | "D"D2D2 F2A2 | 
+P: B
+"D"d4 d3c | "D"d2A2 F2D2 | 
+"D"d4 d3c | "D"d2A2 F2D2 | "G"G4 B3G | "D"F2A2 F2D2 | "E7"E4 A3B | "A7"A3B AGFE | 
+"D"D4 D3E | "D"F2D2 F2A2 | "D"d4 d3c | "D"d2A2 F2D2 | "G"G4 B3G | "D"F2A2 F2D2 | 
+"A7"E4 D3E | "D"D8 :| 
+
+X: 14
+I: linebreak $
+T: Ronde IX
+C: 
+N: 
+K: G major
+M: 2/2
+L: 1/4
+"D"d/ |: "Am"c/A/"D"A/c/ "G"B/G/"C"G/B/ | "F"A/F/"C"G/A/ "G"B"Em"G/d/ | "Am"c/A/"D"A/c/ "G"B"Am"A/G/ | "D"F/E/G/F/ "G"Gz/ :: G/ | "Am"c/B/c/d/ "Em"e3/e/ | "G"d/c/B/A/ "Em"BG/G/ | 
+"Am"c/B/c/d/ "Em"e3/e/ |  [1 "G"d/c/B/A/ "E"Bz/ :|]  [2 "G"d/ | c/B/"E"A/B2 |] 
+
+X: 15
+T: St. Joan
+T: Hunsdon House
+P: 
+C: 
+C: 
+N: 
+N: 
+K: C major
+M: 6/8
+L: 1/8
+P: A
+"C"C2G E2A | "C"GE2 "G"D2C | "Am"c2e "G"dB2 | "D7"A3 "G"G3\ "C"C2G E2A | "C"GE2 "G"D2C | "Am"c2e "G"dB2 | "D7"A3 "G"G3 | 
+P: B
+"Em"g2f eB2 | "Am"c2B Ade | \
+"Dm"f2e dB2 | "G7"A3 GAB | "Am"c2B AE2 | "Dm"F2E DAB | "Am"cde "Dm"f2e | "G7"d3 "C"c3 :| 
+
+
+X: 16
+I: linebreak $
+T: Turkish Bransle
+T: Schiarazula Marazula
+C: Giorgio Mainerio, Il Primo Libro di Balli, 1578
+C: 
+P: 
+N: 
+K: G minor
+M: 4/4
+L: 1/8
+P: A
+ |: d2 | "Gm"d2c2 d2c2 | "Gm"B2B2 B2A2 | "Gm"G2F2 G2A2 | "Gm"G2G2 G2d2 | "Gm"d2c2 d2c2 | "Gm"B2B2 B2A2 | 
+"Gm"G2F2 G2A2 | "Gm"G2G2 G2cB | 
+P: B
+"F"A2G2 A2B2 | "F"A2G2 A2dc | "Gm"B2G2 "Dsus4"G2^F2 | "Gm"G2G2 G2cB | 
+"F"A2G2 A2B2 | "F"A2G2 A2dc | "Gm"B2G2 "Dsus4"G2^F2 | "G"G6 :| 
+
+X: 17
+I: linebreak $
+T: Two Fat Ladies
+T: Barbarini's Tambourine
+P: 
+C: 
+C: 
+N: 
+N: 
+K: G major
+M: 2/4
+L: 1/16
+Bc | "G"d2G2 G2G2 | "G"G2A2 A2B2 | "G"c2B2 "C"ABcB | "D7"AGA2 D2D2 | "G"Bcd2 G2G2 | "G"G2G2 A2A2 | 
+"G"B2c2 "C"B2AB | "D7"cBAG "D7"A6 :: 
+FG A2D2 | "D7"D2D2 "Em"D6GA B2E2 | "Em"E2E2 "D7"E6AB c2F2 | "G"F2Bc d2G2 | "C"G2cd "D7"e2c2 | "G"f2d2 g2fe | "G"d2c2 "D7"c2B2 | "G"AGB2 "C"A2GF | 
+"G"A2G2 "D7"FED2 | "G"C2B,2 G2A,2 | F2G6 :| 
+

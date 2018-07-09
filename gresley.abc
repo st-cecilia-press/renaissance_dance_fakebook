@@ -1,0 +1,576 @@
+X: 1
+I: linebreak $
+T: Aras
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: ABBCCDEF
+N: Permission granted to copy within the SCA.
+K: C major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: C/G"F2F A2G | F2D C3 | D2D C2C | D2D C3 | D2D C2C | F2G A2F | 
+D2D C2C | F2G A3 |: 
+P: B
+c2c A2A | G2A _B2A | A3 G3 :: 
+P: C
+A3 A2F | 
+G2_B A2G :| 
+P: D
+F2F AGF | G2_B A2G | F2F AGF | G2A _B3 || 
+P: E
+c2c A2A | 
+G2A _BAG | c2c A2A | G2A _B3 || 
+M: 9/8
+P: F
+c3 d3 c3 | 
+M: 6/8
+cA2 _BG2 | F6 |] 
+
+X: 2
+I: linebreak $
+T: Armyn
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AA BBB CCC DDD E FFF G
+N: Permission granted to copy within the SCA.
+K: C major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: F/C"C2C E2F | G2G G3 | A2c B2A | G6 :: 
+P: B (3x)
+A3 G3 | F3 E2"^        (3)"G :: 
+P: C (3x)
+G2G G2G | G2A G2F | E3 "^        (3)"C3 :: 
+P: D
+A3 G3 | F3 E2A | G2G G2A | 
+G6 :| 
+P: E
+A3 G3 | F3 E3 | EFG ED2 | C6 |: 
+P: F (3x)
+D3 E3 | 
+F3 "^         (3)"D3 :| C2
+P: G
+C E2F | G2G G2E | EFG ED2 | C6 |] 
+
+X: 3
+I: linebreak $
+T: Bugill
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AAA BBB CDEE
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone F/C"c3 A3 | G2A B2A | F3 A3 | G2A B3 | c3 A3 | G2A B3 | 
+c2B FG2 | F6 "^(3)":: 
+P: B (3x)
+G2G G2G | G2A B3 "^(3)":| A2
+P: C
+G F2A | c6 | 
+P: D
+G2F G2F | G2A B3 |: 
+P: E
+c2B AG2 | F6 :| 
+
+X: 4
+I: linebreak $
+T: Damesyn
+T: for three
+C: 
+C: Music for This enderis day
+P: AAA B CC D
+N: 
+K: C major
+M: 6/4
+L: 1/8
+P: A
+"^Drone: C"G2GAG3FEDC2 | F3GA2 AFE2D2 "^(3)":| G2
+P: B
+GAG2 GFEDC2 | G3AG2 GED2C2 |: 
+M: 6/8
+P: C
+D2E F2D | E2F G3 | E2F G2E | G2G E3 | A3 G3 | F3 E3 :| 
+P: D
+EFG ED2 | C6 |] 
+
+X: 5
+I: linebreak $
+T: Eglamour
+T: for three
+C: 
+C: 
+P: AAA BBB CCC DDD
+N: 
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: C/G"G2G F3 | E2E C2C | G2F ED2 | "^         (3)"C6 :: 
+P: B (3x)
+G2F ED2 | "^         (3)"C6 :: 
+P: C (3x)
+G3 F3 | E3 "^        (3)"C3 :: 
+P: D (3x)
+G2F ED2 | "^          (3)"C6 :| 
+
+X: 6
+I: linebreak $
+T: Egle
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AAA B C DD E
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: F"F3 E3 | D2E C3 | F2F G2F | A2G F3 | A2G FE2 | D6 | 
+F3 E3 | D2E F3 | G2G G2F | E2F G3 | A2G F2E | F6 "^(3)":| 
+P: B
+A2G F2E | F6 || 
+P: C
+G2G G2F | E2F G3 | F2F GFG | A6 | 
+G2G G2F | E2F G3 | A2G F2E | F6 |: 
+P: D
+F3 E3 | D3 F3 | 
+G2G G2F | G6 :| 
+P: E
+F3 E3 | F3 G3 | A2G FE2 | F6 |] 
+
+
+X: 7
+T: Esperans
+T: for three
+C: 
+C: 
+P: AAA BBB CDEFG
+N: 
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: C"F2F FG2 | ED2 C2C | F2F FG2 | ED2 C2C | F2E F2G | A2A A3 | \
+M: 9/8
+D3 G2F GA2 | \
+M: 6/8
+"^           (3)"G6 :: 
+P: B (3x)
+c2c A2A | c2c d3 | c2B AA2 | G6 "^(3)":| \
+P: C
+F2F G2E | D6 | \
+M: 9/8
+P: D
+A3 G2E F3 | \
+M: 6/8
+G6 | 
+M: 9/8
+P: E
+A3 A3 A3 | \
+M: 6/8
+G6 || \
+P: F
+A3 F3 | G3 A3 | \
+M: 9/8
+_B3 G3 F3 | \
+M: 6/8
+P: G
+G3 A3 | GF2 DE2 | D6 |] 
+
+X: 8
+I: linebreak $
+T: Greene Gynger
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: One dance: AABCCDDE
+K: G major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: G/D"d2c B2G | A2B A2G | d2c BG2 | A6 :| 
+P: B
+B3 c3 | A3 G3 | 
+A2G FE2 | D6 |: 
+P: C
+G2G G2A | B6 :: 
+P: D
+d2c B2G | A2G F2D | 
+G2A Bc2 | d6 :| 
+P: E
+B3 c3 | A3 G3 | d2c BA2 | G6 |] 
+
+
+X: 9
+I: linebreak $
+T: Ly Bens Distonys
+C: 
+T: for two
+P: ABBC or ABC
+M: 6/8
+L: 1/8
+K: G major
+P: A
+"G"B3 "D"A2B | "C"c2B "D"A2G | "G"B3 "D"A2B | "C"c2A "G"G3 || 
+P: B
+"G"B2c "D"d3 | "C"e3 "D"d3 | 
+"G"g3 "D"d3 | "C"e3 "D"d3 | "G"B2c "D"d3 | "C"e3 "D"d3 | "^Repeat B for 'long' version""C"c2B GA2 | "G"G6 || 
+P: C
+"G"B2B "D"A2B | "C"c2B "D"A2G | "G"B2B "D"A2B | "C"c2A "G"G3 |]
+
+X: 10
+T: Mowbray
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AA BCDE
+N: 
+K: F major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: C"F3 E3 | F3 D3 | G2F ED2 | C6 :| \
+P: B
+F3 G3 | A2A A2F | \
+F2D EF2 | G6 || \
+P: C
+F2E F2G | A2A A2F | 
+G2F ED2 | C6 || \
+P: D
+F3 E3 | F3 A3 | G2F GA2 | F6 || \
+P: E
+F3 E3 | F3 C3 | c2B AG2 | F6 |] 
+
+X: 11
+T: New Yer
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: One dance: AA BBB CCC DDD E
+N: Permission granted to copy within the SCA.
+K: G major
+M: 6/8
+L: 1/8
+P: A
+"^Drone G/D"d3 B2A | G2F G3 | E2G FA2 | G6 :: \
+P: B (3x)
+A2G FG2 | AB2 "^        (3)"G3 :: 
+P: C (3x)
+G2E2F2 | G2G2 "^         (3)"G2:: \
+P: D
+A2G FE2 | D6 "^(3)":| \
+P: E
+E2G FA2 | G6 |] 
+
+
+X: 12
+T: Newcastell
+T: for two
+C: 
+C: 
+P: AA B C DD EE F
+N: 
+K: F major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: C"F3 C3 | D3 C3 | G3 A2G | FE2 D3 | F3 C3 | D3 C3 | G2F ED2 | C6 :| 
+P: B
+E3 G3 | A3 E3 | E2E G2G | A2A A3 | \
+P: C
+A3 G3 | cBA GF2 |: \
+P: D
+A3 E3 | BAG FE2 :: 
+P: E
+F2G A2B | A2G F3 :| \
+P: F
+E2E E3 | E2E E3 | F2G A2B | A2G F3 |] 
+
+X: 13
+T: Northumberland
+T: for three
+C: 
+C: 
+P: AAA B CCC D E FF G
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: C"F2F G2G | A2A A2F | E3 D3 | E3 D3 | F2E F2G | A2A A2A | D3 G2F | \
+M: 9/8
+GA2 G6 "^(3)":| 
+M: 2/4
+P: B
+D2 C2 | D2 C2 |: \
+K: C major
+M: 6/8
+P: C (3x)
+F3 G3 | A3 A2A | GFG4 "^(3)":| \
+M: 2/4
+P: D
+D2 C2 | D2 C2 | 
+M: 6/8
+P: E
+F3 G3 | A3 A2A | GFG4 |: \
+M: 2/4
+P: F
+F2 G2 | E2 F2 | G2 G2 | \
+M: 3/4
+D2G4 :| \
+M: 6/8
+P: G
+c2_B AG2 | F6 |] 
+
+X: 14
+I: linebreak $
+T: Oringe
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AA BBB CCC D E
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: F/C"c2d c2B | A3 F3 | G2F GA2 | G3 G3 | c2d c2B | AFG F2A | 
+c2B GA2 | F6 :: 
+P: B
+F3 G3 | A3 A3 | F2F G2B | A2B A3 | 
+F2F G2c | B2F G3 | F2A BGc | BAG F3 "^(3)":: 
+P: C
+c3 B3 | A3 F2G "^(3)":| 
+P: D
+c2d c2B | A3 F3 | c2d c2B | AFG F2A || 
+P: E
+c2B GA2 | F6 |] 
+
+
+X: 15
+I: linebreak $
+T: Petagay
+T: for three
+C: 
+C: Music for La Duches
+P: A BBB C D
+N: 
+K: A minor
+M: 4/4
+L: 1/8
+P: A
+"^Drone: A"e3f ed/c/BA | cdfe ed/c/BA | c3/d/ef g2e2 | fde2 d4 |: 
+M: 6/8
+P: B (3x)
+e3 f3 | a2g e2f | g3 e3 "^(3)":| 
+M: 4/4
+P: C
+eeef ed/c/BA | cdfe ed/c/BA | c3/d/ef g2e2 | fde2 d4 | 
+P: D
+e3f ed/c/BA | cdfe e4 |] 
+
+
+X: 16
+T: Prenes a Gard
+T: for three
+C: 
+N: 
+N: Drone: F/C
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+F2F F2F | C2C C2C | F3 AG2 | F6 "^(3)":| \
+P: B
+c3 A3 | d3 c3 | A2G AG2 | F6 |: 
+P: C (3x)
+C3 C3 | F3 F3 "^(3)":| \
+P: D
+A3 B3 | c3 c3 | A2_B AG2 | F6 || \
+P: E
+F2C F2C | F2G F3 || \
+P: F
+A3 B3 | c3 |] 
+
+X: 17
+T: Prenes in Gre
+T: for two
+N: Drone: D/A
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+D2D E2F | G2G G2G | c2c cB2 | A6 "^(3)":| \
+P: B
+A2A A2A | G2G G2G | A2G FE2 | D6 |:  \
+P: C
+F2G | A2G FE2 | D6 :| 
+P: D
+D2D E2F | G2G G2G | c2c cB2 | A6 || \
+P: E
+A2A A2A | G2G G2G | A2G FE2 | D6 |] 
+
+
+X: 18
+T: Princitore
+T: for two
+C: Music for Bayons
+P: AAA BBB CCC
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+c2B A2G | c2B A2G | c3 c3 | ed2 "^        (3)"c3 :: \
+P: B (3x)
+e3 d2e | f2g e2d |
+e2e d2f | ed2 c2c | "^         (3)"c6 :: \
+P: C (3x)
+c2B A2G | c2B A2G | c3 c3 | \ed2 "^        (3)"c3 :| 
+
+X: 19
+T: Rawty
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AABC
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A
+"^Drone F/C"F3 C2C | D2E F3 | GGG GF2 | G2A B3 | A2B AG2 | F6 :| 
+P: B
+G2G G2F | E2F G3 | F2F GAB | A6 | G2G G2F | E2F G3 | c2A BAG | F6 || 
+P: C
+G2G G2A | B2A G3 | G2G G2A | B2A G3 | c2A BAG | F3 |] 
+
+X: 20
+T: Roye
+T: for three
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AA BBB CCCC DDD
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A
+"^Drone: F/C"F2F G2A | c2c cBA | G2F FG2 | F6 :: \
+P: B (3x)
+F3 G3 | A3 A3 "^(3)":: 
+P: C (4x)
+c3 F2A | c2B A"^        (4)"F2 :: \
+P: D (3x)
+F3 G2A | c3 c2A | G2F F2G | F6 "^(3)":| 
+
+
+X: 21
+I: linebreak $
+T: Sofferance
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+P: AAA BB CC DD EE
+N: Permission granted to copy within the SCA.
+K: F major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: F/C"F2F G2A | c2c c2A | G2G GAG | "^             (3)"F6 :: 
+P: B
+B2B G2G | A2A F2F :: 
+P: C
+F3 G3 | A2B A3 :: 
+P: D
+F2F G2A | c2c BAG :: 
+P: E
+F2A GFE | F6 :| 
+
+
+X: 22
+I: linebreak $
+T: Talbott
+T: for two
+C: 
+N: 
+N: Drone: F/C
+K: C major
+M: 6/8
+L: 1/8
+"^Intro?"c2c A2A | G2A FE2 | E6 |: 
+P: A (3x)
+c2c A2A | G2A FE2 | D2D D3 | 
+F2F D2D | G2F ED2 | C6 "^(3)":| 
+M: 3/4
+P: B
+F2F2F2 | F2F2F2 | F2F2F2 | F2F2F2 | G2G2G2 | A6 || 
+P: C
+F2F2F2 | A2A2A2 | _B2A2A2 | G6 | A2A2A2 | c2c2c2 | 
+f2f2f2 | e2e4 | c6 | d2d2d2 | d2d2d2 | 
+M: 9/8
+ddd c2A cdd | 
+M: 6/8
+c6 |] 
+
+X: 23
+I: linebreak $
+T: Tamrett
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+N: Permission granted to copy within the SCA.
+N: Drone: F/C
+K: F major
+M: 6/8
+L: 1/8
+P: A
+F3 D3 | F3 D3 | C2C D2C | D2E F3 :| 
+P: B
+F3 D3 | F3 D3 | 
+A2A G2F | G2A F3 || 
+P: C
+AA2 G2F | G2A F3 | cc2 B2A | G3 F3 |: 
+P: D
+A2A G2F | G2A B3 | c2c B2A | G3 F3 :| 
+
+X: 24
+I: linebreak $
+T: Temperans
+T: for three
+C: 
+C: 
+P: AAA BCDE
+N: 
+K: C major
+M: 6/8
+L: 1/8
+P: A (3x)
+"^Drone: C"C2C D2D | C3 C2C | EEE ED2 | G3 A3 | G2F DE2 | D6 "^(3)":| 
+M: 9/8
+P: B
+FFF FFF FFG | 
+M: 6/8
+A2G FE2 | D6 || 
+P: C
+C2C D2D | C3 C2C | EEE ED2 | G3 A3 | 
+G2F DE2 | D6 || 
+P: D
+F2A2G2 | F6 || 
+P: E
+C3 F3 | A3 G2G | 
+F2F CD2 | C6 |] 
+
+X: 25
+T: Whatsoever Ye Wyll
+T: for two
+C: Richard Schweitzer, CC BY-NC-SA 3.0
+N: Permission granted to copy within the SCA.
+N: Drone: F/C
+K: F major
+M: 6/8
+L: 1/8
+P: A
+F2F A2d | c2c c3 | B2A G2B | A3 F3 | F2F A2d | c2c c3 | B2A GA2 | F6 |: \
+P: B
+G3 B3 | A3 F3 | 
+G2A BG2 | F6 :: \
+P: C
+G2F G2F | G2A B3 | A2B AG2 | F6 :| \
+P: D
+G3 B3 | A3 F3 | G2A BG2 | F6 |] 
+
